@@ -1,0 +1,30 @@
+body {
+	font-family: Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+}
+
+.unit-article header {
+	background-color: #FF9900;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 52px;
+	border-left: #FF9900 6px solid;
+	padding-left: 16px;
+}
+
+.center {
+	text-align: center;
+}
+
+.indent {
+	margin-left: 48px;
+}
+
+img.inline {
+	display: inline;
+}
+
+ul, ol {
+	margin-left: 24px;
+}

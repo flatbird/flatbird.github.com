@@ -6,8 +6,6 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 ひらとりはやと ([@flatbirdH](https://twitter.com/flatbirdH)) が調べたことを書いていきます。<br>
-当面は Firefox OS とか Cordova とか。<br>
-reveal.js についても書きたいです。<br>
 
 <h3>Recent Posts</h3>
 <ul class="posts">
