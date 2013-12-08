@@ -13,6 +13,10 @@ h2 {
 	padding-left: 16px;
 }
 
+pre {
+	padding: 18px 12px;
+}
+
 .center {
 	text-align: center;
 }
@@ -21,10 +25,14 @@ h2 {
 	margin-left: 48px;
 }
 
-img.inline {
-	display: inline;
-}
-
 ul, ol {
 	margin-left: 24px;
+}
+
+.body a:link, .body .unit-article .entry-content h3 a:link {
+	color: #4183c4;
+}
+
+.logo a {
+	color: #2d2d2d;
 }
