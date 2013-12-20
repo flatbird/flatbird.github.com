@@ -29,6 +29,11 @@ ul, ol {
 	margin-left: 24px;
 }
 
+.unit-article li ul,
+.unit-article li ol {
+	margin-left: 30px;
+}
+
 .body a:link, .body .unit-article .entry-content h3 a:link {
 	color: #4183c4;
 }

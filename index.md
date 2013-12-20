@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-ひらとりはやと ([@flatbirdH](https://twitter.com/flatbirdH)) が調べたことを書いていきます。<br>
+ひらとりはやと ([@flatbirdH](https://twitter.com/flatbirdH)) が調べたこととかを書いています。<br>
 
 <h3>Recent Posts</h3>
 <ul class="posts">
