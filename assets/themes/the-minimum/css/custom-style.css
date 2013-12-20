@@ -41,3 +41,8 @@ ul, ol {
 .logo a {
 	color: #2d2d2d;
 }
+
+.caution {
+	color: red;
+	font-weight: bold;
+}

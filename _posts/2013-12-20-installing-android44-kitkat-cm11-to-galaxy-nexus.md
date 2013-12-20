@@ -13,7 +13,8 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 
 そんな折、Galaxy Nexus 向けに CyanogenMod の Android 4.4 ステーブル ROM がリリースされたという[ニュース](http://www.ubergizmo.com/2013/12/galaxy-nexus-cyanogenmod-11-android-4-4-kitkat-stable-unofficial-rom-released/)が流れてきました。(非公式 ROM だけど)
 
-実際に入れてみることが出来ましたので、メモします。
+実際に入れてみることが出来ましたので、メモします。<br>
+<span class="caution">なお、実際に試される方は自己責任でお願いします。</span>
 
 ## 基本情報
 
@@ -22,7 +23,7 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 - XDA のポスト (元ネタ)
 	- <http://forum.xda-developers.com/showthread.php?t=2525351>
 
-* adb とか fastboot の準備については割愛します。
+* adb や fastboot の準備、ブートローダーアンロック等については割愛します。
 
 ## バックアップ
 - CWM Recovery でもいいですが、XDA の手順に記載されていた [TWRP Recovery](http://teamw.in/project/twrp2) を使ってみました。
@@ -51,6 +52,7 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 
 ## ROM イメージのダウンロード
 - [XDA のポスト](http://forum.xda-developers.com/showthread.php?t=2525351)からたどって、以下をダウンロード。
+
 	- CyanogenMod
 		- cm-11-20131215-UNOFFICIAL-maguro.zip
 	- gapps
@@ -71,7 +73,8 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 	- なお、[TWRP は ADB sideload にも対応している](http://teamw.in/ADBSideload)らしいので、イメージを flash すれば出来るはず。
 
 - TWRP で sdcard からのインストール。
-	1. 上記のバックアップの際と同じ方法で TWRP を起動。
+
+	1. 上述のバックアップの際と同じ方法で TWRP を起動。
 
 	2. Factory Reset
 		- TWRP メニューの "Wipe" をタップし、"Swipe to Factory Reset" で実行します。
@@ -81,11 +84,12 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 
 	4. インストール
 		- TWRP メニューの "Install" から sdcard にコピーした cm-11-20131215-UNOFFICIAL-maguro.zip を選びます。
-		- "Add More Zips" というボタンが出てくるので、gapps-kk-20131218_ps.zip も同時に flash のキューに入れます。
+		- "Add More Zips" というボタンが出てくるので、gapps-kk-20131218_ps.zip も同時に書き込みのキューに入れます。
 		- "Swipe to Confirm Flash" で書き込み開始。
 		- 書き込み終了後、一応 "Wipe cache/dalvik" してから "Reboot System" でリブート。
 
-- お疲れさまでした。
+- Galaxy Nexus が Android 4.4.2 になりました。
+
 ![KitKat in Galaxy Nexus](/assets/posts/2013-12-20/kitkat-in-gn.png)
 
 
