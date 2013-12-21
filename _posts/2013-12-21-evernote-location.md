@@ -14,7 +14,7 @@ tags: [Evernote, Security]
 
 どうも、新規作成したノートに自動で位置情報が付く設定になってしまっているらしい。
 
-[Evernote 公式](https://evernote.com/intl/jp/privacy/data_usage.php)によると Evernot Mac で「ユーザが Evernote を最初に起動する際、ユーザの位置情報へのアクセス許可を求めてきます。」とあります。どうも、これを許可してしまっていたらしいです。
+[Evernote 公式](https://evernote.com/intl/jp/privacy/data_usage.php)によると Evernote Mac で「ユーザが Evernote を最初に起動する際、ユーザの位置情報へのアクセス許可を求めてきます。」とあります。どうも、これを許可してしまっていたらしいです。
 
 調べてみたら、ノートブックを共有すると位置情報も公開されるらしい。ダメじゃん。。。
 
