@@ -36,8 +36,16 @@ ul, ol {
 	margin-left: 12px;
 }
 
+.unit-article li {
+	list-style-type: disc;
+}
+
 .unit-article li li {
 	list-style-type: circle;
+}
+
+.unit-article li li li {
+	list-style-type: square;
 }
 
 .body a:link, .body .unit-article .entry-content h3 a:link {
