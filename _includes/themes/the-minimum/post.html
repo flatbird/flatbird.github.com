@@ -1,4 +1,15 @@
-<article class="unit-article layout-post">
+<script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function() {
+	var elms =	document.querySelectorAll('.body a');
+	elms = Array.prototype.slice.call(elms);
+	elms.forEach(function (a) {
+		a.onclick = function (e) {
+			window.open(e.target.href);
+			return false;
+		}
+	});
+});
+</script><article class="unit-article layout-post">
 	<div class="unit-inner unit-article-inner">
 		<div class="content">
 			<header>

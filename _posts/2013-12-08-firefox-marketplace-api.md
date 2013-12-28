@@ -17,19 +17,6 @@ img.inline {
 }
 </style>
 
-<script type="text/javascript">
-window.addEventListener('DOMContentLoaded', function() {
-	var elms =	document.querySelectorAll('.body a');
-	elms = Array.prototype.slice.call(elms);
-	elms.forEach(function (a) {
-		a.onclick = function (e) {
-			window.open(e.target.href);
-			return false;
-		}
-	});
-});
-</script>
-
 [Firefox OS Advent Calendar 2013](http://www.adventar.org/calendars/103) の 8 日目 12/8 の記事です。
 
 ひらとり ([@flatbirdH](https://twitter.com/flatbirdH)) です。好きな勉強会会場は Mozilla Japan オフィス@六本木です。
