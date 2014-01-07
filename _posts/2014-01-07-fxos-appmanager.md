@@ -1,6 +1,6 @@
 ---
 layout: post
-title: App Manager のメモ
+title: "App Manager のメモ [Firefox OS]"
 description: "Firefox OS の開発者用ツール App Manager のメモ"
 category: 
 tags: [Firefox OS]

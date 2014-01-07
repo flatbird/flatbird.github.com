@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Galaxy Nexus に KitKat (CM11) をインストールした"
+title: "Galaxy Nexus に KitKat (CM11) をインストールした [Android]"
 description: ""
 category: 
 tags: [Android]

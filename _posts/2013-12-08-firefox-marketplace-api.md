@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firefox Marketplace API で遊ぼう"
+title: "Firefox Marketplace API で遊ぼう [Firefox OS]"
 description: ""
 category: 
 tags: [Firefox OS]
