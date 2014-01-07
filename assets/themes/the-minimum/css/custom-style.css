@@ -31,9 +31,13 @@ ul, ol {
 	margin-left: 24px;
 }
 
+.unit-article ul > li > ul {
+	margin-bottom: 0px;
+}
+
 .unit-article li ul,
 .unit-article li ol {
-	margin-left: 12px;
+	margin-left: 16px;
 }
 
 .unit-article li {
