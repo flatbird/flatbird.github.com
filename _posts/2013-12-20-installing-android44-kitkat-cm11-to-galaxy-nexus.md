@@ -52,7 +52,6 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 
 ## ROM イメージのダウンロード
 - [XDA のポスト](http://forum.xda-developers.com/showthread.php?t=2525351)からたどって、以下をダウンロード。
-
 	- CyanogenMod
 		- cm-11-20131215-UNOFFICIAL-maguro.zip
 	- gapps
@@ -66,22 +65,18 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 
 ## インストール
 - TWRP で sdcard からインストールする方法と ADB sideload を使った方法が記載されていました。
-
 - ADB sideload は今回の環境ではうまく行きませんでした。
 	- Jelly Bean の AOSP recovery イメージから ADB sideload をサポートしているらしいですが、たぶん自分の Galaxy Nexus の recovery イメージは古いままだと思います。
 	- ADB sideload のやり方は[こちらの記事](http://qiita.com/is0me/items/9d738d19ad1f61fb5349)を参考。
 	- なお、[TWRP は ADB sideload にも対応している](http://teamw.in/ADBSideload)らしいので、イメージを flash すれば出来るはず。
 
 - TWRP で sdcard からのインストール。
-
 	1. 上述のバックアップの際と同じ方法で TWRP を起動。
-
 	2. Factory Reset
 		- TWRP メニューの "Wipe" をタップし、"Swipe to Factory Reset" で実行します。
 	3. sdcard にコピー
 		- ```$ adb push cm-11-20131215-UNOFFICIAL-maguro.zip /sdcard/tmp/```
 		- ```$ adb push gapps-kk-20131218_ps.zip /sdcard/tmp/```
-
 	4. インストール
 		- TWRP メニューの "Install" から sdcard にコピーした cm-11-20131215-UNOFFICIAL-maguro.zip を選びます。
 		- "Add More Zips" というボタンが出てくるので、gapps-kk-20131218_ps.zip も同時に書き込みのキューに入れます。
