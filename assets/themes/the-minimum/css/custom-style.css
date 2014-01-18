@@ -9,14 +9,34 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 2em;
 	line-height: 52px;
 	border-left: #FF9900 6px solid;
-	padding-left: 16px;
+	padding-left: .5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	border-left: #FF9900 5px solid;
+	padding: .3em .5em;
+	border-bottom: #FF9900 2px solid;
 }
 
 pre {
-	padding: 18px 12px;
+	padding: 8px 12px;
+	margin: 8px 0px 26px;
+	white-space: pre;
+	word-wrap: normal;
+}
+
+pre code {
+	font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Courier New', Courier, monospace;
+	font-size: .8em;
+	line-height: 1em;
+}
+
+.unit-article p code, .unit-article li code {
+	margin: 0;
 }
 
 .center {
@@ -58,6 +78,10 @@ ul, ol {
 
 .logo a {
 	color: #2d2d2d;
+}
+
+a:visited {
+	color: darkslateblue;
 }
 
 .caution {
