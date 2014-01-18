@@ -3,10 +3,11 @@ window.addEventListener('DOMContentLoaded', function() {
 	var elms =	document.querySelectorAll('.body a');
 	elms = Array.prototype.slice.call(elms);
 	elms.forEach(function (a) {
-		a.onclick = function (e) {
-			window.open(e.target.href);
-			return false;
-		}
+		// a.onclick = function (e) {
+		// 	window.open(e.target.href);
+		// 	return false;
+		// }
+		a.setAttribute('target', '_blank');
 	});
 });
 </script><article class="unit-article layout-post">
