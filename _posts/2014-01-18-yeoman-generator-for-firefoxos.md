@@ -95,7 +95,7 @@ tags: [Firefox OS]
 ### JSHint
 - `grunt push` や `grunt server` では自動的に JSHint のチェックが入る。
 - 単体では `grunt jshint` で実行。
-- .jshintrc から設定を変えられる。(参考: <http://www.jshint.com/docs/>)
+- .jshintrc から設定を変えられる。(参考: <http://www.jshint.com/docs/options/>)
 
 ### Sass (SCSS)
 - デフォルトでは Sass が使われている。
