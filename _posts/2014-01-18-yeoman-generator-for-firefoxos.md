@@ -90,7 +90,6 @@ tags: [Firefox OS]
 - ブラウザで http://localhost:9000 を開く。
 - Firefox のレスポンシブデザインビュー (Mac OS なら ⌥⌘M) を使うとよい。Keon なら画面サイズは 320x480 となる。
 - `grunt watch` も走るので Sass の変更もリアルタイムで反映される。
-- アウトプットは .tmp/ ディレクトリに出来る。なので App Manager でディレクトリからインストールするときは app/ でなく .tmp/ ディレクトリからインストールする。
 
 ### JSHint
 - `grunt push` や `grunt server` では自動的に JSHint のチェックが入る。
