@@ -81,6 +81,14 @@ tags: [Firefox OS]
   <li>App Manager に対応した際に何か変わったのかも？(App Manager のサポートは Firefox OS 1.2 以降)</li>
 </ul>
 
+### シミュレータへのインストール
+
+以下のコマンドで、build/ ディレクトリにシミュレータにインストール可能なアウトプットがコピーされる。
+
+	$ grunt release
+
+[App Manager](http://flatbird.github.io/2014/01/07/fxos-appmanager/) なら「パッケージアプリを追加」("Add Packaged App") で build/ ディレクトリを指定することでインストールできる。
+
 ### ブラウザ上での開発
 
 以下のコマンドでローカルにサーバを起動してブラウザでアクセスする。
