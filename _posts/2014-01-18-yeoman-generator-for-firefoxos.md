@@ -16,7 +16,7 @@ tags: [Firefox OS]
 [Firefox OS ハッカソン](http://atnd.org/events/46352)があるので、[前回](http://atnd.org/event/fxoswin8hack)も使った Yeoman の Firefox OS 用ジェネレータの使い方をまとめてみた。
 
 <p>
-(参考) <a href="http://atnd.org/events/44739">関東 Firefox OS 勉強会 5th</a> の酒巻さんによる紹介<br>
+(参考) <a href="http://atnd.org/events/44739">関東 Firefox OS 勉強会 5th</a> の酒巻さんによる Firefox OS Generator の紹介<br>
 <span class="indent">
 	<a href="https://docs.google.com/presentation/d/1IW0UScdqbRGECDEy3U6zDtyprAyyNe4PoZGqX9VxITA/edit#slide=id.p">『フロントエンド技術社だってモバイル開発がしたいっ！』</a>
 </span>
