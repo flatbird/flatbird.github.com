@@ -55,6 +55,10 @@ ul, ol {
 	margin-bottom: 0px;
 }
 
+ul ul, ol ul {
+	margin-bottom: 0;
+}
+
 .unit-article li ul,
 .unit-article li ol {
 	margin-left: 16px;
