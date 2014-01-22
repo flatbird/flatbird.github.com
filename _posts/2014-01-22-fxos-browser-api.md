@@ -34,7 +34,7 @@ browser API では &lt;iframe&gt; に以下のような拡張が加えられて�
 	- ***browser &lt;iframe&gt;*** から発生する一連のイベント。
 
 Firefox OS のブラウザは mozbrowser 属性を指定した ***browser &lt;iframe&gt;*** に URL を設定して Web サイトなどの埋め込みコンテンツを表示します。
-そして、***browser &lt;iframe&gt;*** の goBack() /  goForward() などの拡張メソッドを使って「戻る」/「進む」といった操作を行います。
+そして、***browser &lt;iframe&gt;*** の goBack() /  goForward() などの拡張メソッドを使って「戻る」 / 「進む」といった操作を行います。
 
 ## パーミッション
 browser API の利用には特権 (privileged) レベルのパーミッション "browser" が必要です。以下のようにマニフェストに指定します。
@@ -75,12 +75,12 @@ browser API の利用には特権 (privileged) レベルのパーミッション
  - Open Web App (Firefox アプリ) を &lt;iframe&gt; でロードするための属性です。属性値としてマニフェストファイルへの URL を指定します。
  - マニフェストファイル内でリクエストされたパーミッションでアプリがロードされます。
  - この属性の利用には "embed-apps" の認定 (certified) パーミッションが必要です。一般のアプリでは利用できません。
- - ドキュメントでは browser API の一部として mozapp 属性が説明されていますが、この属性はブラウザよりむしろ Firefox OS のサンドボックスを実現する鍵となる機能のようです。
+ - mozapp 属性は browser API の一部としてドキュメントで説明されていますが、この属性はブラウザよりむしろ Firefox OS のサンドボックスを実現するための機能のようです。
  - このあたりの[資料](http://sssslide.com/www.slideshare.net/timdream/insight-gaia-os-shell-in-a-lthtml)を見ると、browser API はブラウザだけでなく、Firefox OS のサンドボックスを実現するための仕組みとして利用されていることが分ります。
 
 ## 拡張メソッド
 
-***browser &lt;iframe&gt;*** が実装する拡張メソッドです。
+***browser &lt;iframe&gt;*** がサポートする拡張メソッドです。
 
 - ナビゲーション系
      - reload(), stop()
@@ -88,11 +88,11 @@ browser API の利用には特権 (privileged) レベルのパーミッション
      - getCanGoBack(), getCanGoForward()
 
 - リソース管理系
-     - setVisible(), getVisible() … 見えていないタブのリソースを解放するのに使う？
+     - setVisible(), getVisible() … 隠れているタブのリソースを節約するのに使う？？？
      - purgeHistory() … &lt;iframe&gt; のリソース (cookie, localStorage, cache 等) を削除する。
 
 - イベント系
-     - &lt;iframe&gt; での addEventListener(), removeEventListener(), dispatchEvent() のサポート。
+     - addEventListener(), removeEventListener(), dispatchEvent() の &lt;iframe&gt; でのサポート。
      - sendMouseEvent(), sendTouchEvent()
      - addNextPaintListener() / removeNextPaintListener() … MozAfterPaint イベントのハンドラを設定・削除する。
 
@@ -104,15 +104,15 @@ browser API の利用には特権 (privileged) レベルのパーミッション
 
 <table>
 <tbody>
-  <tr><td>mozbrowserasyncscroll</td><td>browser &lt;iframe&gt; 内のスクロール位置の変更。</td></tr>
-  <tr><td>mozbrowserclose</td><td>browser &lt;iframe&gt; 内の window.close() の呼び出し。</td></tr>
+  <tr><td>mozbrowserasyncscroll</td><td>&lt;iframe&gt; 内のスクロール位置の変更。</td></tr>
+  <tr><td>mozbrowserclose</td><td>&lt;iframe&gt; 内の window.close() の呼び出し。</td></tr>
   <tr><td>mozbrowsercontextmenu</td><td>コンテキストメニューの呼び出し。</td></tr>
   <tr><td>mozbrowsererror</td><td>エラーハンドリング。</td></tr>
   <tr><td>mozbrowsericonchange</td><td>favicon の変更。</td></tr>
   <tr><td>mozbrowserloadend</td><td>ロード終了。</td></tr>
   <tr><td>mozbrowserloadstart</td><td>ロード開始。</td></tr>
   <tr><td>mozbrowserlocationchange</td><td>位置情報の変更。</td></tr>
-  <tr><td>mozbrowseropenwindow</td><td>browser &lt;iframe&gt; 内の window.open() の呼び出し。</td></tr>
+  <tr><td>mozbrowseropenwindow</td><td>&lt;iframe&gt; 内の window.open() の呼び出し。</td></tr>
   <tr><td>mozbrowsersecuritychange</td><td>SSL state の変更。</td></tr>
   <tr><td>mozbrowsershowmodalprompt</td><td>alert(), confirm(), prompt() の呼び出し。</td></tr>
   <tr><td>mozbrowsertitlechange</td><td>タイトルの変更。</td></tr>
@@ -127,14 +127,14 @@ browser API の利用には特権 (privileged) レベルのパーミッション
 
 <https://github.com/flatbird/FxOS-MdnBrowser-Example>
 
-マニフェストでは type を "privileged" にして "browser" パーミッションを設定します。
+マニフェストでは type を "privileged" にして "browser" パーミッションを設定しています。
 <pre><code>"type": "privileged",
 "permissions": {
   "browser": {}
 }
 </code></pre>
 
-特権アプリなので以下のデフォルト CSP が適用され、外部のスクリプトやインラインスクリプトは禁止されます。
+特権アプリなので以下のデフォルト CSP が適用され、外部のスクリプトやインラインスクリプトは使用できません。
 <pre><code>"default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'"
 </code></pre>
 
