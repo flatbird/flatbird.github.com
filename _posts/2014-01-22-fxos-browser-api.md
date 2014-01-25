@@ -111,7 +111,7 @@ browser API の利用には特権 (privileged) レベルのパーミッション
   <tr><td>mozbrowsericonchange</td><td>favicon の変更。</td></tr>
   <tr><td>mozbrowserloadend</td><td>ロード終了。</td></tr>
   <tr><td>mozbrowserloadstart</td><td>ロード開始。</td></tr>
-  <tr><td>mozbrowserlocationchange</td><td>位置情報の変更。</td></tr>
+  <tr><td>mozbrowserlocationchange</td><td>&lt;iframe&gt; のロケーション (URL) の変更。</td></tr>
   <tr><td>mozbrowseropenwindow</td><td>&lt;iframe&gt; 内の window.open() の呼び出し。</td></tr>
   <tr><td>mozbrowsersecuritychange</td><td>SSL state の変更。</td></tr>
   <tr><td>mozbrowsershowmodalprompt</td><td>alert(), confirm(), prompt() の呼び出し。</td></tr>
