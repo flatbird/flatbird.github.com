@@ -32,8 +32,8 @@ tags: [Firefox OS]
      - 今回は使っていないのでよく調べていない。
 - Safe Browsing Lookup API
      - URL がフィッシングサイト/マルウェア配布サイトかどうかクエリできる API。
-     - 使い方はこちらのサイトが分かりやすい: [Google Safe Browsing APIを使ってみる](http://takahitokikuchi.poitan.net/2011/08/19/google-safe-browsing-api%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/)
-- 利用には API キーが必要。[こちら](https://developers.google.com/safe-browsing/key_signup)sで取得できる。
+     - 使い方はこちらのサイトが分かりやすい: [『Google Safe Browsing APIを使ってみる』](http://takahitokikuchi.poitan.net/2011/08/19/google-safe-browsing-api%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/)
+- 利用には API キーが必要。[こちら](https://developers.google.com/safe-browsing/key_signup)で取得できる。
 - テスト URL:
      - <http://malware.testing.google.test/testing/malware/>
      - この URL はドメインが引けずサーバに接続できない。Android 版 Firefox ではテスト URL として使えない。(先に Host not found エラーとなるため。)
@@ -44,14 +44,14 @@ tags: [Firefox OS]
 
 ## モバイル 版 (Android) と PC 版の挙動の違い
 - モバイル版 Firefox とモバイル版 Chrome では、接続できない URL <http://malware.testing.google.test/testing/malware/> のブロック画面が出ず「サーバが見つかりませんでした」となる。
-- PC 版 Firefox, Chrome では、同上の URL でもブロック画面が出る。
+- PC 版 Firefox, Chrome では、同上の URL でもちゃんとブロック画面が出る。
 	- モバイル版はブラックリストを保存せず Lookup API だけを使っている？そのための挙動の違い？
 	- ブラックリスト利用で発生する通信料やリソース消費を避けるため、その可能性は高そうだけど。。。
 - Chrome for Android のセーフブラウジングはデータ圧縮のためのプロキシで行われている。なのでローカルにブラックリストをダウンロードしていない(はず)。
-	- [Google、モバイル版Chromeのデータ圧縮機能を公式にリリース―データ量を最大50%節減](http://jp.techcrunch.com/2014/01/16/20140115google-adds-optional-data-compression-feature-to-chrome-for-mobile-reducing-your-data-usage-by-up-to-50/)
-	- [Safe Browsing and Android](http://googlesystem.blogspot.jp/2013/06/no-safe-browsing-for-android.html)
-- Firefox for Android はこちらの記事によればブラックリストを使っているっぽい。
-	- [Phishing and malware protection arrives on mobile devices](http://www.morbo.org/2012/10/phishing-protection-on-mobile.html)
+	- [『Google、モバイル版Chromeのデータ圧縮機能を公式にリリース―データ量を最大50%節減』](http://jp.techcrunch.com/2014/01/16/20140115google-adds-optional-data-compression-feature-to-chrome-for-mobile-reducing-your-data-usage-by-up-to-50/)
+	- [『Safe Browsing and Android』](http://googlesystem.blogspot.jp/2013/06/no-safe-browsing-for-android.html)
+- Firefox for Android はこちらの記事によればローカルにブラックリストを落としているっぽぽい。
+	- [『Phishing and malware protection arrives on mobile devices』](http://www.morbo.org/2012/10/phishing-protection-on-mobile.html)
 	- ブラックリストのサイズは 40-50MB だったのが 5-6MB に削減されたらしい。
-		- [New SafeBrowsing backend](http://www.morbo.org/2012/02/new-safebrowsing-backend.html)
+		- [『New SafeBrowsing backend』](http://www.morbo.org/2012/02/new-safebrowsing-backend.html)
 
