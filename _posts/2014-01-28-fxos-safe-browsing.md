@@ -50,7 +50,7 @@ tags: [Firefox OS]
 - Chrome for Android のセーフブラウジングはデータ圧縮のためのプロキシで行われている。なのでローカルにブラックリストをダウンロードしていない(はず)。
 	- [『Google、モバイル版Chromeのデータ圧縮機能を公式にリリース―データ量を最大50%節減』](http://jp.techcrunch.com/2014/01/16/20140115google-adds-optional-data-compression-feature-to-chrome-for-mobile-reducing-your-data-usage-by-up-to-50/)
 	- [『Safe Browsing and Android』](http://googlesystem.blogspot.jp/2013/06/no-safe-browsing-for-android.html)
-- Firefox for Android はこちらの記事によればローカルにブラックリストを落としているっぽぽい。
+- Firefox for Android はこちらの記事によればローカルにブラックリストを落としているっぽい。
 	- [『Phishing and malware protection arrives on mobile devices』](http://www.morbo.org/2012/10/phishing-protection-on-mobile.html)
 	- ブラックリストのサイズは 40-50MB だったのが 5-6MB に削減されたらしい。
 		- [『New SafeBrowsing backend』](http://www.morbo.org/2012/02/new-safebrowsing-backend.html)
