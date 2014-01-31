@@ -84,12 +84,17 @@ Chrome ADT という Mobile Chrome Apps チームがリリースしている And
 
 	![](/assets/posts/2014-01-31/clock.png)
 
-これは Dart で書かれたステキ時計アプリなのですが、ご覧の通りレイアウトが合わず残念な感じになっています。
+これは Dart で書かれたステキ時計アプリのサンプルなのですが、ご覧の通りレイアウトが合わず残念な感じになっています。
 
 本来はこんな感じのものです。
 
 ![](/assets/posts/2014-01-31/clockorg.png)
 
+他のサンプルもここにいくつかあります。
+
+- <https://github.com/GoogleChrome/chrome-app-samples#mobile-support>
+
+サンプルのほとんどは Chrome ウェブストアに上がっているようです。crx のダウンロード URL の作り方は[ここ](http://toton.hatenablog.com/entry/20110509/1304941515)が参考になります。
 
 ## HTML5 (Web 技術) で書くモバイルアプリが当たり前になる日
 
