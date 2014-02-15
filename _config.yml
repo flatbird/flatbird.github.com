@@ -130,4 +130,13 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 markdown: kramdown
+kramdown:
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
