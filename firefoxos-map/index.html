@@ -1,0 +1,65 @@
+---
+layout: page
+title: "Firefox OS World Map"
+description: ""
+tags: [Firefox OS]
+---
+<link rel="stylesheet" href="/assets/lib/jvectormap/jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+<link rel='stylesheet' href='/assets/pages/firefoxos-map/map.css' />
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
+<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="/assets/lib/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/assets/lib/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="/assets/pages/firefoxos-map/map.js"></script>
+<script>
+  var COUNTRIES = [
+    { code: "es", name: "Spain", date: "2013/07/02", carrier: "Telefónica" },
+    { code: "pl", name: "Poland", date: "2013/07/11", carrier: "Deutsche Telekom" },
+    { code: "co", name: "Colombia", date: "2013/08/01", carrier: "Telefónica (Movistar)" },
+    { code: "ve", name: "Venezuela", date: "2013/08/01", carrier: "Telefónica (Movistar)" },
+    { code: "de", name: "Germany", date: "2013/10/15", carrier: "Deutsche Telekom (Congstar)" },
+    { code: "br", name: "Brazil", date: "2013/10/22", carrier: "Telefónica (Vivo)" },
+    { code: "mx", name: "Mexico", date: "2013/10/31", carrier: "Telefónica" },
+    { code: "pe", name: "Peru", date: "2013/10/31", carrier: "Telefónica" },
+    { code: "uy", name: "Uruguay", date: "2013/10/31", carrier: "Telefónica" },
+    { code: "hu", name: "Hungary", date: "2013/11/13", carrier: "Telenor" },
+    { code: "rs", name: "Serbia", date: "2013/11/13", carrier: "Telenor" },
+    { code: "me", name: "Montenegro", date: "2013/11/13", carrier: "Telenor" },
+    { code: "gr", name: "Greece", date: "2013/11/14", carrier: "Deutsche Telekom (COSMOTE)" }, 
+    { code: "it", name: "Italy", date: "2013/12/06", carrier: "Telecom Italia" }, 
+    { code: "cl", name: "Chili", date: "2014/02/20", carrier: "Telefónica (Movistar)" }, 
+  ];
+  var app = angular.module('countryApp', []);
+  app.controller('ListCtrl', function($scope) {
+    $scope.countries = COUNTRIES;
+  });
+  $(function() {
+    FireMap.init(COUNTRIES, '#world-map', '#disp', '#replay');
+    $('#replay').click(function () {
+      FireMap.restart();
+      return false;
+    });
+  });
+</script>
+
+Firefox OS がローンチされている国々です。
+<div id="world-map" class="world-map"></div>
+<div id="preloadimages"></div>
+<div class="disp-area" style="height:80px">
+<div id="disp" class="disp"></div>
+<div id="replay" class="replay"></div>
+</div>
+
+<table ng-app="countryApp">
+{% raw %}
+<thead><tr><td>Country</td><td>Launch Date</td><td>Carrier</td></tr></thead>
+<tbody ng-controller="ListCtrl">
+<tr ng-repeat="item in countries track by $index">
+  <td>{{item.name}}</td>
+  <td>{{item.date}}</td>
+  <td>{{item.carrier}}</td>
+</tr>
+</tbody>
+{% endraw %}
+</table>
+

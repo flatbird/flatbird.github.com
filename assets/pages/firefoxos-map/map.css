@@ -1,0 +1,84 @@
+header h1 {
+  font-size: 4rem;
+}
+header h2 {
+  font-size: 1.6rem;
+}
+
+.world-map {
+  width: 100%;
+  height: 400px;
+  margin-bottom: .5rem;
+}
+
+.disp {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.4em;
+}
+
+.replay {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url('/assets/pages/firefoxos-map/play.png');
+  background-size: contain;
+}
+
+.replay:hover {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url('/assets/pages/firefoxos-map/play-hover.png');
+  background-size: contain;
+}
+
+#prealoadimages {
+  width: 0;
+  height: 0;
+  background: url('/assets/pages/firefoxos-map/play-hover.png');
+}
+
+table {
+  margin: 0 auto 30px;
+}
+
+thead {
+  border-bottom: solid 1px;
+}
+
+td {
+  padding: 0 40px 0 10px;
+}
+
+/******* Smartphone ******/
+@media screen and (max-width: 320px){
+body {
+  font-size: 14px;
+}
+.world-map {
+  height: 200px;
+}
+
+.replay {
+  width: 40px;
+  height: 40px;
+}
+
+.replay:hover {
+  width: 40px;
+  height: 40px;
+}
+
+td {
+  padding: 0 15px 0 5px;
+}
+
+}
