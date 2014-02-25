@@ -22,5 +22,5 @@ Firefox OS がローンチされた国はこれで 15 カ国になりました�
 
 <div class="firemap"><a href="http://flatbird.github.io/firefoxos-map/index.html">Firefox World Map</a></div>
 
-![Map](/assets/posts/2014-02-25/chili.png)
+![Map](/assets/posts/2014-02-25/chile.png)
 
