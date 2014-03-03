@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Mozilla、Firefox OS 販売地域の拡大予定を発表"
+title: "Firefox OS 販売地域の拡大予定"
 description: ""
 category: 
 tags: [Firefox OS]
 ---
 {% include JB/setup %}
 
-MWC 2014 のプレスリリースで、Mozilla が新たな Firefox OS 販売地域を発表しました。
+MWC 2014 のプレスリリースで、Mozilla が Firefox OS 販売地域の拡大予定を発表しました。
 
 - **[モバイルの未来を切り開く Firefox OS](http://www.mozilla.jp/blog/entry/10378/)**
 
