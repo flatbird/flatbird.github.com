@@ -9,7 +9,7 @@ tags: [Firefox OS]
 
 Firefox OS のアップデートの仕組みについての解説があったので、少し古い (2012年12月の記事) ですが 要点をメモします。
 
-- オリジナル: ***["kev – Firefox OS Update Mechanics"](http://kev.deadsquid.com/?p=1243)***
+- オリジナル: **["kev – Firefox OS Update Mechanics"](http://kev.deadsquid.com/?p=1243)**
 
 <p class="small">* 本記事内の図はこちらのサイトから引用させていただいています。</p>
 
@@ -49,10 +49,9 @@ Firefox OS 1.0 は OS やアプリを配置する 512MB のストレージと、
 
 ![Storage Map](/assets/posts/2014-04-01/storagemap.png)
 
-<div class=" center">
-<a class="small" href="http://kev.deadsquid.com/?p=1243">
-"Internal Storage" from "kev – Firefox OS Update Mechanics"
-</a>
+<div class="center small">
+Internal Storage<br>from 
+<a href="http://kev.deadsquid.com/?p=1243">"kev – Firefox OS Update Mechanics"</a>
 </div><br>
 
 ### Gecko/Gaia アップデートの手順
@@ -79,10 +78,9 @@ Full System アップデートではデバイスの OTA アップデート機能
 
 ![Storage Map](/assets/posts/2014-04-01/system_update_flows.png)
 
-<div class=" center">
-<a class="small" href="http://kev.deadsquid.com/?p=1243">
-"System Update Flows (Gecko/Gaia &amp; Full System Updates)" from "kev – Firefox OS Update Mechanics"
-</a>
+<div class="center small">
+System Update Flows (Gecko/Gaia &amp; Full System Updates)<br>from
+<a href="http://kev.deadsquid.com/?p=1243">"kev – Firefox OS Update Mechanics"</a>
 </div><br>
 
 ### アプリのアップデートフロー
@@ -91,10 +89,9 @@ Full System アップデートではデバイスの OTA アップデート機能
 
 ![Storage Map](/assets/posts/2014-04-01/app_update_flow.png)
 
-<div class=" center">
-<a class="small" href="http://kev.deadsquid.com/?p=1243">
-"App Update Process Flow" from "kev – Firefox OS Update Mechanics"
-</a>
+<div class="center small">
+App Update Process Flow<br>from
+<a href="http://kev.deadsquid.com/?p=1243">"kev – Firefox OS Update Mechanics"</a>
 </div><br>
 
 ### Firefox OS アップデートに関わる要素
@@ -118,8 +115,8 @@ Full System アップデートではデバイスの OTA アップデート機能
 
 ※ なお、recovery モードでのアップデートは adb コマンドに置き換えると以下になるみたいです。(<https://bugzilla.mozilla.org/show_bug.cgi?id=778084#c3>)
 
-1. adb push <build>/out/product/target/<device>/<device>-ota-eng.<user>_mmc.zip /sdcard/update.zip
-2. adb shell "echo --update_package=/sdcard/update.zip > /cache/recovery/command"
+1. adb push &lt;build&gt;/out/product/target/&lt;device&gt;/&lt;device&gt;-ota-eng.&lt;user&gt;_mmc.zip /sdcard/update.zip
+2. adb shell "echo --update_package=/sdcard/update.zip &gt; /cache/recovery/command"
 3. adb reboot recovery
 
 
