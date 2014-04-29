@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firefox OS の新機能 Find My Device を見てみた"
+title: "Firefox OS 1.5 の新機能 Find My Device を見てみた"
 description: ""
 category: 
 tags: [Firefox OS]
