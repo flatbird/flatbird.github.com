@@ -7,6 +7,12 @@ tags: [Android]
 ---
 {% include JB/setup %}
 
+<style type="text/css">
+div.entry-content > ul > li {
+	margin-bottom: 1em;
+}
+</style>
+
 周りの人が Nexus 5 を買ったり、Nexus 7 に KitKat が降ってきたよーとか言っているなか、
 [見捨てられた](https://support.google.com/nexus/answer/3468085?hl=ja)
 Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
@@ -21,9 +27,8 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 - デバイス
 	- DoCoMo 版 Galaxy Nexus SC-04D 
 - XDA のポスト (元ネタ)
-	- <http://forum.xda-developers.com/showthread.php?t=2525351>
-
-* adb や fastboot の準備、ブートローダーアンロック等については割愛します。
+	- [\[ROM\] \[UNOFFICIAL\] \[01122014\] CyanogenMod 11 for the Samsung Galaxy Nexus](http://forum.xda-developers.com/galaxy-nexus/development/rom-cyanogenmod-11-samsung-galaxy-nexus-t2525351)
+※ adb や fastboot の準備、ブートローダーアンロック等については割愛します。
 
 ## バックアップ
 - CWM Recovery でもいいですが、XDA の手順に記載されていた [TWRP Recovery](http://teamw.in/project/twrp2) を使ってみました。
@@ -32,6 +37,7 @@ Galaxy Nexus ユーザの私は一人さみしい思いをしていました。
 	- <http://teamw.in/project/twrp2/90>
 	- 今回は openrecovery-twrp-2.6.3.2-maguro.img をダウンロードしました。
 	- "maguro" は Galaxy Nexus GSM/HSPA+ 版のコードネームです。
+
 
 - ブートローダーモードで起動
     - `$ adb reboot-bootloader`

@@ -80,6 +80,10 @@ ul ul, ol ul {
 	list-style-type: decimal;
 }
 
+.unit-article li > p {
+	margin-bottom: 0;
+}
+
 .body a:link, .body .unit-article .entry-content h3 a:link {
 	color: #4183c4;
 }
