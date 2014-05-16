@@ -7,7 +7,7 @@ var FireMap = {
   lastDate: null,
   countries: [],
   regions: [],
-  dict: {},
+  countryDict: {},
   timeoutID: null,
 	init: function(countries, map, disp, replay) {
 		self = this;
@@ -26,7 +26,10 @@ var FireMap = {
 	    }
 	  });
 	  this.COUNTRIES.forEach(function(country) {
-	  	this.dict[country.code] = country;
+	  	if (!(country.code in this.countryDict)) {
+	  		this.countryDict[country.code] = [];
+	  	}
+	  	this.countryDict[country.code].push(country);
 	  	this.regions = this.regions.concat(country.code.toUpperCase());
 	  }, this);
 		var mapObj = this.map.vectorMap('get', 'mapObject');
@@ -113,9 +116,14 @@ var FireMap = {
 		}, delay + 500);
 	},
 	getLabel: function(code) {
-		var country = this.dict[code];
-		if (country) {
-			return country.name + '<br>' + country.date + '<br>' + country.carrier;
+		var countries = this.countryDict[code];
+		if (countries) {
+			var country = countries[0];
+			var resp = countries[0].name;
+			countries.forEach(function(country) {
+				resp += '<br>' + country.date + '&nbsp;' + country.carrier;
+			});
+			return resp;
 		} else {
 			return null;
 		}
