@@ -1,0 +1,66 @@
+.apps .icon {
+	width: 64px;
+	display: inline;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.unit-article .apps li {
+	list-style-type: none;
+}
+
+.unit-article .pg-apps .apps li {
+	float: left;
+	width: 120px;
+	text-align: center;
+	white-space: nowrap;	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.unit-article .pg-apps .apps .icon {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.unit-article .pg-apps .apps a {
+	border-bottom: 0;
+}
+
+.unit-article .pg-apps .apps .name {
+	font-size: 12px;
+}
+
+.unit-article .pg-apps .apps .download {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.unit-article .gp-apps .apps .icon {
+	padding-right: 15px;
+}
+
+.unit-article .gp-apps .apps .download {
+	font-size: 12px;
+}
+
+.unit-article .gp-apps .apps table {
+	margin: 5px 0 5px 0;
+}
+
+.clearfix {
+     zoom: 1;
+}
+
+.clearfix:before
+.clearfix:after {
+     display: table;
+     content: "";
+     line-height: 0;
+}
+
+.clearfix:after {
+     clear: both;
+
+}
