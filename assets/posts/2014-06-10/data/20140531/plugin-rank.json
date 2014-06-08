@@ -180,14 +180,6 @@
             "com.bolong.game2048": [
                 "com.google.cordova.plugin.AdMobPlugin"
             ], 
-            "com.bqusams.app": [
-                "com.phonegap.plugins.barcodescanner", 
-                "org.apache.cordova.splashscreen", 
-                "org.apache.cordova.network-information", 
-                "org.apache.cordova.device", 
-                "org.apache.cordova.dialogs", 
-                "com.simonmacdonald.telephonenumber"
-            ], 
             "com.bunkerpalace.cna": [
                 "org.apache.cordova.splashscreen", 
                 "org.apache.cordova.inappbrowser", 
@@ -346,8 +338,8 @@
                 "org.apache.cordova.file-transfer", 
                 "org.apache.cordova.inappbrowser", 
                 "org.apache.cordova.file", 
-                "org.apache.cordova.geolocation", 
                 "org.apache.cordova.camera", 
+                "org.apache.cordova.geolocation", 
                 "org.apache.cordova.media-capture", 
                 "org.apache.cordova.device", 
                 "org.apache.cordova.splashscreen", 
@@ -357,14 +349,6 @@
             "com.halilbilgin.takdirtesekkur": [
                 "org.apache.cordova.vibration", 
                 "org.apache.cordova.dialogs"
-            ], 
-            "com.idealcomputers.btube": [
-                "org.apache.cordova.inappbrowser", 
-                "org.apache.cordova.console", 
-                "org.apache.cordova.device", 
-                "com.phonegap.plugins.PushPlugin", 
-                "nl.x-services.plugins.socialsharing", 
-                "org.apache.cordova.media"
             ], 
             "com.in2nite.in2nite": [
                 "org.apache.cordova.splashscreen", 
@@ -421,10 +405,6 @@
                 "org.apache.cordova.device", 
                 "org.apache.cordova.statusbar"
             ], 
-            "com.klem.TicTacTic": [
-                "org.apache.cordova.splashscreen", 
-                "org.apache.cordova.device"
-            ], 
             "com.kvgcradip.app": [
                 "org.apache.cordova.splashscreen", 
                 "org.apache.cordova.vibration", 
@@ -442,17 +422,16 @@
                 "org.apache.cordova.plugin.sms"
             ], 
             "com.leviy.app": [
-                "org.apache.cordova.device-orientation", 
+                "org.apache.cordova.vibration", 
                 "org.apache.cordova.file-transfer", 
-                "org.apache.cordova.inappbrowser", 
                 "de.appplant.cordova.plugin.local-notification", 
                 "org.apache.cordova.file", 
-                "org.apache.cordova.geolocation", 
-                "org.apache.cordova.globalization", 
                 "org.apache.cordova.camera", 
+                "org.apache.cordova.globalization", 
+                "org.apache.cordova.geolocation", 
                 "org.apache.cordova.console", 
                 "org.apache.cordova.device", 
-                "org.apache.cordova.vibration", 
+                "org.apache.cordova.device-orientation", 
                 "org.apache.cordova.dialogs", 
                 "org.apache.cordova.network-information"
             ], 
@@ -539,10 +518,6 @@
                 "org.apache.cordova.device", 
                 "org.apache.cordova.dialogs"
             ], 
-            "com.openpiece.two_dots": [
-                "com.phonegap.LowLatencyAudio", 
-                "nl.x-services.plugins.socialsharing"
-            ], 
             "com.pagee.pagee": [
                 "org.apache.cordova.dialogs"
             ], 
@@ -591,15 +566,6 @@
                 "org.apache.cordova.inappbrowser", 
                 "org.apache.cordova.network-information"
             ], 
-            "com.phonegap.zenryokuyasai": [
-                "org.apache.cordova.splashscreen", 
-                "de.appplant.cordova.plugin.local-notification", 
-                "org.apache.cordova.file", 
-                "org.apache.cordova.device-motion", 
-                "org.apache.cordova.device", 
-                "org.apache.cordova.dialogs", 
-                "org.apache.cordova.media"
-            ], 
             "com.polso.info.memes": [
                 "net.tunts.webintent", 
                 "com.google.cordova.plugin.AdMobPlugin", 
@@ -617,8 +583,7 @@
                 "com.ionic.keyboard", 
                 "org.apache.cordova.statusbar", 
                 "org.apache.cordova.device", 
-                "org.apache.cordova.network-information", 
-                "com.adobe.plugins.GAPlugin"
+                "org.apache.cordova.network-information"
             ], 
             "com.prondo.netapp": [
                 "org.apache.cordova.splashscreen", 
@@ -640,20 +605,6 @@
                 "org.apache.cordova.camera", 
                 "org.apache.cordova.console", 
                 "org.apache.cordova.device", 
-                "org.apache.cordova.dialogs", 
-                "org.apache.cordova.network-information"
-            ], 
-            "com.quick_reads.quickreads": [
-                "org.apache.cordova.file-transfer", 
-                "org.apache.cordova.vibration", 
-                "org.apache.cordova.inappbrowser", 
-                "com.phonegap.plugins.sqlite", 
-                "com.phonegap.plugins.PushPlugin", 
-                "org.apache.cordova.file", 
-                "com.mcm.plugins.androidinappbilling", 
-                "org.apache.cordova.globalization", 
-                "org.apache.cordova.device", 
-                "org.apache.cordova.splashscreen", 
                 "org.apache.cordova.dialogs", 
                 "org.apache.cordova.network-information"
             ], 
@@ -790,9 +741,6 @@
                 "org.apache.cordova.media", 
                 "com.ququplay.websocket.WebSocket"
             ], 
-            "com.squadratechnologies.secRMM.mobileApp": [
-                "com.squadratechnologies.secRMM.mobileApp.secRMMPlugin"
-            ], 
             "com.subjectiveeffect.resus": [
                 "com.adobe.plugins.GAPlugin"
             ], 
@@ -910,31 +858,11 @@
                 "nl.x-services.plugins.socialsharing", 
                 "org.apache.cordova.network-information"
             ], 
-            "com.utopiasl.hsantos": [
-                "org.apache.cordova.splashscreen", 
-                "com.bikasv.plugins.datepicker", 
-                "org.apache.cordova.inappbrowser", 
-                "org.apache.cordova.statusbar", 
-                "org.apache.cordova.console", 
-                "org.apache.cordova.device", 
-                "org.apache.cordova.dialogs", 
-                "com.pushwoosh.plugins.pushwoosh", 
-                "org.apache.cordova.network-information"
-            ], 
             "com.velocor.mScorecard": [
                 "org.apache.cordova.splashscreen", 
                 "org.apache.cordova.inappbrowser", 
                 "org.apache.cordova.dialogs", 
                 "org.apache.cordova.statusbar"
-            ], 
-            "com.webcamscz.map": [
-                "org.apache.cordova.file-transfer", 
-                "org.apache.cordova.inappbrowser", 
-                "org.apache.cordova.file", 
-                "org.apache.cordova.geolocation", 
-                "org.apache.cordova.device", 
-                "org.apache.cordova.dialogs", 
-                "org.apache.cordova.network-information"
             ], 
             "com.wonderpolls.android": [
                 "org.apache.cordova.vibration", 
@@ -1046,19 +974,6 @@
             "jp.jtb.android.ShukuhakuYoyaku": [
                 "org.apache.cordova.inappbrowser"
             ], 
-            "mx.elsiglo.torreon": [
-                "org.apache.cordova.vibration", 
-                "org.apache.cordova.dialogs", 
-                "com.dawsonloudon.videoplayer", 
-                "org.apache.cordova.inappbrowser", 
-                "com.rjfun.cordova.plugin.admob", 
-                "com.borismus.webintent", 
-                "com.google.playservices", 
-                "com.phonegap.plugins.PushPlugin", 
-                "nl.x-services.plugins.socialsharing", 
-                "com.adobe.plugins.GAPlugin", 
-                "org.apache.cordova.network-information"
-            ], 
             "net.diogok.miniparty": [
                 "net.tunts.webintent", 
                 "nl.x-services.plugins.calendar", 
@@ -1169,26 +1084,23 @@
             {
                 "apks": [
                     "com.samhall.app", 
-                    "de.animexx.events.std", 
                     "com.time4apps.GameOfEvenOrOddNumber", 
-                    "com.webcamscz.map", 
+                    "jp.co.fishingmax.FishingMax", 
                     "com.animtypecom.fartshd", 
                     "de.goddchen.android.powerfolder.A", 
                     "se.sportfane.app", 
                     "bites.solutek.com.co", 
                     "com.in2nite.in2nite", 
                     "de.animexx.manga_db", 
-                    "jp.co.fishingmax.FishingMax", 
                     "org.n52.sosmobileclient", 
-                    "com.quick_reads.quickreads", 
+                    "de.animexx.events.std", 
                     "com.markuskarjalainen.diceroller", 
-                    "com.leviy.app", 
                     "com.alphamind.education.mathgenie", 
                     "com.dancesafe.mobile", 
                     "net.tha.eihl", 
                     "com.surfdose.surfdosealert", 
                     "com.app.picabin", 
-                    "com.idealcomputers.btube", 
+                    "com.bluepants.offcourse", 
                     "com.phonegap.penclickfarmer", 
                     "com.urucas.cineros", 
                     "de.buzzwoo.yoga", 
@@ -1196,7 +1108,6 @@
                     "com.kayweb.armeniamobile", 
                     "com.phonegap.linkpass", 
                     "com.scendix.pamfax", 
-                    "net.noir04.loldtimers", 
                     "com.phonegap.loantoolkit", 
                     "com.COMICSMART.GANMA", 
                     "com.bettersportsbox.NHL", 
@@ -1209,7 +1120,7 @@
                     "com.thinc.school.client.schoolbook", 
                     "com.thetransfercenter.PinnacleMobileApp", 
                     "com.keeeb.keeeb", 
-                    "com.klem.TicTacTic", 
+                    "com.leviy.app", 
                     "com.myzago.app", 
                     "com.bunkerpalace.cna", 
                     "com.socialdesignhouse.weatherjams", 
@@ -1222,24 +1133,21 @@
                     "cl.banmedica.app", 
                     "com.qrumbled.qrumbled", 
                     "com.greywallsoftware.veoci", 
-                    "com.utopiasl.hsantos", 
                     "ro.stiam.stiri", 
                     "com.prondo.netapp", 
                     "com.ququplay.literaki", 
                     "io.cordova.allariscopertadicese", 
-                    "com.phonegap.zenryokuyasai", 
-                    "si.invoid.luka", 
+                    "net.noir04.loldtimers", 
                     "com.nudgeyourself.nudge", 
                     "com.umiqs.app", 
                     "com.gresilab.youtim", 
-                    "com.bluepants.offcourse", 
+                    "si.invoid.luka", 
                     "com.edgeelement.triform", 
                     "com.coinmad.findthemovie", 
                     "au.com.bizarmobile.msa", 
                     "com.root.CookingBooks", 
                     "com.ojoylapiz.oxfamcomic", 
                     "com.prondo.nseries", 
-                    "com.bqusams.app", 
                     "com.bunkerpalace.forestcc", 
                     "com.danielcwilson.adept.mentalmath", 
                     "com.mobileteck.lovevoucher", 
@@ -1254,86 +1162,6 @@
                     "syo.hayagaeri.timecard"
                 ], 
                 "name": "org.apache.cordova.device"
-            }, 
-            {
-                "apks": [
-                    "com.samhall.app", 
-                    "com.dubebe.makeupmaster", 
-                    "com.encodevlabs.egotickets", 
-                    "cc.conyac.reshare", 
-                    "jp.jtb.android.ShukuhakuYoyaku", 
-                    "com.cover5.cover5", 
-                    "de.buzzwoo.yoga", 
-                    "ec.factor.gosh", 
-                    "com.in2nite.in2nite", 
-                    "com.coloreight.qtag", 
-                    "com.cancian.mylivediet", 
-                    "com.bunkerpalace.forestcc", 
-                    "com.umiqs.app", 
-                    "com.meraki.Dashboard", 
-                    "com.etobb.www", 
-                    "net.tha.eihl", 
-                    "com.surfdose.surfdosealert", 
-                    "com.bluepants.offcourse", 
-                    "com.animtypecom.fartshd", 
-                    "com.phonegap.penclickfarmer", 
-                    "com.deutschfuereuch", 
-                    "com.spoonacular.app", 
-                    "com.kayweb.armeniamobile", 
-                    "com.phonegap.linkpass", 
-                    "com.scendix.pamfax", 
-                    "com.dancesafe.mobile", 
-                    "com.bunkerpalace.cna", 
-                    "com.edenluxuryhomes.ELH", 
-                    "com.spotware.ct", 
-                    "com.idealcomputers.btube", 
-                    "com.bettersportsbox.NHL", 
-                    "com.aotg.assembly", 
-                    "com.jmstechsys.cstoredeals", 
-                    "ahlawasfa.com", 
-                    "com.thinc.school.client.schoolbook", 
-                    "de.animexx.events.std", 
-                    "com.albahra.sprinklers", 
-                    "mx.elsiglo.torreon", 
-                    "com.leviy.app", 
-                    "com.FLKR.PhotoFun", 
-                    "com.andygreen.AndyGreen", 
-                    "com.cakemail.cakemail", 
-                    "cl.banmedica.app", 
-                    "com.keeeb.keeeb", 
-                    "com.webcamscz.map", 
-                    "net.noir04.loldtimers", 
-                    "com.greywallsoftware.veoci", 
-                    "com.utopiasl.hsantos", 
-                    "ro.stiam.stiri", 
-                    "com.prondo.netapp", 
-                    "com.ququplay.literaki", 
-                    "io.gifme.gifme", 
-                    "com.nudgeyourself.nudge", 
-                    "com.madebyjohann.curatio", 
-                    "org.k4fun.app", 
-                    "com.rocket.trade", 
-                    "com.quick_reads.quickreads", 
-                    "com.coinmad.findthemovie", 
-                    "de.animexx.manga_db", 
-                    "com.mobileteck.lovevoucher", 
-                    "com.ojoylapiz.oxfamcomic", 
-                    "com.prondo.nseries", 
-                    "com.application.euroairport", 
-                    "com.velocor.mScorecard", 
-                    "com.invedion.Horoscope", 
-                    "com.prondo.avnet.hp", 
-                    "com.rustymonkey.lhd", 
-                    "com.recipefolder.app", 
-                    "com.phonegap.two_weeks", 
-                    "com.solutionrock.qForm", 
-                    "com.tikoo.pmcontacts", 
-                    "com.premii.hn", 
-                    "com.root.AvantiFurs", 
-                    "point_i.app", 
-                    "com.kvgcradip.app"
-                ], 
-                "name": "org.apache.cordova.inappbrowser"
             }, 
             {
                 "apks": [
@@ -1368,12 +1196,11 @@
                     "com.spotware.ct", 
                     "com.bettersportsbox.NHL", 
                     "org.k4fun.app", 
-                    "com.quick_reads.quickreads", 
+                    "syo.hayagaeri.timecard", 
                     "ahlawasfa.com", 
                     "com.thinc.school.client.schoolbook", 
                     "com.thetransfercenter.PinnacleMobileApp", 
                     "com.albahra.sprinklers", 
-                    "com.klem.TicTacTic", 
                     "com.bunkerpalace.cna", 
                     "com.andygreen.AndyGreen", 
                     "com.treeangular.BookCrossingApp", 
@@ -1383,11 +1210,9 @@
                     "cl.banmedica.app", 
                     "com.qrumbled.qrumbled", 
                     "com.greywallsoftware.veoci", 
-                    "com.utopiasl.hsantos", 
                     "ro.stiam.stiri", 
                     "com.prondo.netapp", 
                     "io.cordova.allariscopertadicese", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.nudgeyourself.nudge", 
                     "com.app.zampleme", 
                     "com.alphamind.education.multiplicationtable", 
@@ -1397,7 +1222,6 @@
                     "com.root.CookingBooks", 
                     "com.ojoylapiz.oxfamcomic", 
                     "com.prondo.nseries", 
-                    "com.bqusams.app", 
                     "com.application.euroairport", 
                     "com.velocor.mScorecard", 
                     "com.invedion.Horoscope", 
@@ -1409,17 +1233,90 @@
                     "com.premii.hn", 
                     "com.root.AvantiFurs", 
                     "com.keepers.friocerofinal", 
-                    "com.kvgcradip.app", 
-                    "syo.hayagaeri.timecard"
+                    "com.kvgcradip.app"
                 ], 
                 "name": "org.apache.cordova.splashscreen"
             }, 
             {
                 "apks": [
                     "com.samhall.app", 
+                    "com.dubebe.makeupmaster", 
+                    "com.encodevlabs.egotickets", 
+                    "cc.conyac.reshare", 
+                    "jp.jtb.android.ShukuhakuYoyaku", 
+                    "com.cover5.cover5", 
+                    "de.buzzwoo.yoga", 
+                    "ec.factor.gosh", 
+                    "com.in2nite.in2nite", 
+                    "com.coloreight.qtag", 
+                    "com.cancian.mylivediet", 
+                    "com.bunkerpalace.forestcc", 
+                    "com.meraki.Dashboard", 
+                    "com.etobb.www", 
+                    "net.tha.eihl", 
+                    "com.surfdose.surfdosealert", 
+                    "com.bluepants.offcourse", 
+                    "com.animtypecom.fartshd", 
+                    "com.phonegap.penclickfarmer", 
+                    "com.deutschfuereuch", 
+                    "com.spoonacular.app", 
+                    "com.kayweb.armeniamobile", 
+                    "com.phonegap.linkpass", 
+                    "com.scendix.pamfax", 
+                    "com.dancesafe.mobile", 
+                    "com.bunkerpalace.cna", 
+                    "com.edenluxuryhomes.ELH", 
+                    "com.spotware.ct", 
+                    "com.bettersportsbox.NHL", 
+                    "com.aotg.assembly", 
+                    "com.jmstechsys.cstoredeals", 
+                    "ahlawasfa.com", 
+                    "com.thinc.school.client.schoolbook", 
+                    "de.animexx.events.std", 
+                    "com.albahra.sprinklers", 
+                    "com.FLKR.PhotoFun", 
+                    "com.andygreen.AndyGreen", 
+                    "com.cakemail.cakemail", 
+                    "com.keeeb.keeeb", 
+                    "cl.banmedica.app", 
+                    "net.noir04.loldtimers", 
+                    "com.greywallsoftware.veoci", 
+                    "ro.stiam.stiri", 
+                    "com.prondo.netapp", 
+                    "com.ququplay.literaki", 
+                    "io.gifme.gifme", 
+                    "com.nudgeyourself.nudge", 
+                    "com.umiqs.app", 
+                    "org.k4fun.app", 
+                    "com.rocket.trade", 
+                    "com.madebyjohann.curatio", 
+                    "com.coinmad.findthemovie", 
+                    "de.animexx.manga_db", 
+                    "com.mobileteck.lovevoucher", 
+                    "com.ojoylapiz.oxfamcomic", 
+                    "com.prondo.nseries", 
+                    "com.application.euroairport", 
+                    "com.velocor.mScorecard", 
+                    "com.invedion.Horoscope", 
+                    "com.prondo.avnet.hp", 
+                    "com.rustymonkey.lhd", 
+                    "com.recipefolder.app", 
+                    "com.phonegap.two_weeks", 
+                    "com.solutionrock.qForm", 
+                    "com.tikoo.pmcontacts", 
+                    "com.premii.hn", 
+                    "com.root.AvantiFurs", 
+                    "point_i.app", 
+                    "com.kvgcradip.app"
+                ], 
+                "name": "org.apache.cordova.inappbrowser"
+            }, 
+            {
+                "apks": [
+                    "com.samhall.app", 
                     "de.animexx.events.std", 
                     "com.time4apps.GameOfEvenOrOddNumber", 
-                    "com.webcamscz.map", 
+                    "se.sportfane.app", 
                     "cc.conyac.reshare", 
                     "de.goddchen.android.powerfolder.A", 
                     "com.cover5.cover5", 
@@ -1431,9 +1328,8 @@
                     "com.bunkerpalace.forestcc", 
                     "com.meraki.Dashboard", 
                     "com.dancesafe.mobile", 
-                    "se.sportfane.app", 
                     "com.surfdose.surfdosealert", 
-                    "com.FLKR.PhotoFun", 
+                    "com.bunkerpalace.cna", 
                     "com.phonegap.penclickfarmer", 
                     "com.deutschfuereuch", 
                     "com.spoonacular.app", 
@@ -1445,13 +1341,12 @@
                     "de.seniorfirst.seniorfirst.de", 
                     "com.bettersportsbox.NHL", 
                     "com.aotg.assembly", 
-                    "com.quick_reads.quickreads", 
                     "com.dynofy", 
                     "com.thetransfercenter.PinnacleMobileApp", 
                     "com.mobileteck.lovevoucher", 
                     "com.leviy.app", 
                     "com.myzago.app", 
-                    "com.bunkerpalace.cna", 
+                    "com.FLKR.PhotoFun", 
                     "com.socialdesignhouse.weatherjams", 
                     "com.andygreen.AndyGreen", 
                     "org.k4fun.app", 
@@ -1459,9 +1354,7 @@
                     "hu.pappco.operationnumbers", 
                     "com.qrumbled.qrumbled", 
                     "com.greywallsoftware.veoci", 
-                    "com.utopiasl.hsantos", 
                     "com.solutionrock.qForm", 
-                    "mx.elsiglo.torreon", 
                     "io.cordova.allariscopertadicese", 
                     "net.noir04.loldtimers", 
                     "com.nudgeyourself.nudge", 
@@ -1476,7 +1369,6 @@
                     "point_i.app", 
                     "com.urucas.cineros", 
                     "com.bluepants.offcourse", 
-                    "com.bqusams.app", 
                     "com.application.euroairport", 
                     "com.invedion.Horoscope", 
                     "com.colombiapps.taxiya", 
@@ -1508,7 +1400,6 @@
                     "com.rubyout.smartcalc", 
                     "com.cancian.mylivediet", 
                     "com.bunkerpalace.forestcc", 
-                    "cl.banmedica.app", 
                     "com.bitbof.webchemy", 
                     "com.meraki.Dashboard", 
                     "com.etobb.www", 
@@ -1523,7 +1414,6 @@
                     "com.edenluxuryhomes.ELH", 
                     "com.COMICSMART.GANMA", 
                     "com.thetransfercenter.PinnacleMobileApp", 
-                    "com.quick_reads.quickreads", 
                     "com.rocket.trade", 
                     "com.jmstechsys.cstoredeals", 
                     "com.dynofy", 
@@ -1537,24 +1427,20 @@
                     "org.k4fun.app", 
                     "com.softwarevolution.guia", 
                     "com.wonderpolls.android", 
-                    "com.webcamscz.map", 
+                    "cl.banmedica.app", 
                     "com.qrumbled.qrumbled", 
                     "com.greywallsoftware.veoci", 
-                    "com.utopiasl.hsantos", 
                     "com.solutionrock.qForm", 
                     "io.cordova.allariscopertadicese", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.nudgeyourself.nudge", 
                     "com.umiqs.app", 
                     "com.treeangular.BookCrossingApp", 
-                    "mx.elsiglo.torreon", 
                     "com.lovingwhisper.lovecards", 
                     "de.animexx.manga_db", 
                     "au.com.bizarmobile.msa", 
                     "com.ojoylapiz.oxfamcomic", 
                     "com.urucas.cineros", 
                     "com.bluepants.offcourse", 
-                    "com.bqusams.app", 
                     "com.application.euroairport", 
                     "com.velocor.mScorecard", 
                     "com.colombiapps.taxiya", 
@@ -1573,7 +1459,6 @@
                 "apks": [
                     "com.samhall.app", 
                     "com.time4apps.GameOfEvenOrOddNumber", 
-                    "com.webcamscz.map", 
                     "de.goddchen.android.powerfolder.A", 
                     "bites.solutek.com.co", 
                     "br.com.carleto.setlist", 
@@ -1605,12 +1490,10 @@
                     "com.qrumbled.qrumbled", 
                     "com.greywallsoftware.veoci", 
                     "com.solutionrock.qForm", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.nudgeyourself.nudge", 
                     "com.gresilab.youtim", 
                     "com.ehymns", 
                     "point_i.app", 
-                    "com.quick_reads.quickreads", 
                     "de.buzzwoo.yoga", 
                     "com.keeeb.keeeb", 
                     "com.tikoo.pmcontacts"
@@ -1620,8 +1503,45 @@
             {
                 "apks": [
                     "com.samhall.app", 
+                    "com.encodevlabs.egotickets", 
+                    "ec.factor.gosh", 
+                    "com.in2nite.in2nite", 
+                    "org.n52.sosmobileclient", 
+                    "de.animexx.events.std", 
+                    "com.meraki.Dashboard", 
+                    "com.dancesafe.mobile", 
+                    "com.surfdose.surfdosealert", 
+                    "com.app.picabin", 
+                    "com.phonegap.penclickfarmer", 
                     "com.kayweb.armeniamobile", 
-                    "com.webcamscz.map", 
+                    "com.phonegap.linkpass", 
+                    "com.jmstechsys.cstoredeals", 
+                    "com.thetransfercenter.PinnacleMobileApp", 
+                    "com.leviy.app", 
+                    "com.myzago.app", 
+                    "com.bluepants.offcourse", 
+                    "com.socialdesignhouse.weatherjams", 
+                    "com.andygreen.AndyGreen", 
+                    "org.k4fun.app", 
+                    "cl.banmedica.app", 
+                    "com.greywallsoftware.veoci", 
+                    "io.cordova.allariscopertadicese", 
+                    "com.umiqs.app", 
+                    "com.treeangular.BookCrossingApp", 
+                    "au.com.bizarmobile.msa", 
+                    "point_i.app", 
+                    "com.bunkerpalace.forestcc", 
+                    "com.mobileteck.lovevoucher", 
+                    "com.colombiapps.taxiya", 
+                    "com.root.AvantiFurs", 
+                    "com.keepers.friocerofinal"
+                ], 
+                "name": "org.apache.cordova.geolocation"
+            }, 
+            {
+                "apks": [
+                    "com.samhall.app", 
+                    "com.kayweb.armeniamobile", 
                     "br.com.carleto.setlist", 
                     "com.umiqs.app", 
                     "org.arielext.mobilemusicdb", 
@@ -1649,51 +1569,11 @@
                     "com.gresilab.youtim", 
                     "com.ehymns", 
                     "point_i.app", 
-                    "com.quick_reads.quickreads", 
                     "de.buzzwoo.yoga", 
                     "com.keeeb.keeeb", 
                     "com.tikoo.pmcontacts"
                 ], 
                 "name": "org.apache.cordova.file-transfer"
-            }, 
-            {
-                "apks": [
-                    "com.samhall.app", 
-                    "com.encodevlabs.egotickets", 
-                    "ec.factor.gosh", 
-                    "com.in2nite.in2nite", 
-                    "org.n52.sosmobileclient", 
-                    "de.animexx.events.std", 
-                    "com.meraki.Dashboard", 
-                    "com.dancesafe.mobile", 
-                    "com.surfdose.surfdosealert", 
-                    "com.app.picabin", 
-                    "com.phonegap.penclickfarmer", 
-                    "com.kayweb.armeniamobile", 
-                    "com.phonegap.linkpass", 
-                    "com.jmstechsys.cstoredeals", 
-                    "com.thetransfercenter.PinnacleMobileApp", 
-                    "com.leviy.app", 
-                    "com.myzago.app", 
-                    "com.bluepants.offcourse", 
-                    "com.socialdesignhouse.weatherjams", 
-                    "com.andygreen.AndyGreen", 
-                    "org.k4fun.app", 
-                    "com.webcamscz.map", 
-                    "com.greywallsoftware.veoci", 
-                    "io.cordova.allariscopertadicese", 
-                    "com.umiqs.app", 
-                    "com.treeangular.BookCrossingApp", 
-                    "au.com.bizarmobile.msa", 
-                    "point_i.app", 
-                    "com.bunkerpalace.forestcc", 
-                    "com.mobileteck.lovevoucher", 
-                    "com.colombiapps.taxiya", 
-                    "cl.banmedica.app", 
-                    "com.root.AvantiFurs", 
-                    "com.keepers.friocerofinal"
-                ], 
-                "name": "org.apache.cordova.geolocation"
             }, 
             {
                 "apks": [
@@ -1754,11 +1634,9 @@
                     "com.wonderpolls.android", 
                     "io.cordova.allariscopertadicese", 
                     "org.k4fun.app", 
-                    "com.quick_reads.quickreads", 
                     "com.colombiapps.taxiya", 
                     "com.dynofy", 
                     "com.tikoo.pmcontacts", 
-                    "mx.elsiglo.torreon", 
                     "com.kvgcradip.app"
                 ], 
                 "name": "org.apache.cordova.vibration"
@@ -1775,13 +1653,11 @@
                     "com.colombiapps.taxiya", 
                     "com.edgeelement.triform", 
                     "com.FLKR.PhotoFun", 
-                    "com.idealcomputers.btube", 
                     "com.kvgcradip.app", 
                     "com.markuskarjalainen.diceroller", 
                     "com.markuskarjalainen.poptheballoons", 
                     "com.phonegap.linkpass", 
                     "com.phonegap.penclickfarmer", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.rocket.trade", 
                     "com.solutionrock.qForm", 
                     "com.spotware.ct", 
@@ -1806,10 +1682,8 @@
                     "com.coinmad.findthemovie", 
                     "com.colombiapps.taxiya", 
                     "com.etobb.www", 
-                    "com.idealcomputers.btube", 
                     "com.jmstechsys.cstoredeals", 
                     "com.kayweb.armeniamobile", 
-                    "com.openpiece.two_dots", 
                     "com.polso.info.memes", 
                     "com.rocket.trade", 
                     "com.root.AvantiFurs", 
@@ -1817,35 +1691,9 @@
                     "com.wonderpolls.android", 
                     "de.animexx.events.std", 
                     "hu.pappco.operationnumbers", 
-                    "mx.elsiglo.torreon", 
                     "se.sportfane.app"
                 ], 
                 "name": "nl.x-services.plugins.socialsharing"
-            }, 
-            {
-                "apks": [
-                    "bites.solutek.com.co", 
-                    "com.bluepants.offcourse", 
-                    "com.colombiapps.taxiya", 
-                    "com.etobb.www", 
-                    "com.gresilab.youtim", 
-                    "com.idealcomputers.btube", 
-                    "com.kayweb.armeniamobile", 
-                    "com.meraki.Dashboard", 
-                    "com.quick_reads.quickreads", 
-                    "com.ququplay.literaki", 
-                    "com.rocket.trade", 
-                    "com.thetransfercenter.PinnacleMobileApp", 
-                    "com.thinc.school.client.schoolbook", 
-                    "de.animexx.events.std", 
-                    "de.animexx.manga_db", 
-                    "de.buzzwoo.yoga", 
-                    "mx.elsiglo.torreon", 
-                    "org.k4fun.app", 
-                    "point_i.app", 
-                    "se.sportfane.app"
-                ], 
-                "name": "com.phonegap.plugins.PushPlugin"
             }, 
             {
                 "apks": [
@@ -1857,7 +1705,6 @@
                     "com.meraki.Dashboard", 
                     "com.nudgeyourself.nudge", 
                     "com.polso.info.memes", 
-                    "com.prondo.avnet.hp", 
                     "com.ququplay.literaki", 
                     "com.rocket.trade", 
                     "com.socialdesignhouse.weatherjams", 
@@ -1867,7 +1714,6 @@
                     "com.treeangular.BookCrossingApp", 
                     "de.buzzwoo.yoga", 
                     "ec.factor.gosh", 
-                    "mx.elsiglo.torreon", 
                     "net.diogok.miniparty"
                 ], 
                 "name": "com.adobe.plugins.GAPlugin"
@@ -1880,7 +1726,6 @@
                     "com.bunkerpalace.forestcc", 
                     "com.coinmad.findthemovie", 
                     "com.edgeelement.triform", 
-                    "com.idealcomputers.btube", 
                     "com.in2nite.in2nite", 
                     "com.keepers.friocerofinal", 
                     "com.leviy.app", 
@@ -1891,7 +1736,6 @@
                     "com.root.CookingBooks", 
                     "com.samhall.app", 
                     "com.surfdose.surfdosealert", 
-                    "com.utopiasl.hsantos", 
                     "io.gifme.gifme", 
                     "jp.co.fishingmax.FishingMax"
                 ], 
@@ -1913,7 +1757,6 @@
                     "com.umiqs.app", 
                     "com.thinc.school.client.schoolbook", 
                     "com.rubyout.smartcalc", 
-                    "com.quick_reads.quickreads", 
                     "com.tikoo.pmcontacts", 
                     "com.root.AvantiFurs", 
                     "com.nudgeyourself.nudge"
@@ -1922,19 +1765,25 @@
             }, 
             {
                 "apks": [
+                    "bites.solutek.com.co", 
                     "com.bluepants.offcourse", 
-                    "com.keepers.friocerofinal", 
-                    "com.nudgeyourself.nudge", 
-                    "com.prondo.avnet.hp", 
-                    "com.qrumbled.qrumbled", 
-                    "com.scendix.pamfax", 
-                    "com.surfdose.surfdosealert", 
-                    "com.utopiasl.hsantos", 
-                    "com.velocor.mScorecard", 
-                    "de.grobmeier.tab.mobile.android", 
-                    "jp.co.fishingmax.FishingMax"
+                    "com.colombiapps.taxiya", 
+                    "com.etobb.www", 
+                    "com.gresilab.youtim", 
+                    "com.kayweb.armeniamobile", 
+                    "com.meraki.Dashboard", 
+                    "com.ququplay.literaki", 
+                    "com.rocket.trade", 
+                    "com.thetransfercenter.PinnacleMobileApp", 
+                    "com.thinc.school.client.schoolbook", 
+                    "de.animexx.events.std", 
+                    "de.animexx.manga_db", 
+                    "de.buzzwoo.yoga", 
+                    "org.k4fun.app", 
+                    "point_i.app", 
+                    "se.sportfane.app"
                 ], 
-                "name": "org.apache.cordova.statusbar"
+                "name": "com.phonegap.plugins.PushPlugin"
             }, 
             {
                 "apks": [
@@ -1951,6 +1800,21 @@
                     "se.sportfane.app"
                 ], 
                 "name": "com.google.cordova.plugin.AdMobPlugin"
+            }, 
+            {
+                "apks": [
+                    "com.bluepants.offcourse", 
+                    "com.keepers.friocerofinal", 
+                    "com.nudgeyourself.nudge", 
+                    "com.prondo.avnet.hp", 
+                    "com.qrumbled.qrumbled", 
+                    "com.scendix.pamfax", 
+                    "com.surfdose.surfdosealert", 
+                    "com.velocor.mScorecard", 
+                    "de.grobmeier.tab.mobile.android", 
+                    "jp.co.fishingmax.FishingMax"
+                ], 
+                "name": "org.apache.cordova.statusbar"
             }, 
             {
                 "apks": [
@@ -1981,8 +1845,19 @@
             }, 
             {
                 "apks": [
+                    "com.leviy.app", 
+                    "com.phonegap.penclickfarmer", 
+                    "com.bluepants.offcourse", 
+                    "de.buzzwoo.yoga", 
+                    "com.umiqs.app", 
+                    "io.cordova.allariscopertadicese", 
+                    "com.surfdose.surfdosealert"
+                ], 
+                "name": "org.apache.cordova.device-orientation"
+            }, 
+            {
+                "apks": [
                     "com.andygreen.AndyGreen", 
-                    "com.bqusams.app", 
                     "com.bunkerpalace.forestcc", 
                     "com.greywallsoftware.veoci", 
                     "com.phonegap.linkpass", 
@@ -1997,7 +1872,6 @@
                     "com.dynofy", 
                     "com.in2nite.in2nite", 
                     "com.leviy.app", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.surfdose.surfdosealert", 
                     "com.tikoo.pmcontacts", 
                     "com.wonderpolls.android", 
@@ -2007,28 +1881,15 @@
             }, 
             {
                 "apks": [
-                    "com.animtypecom.fartshd", 
                     "com.phonegap.penclickfarmer", 
                     "com.bluepants.offcourse", 
                     "com.umiqs.app", 
+                    "com.animtypecom.fartshd", 
                     "com.markuskarjalainen.diceroller", 
                     "com.meraki.Dashboard", 
-                    "com.phonegap.zenryokuyasai", 
                     "com.surfdose.surfdosealert"
                 ], 
                 "name": "org.apache.cordova.device-motion"
-            }, 
-            {
-                "apks": [
-                    "com.leviy.app", 
-                    "com.phonegap.penclickfarmer", 
-                    "com.bluepants.offcourse", 
-                    "de.buzzwoo.yoga", 
-                    "com.umiqs.app", 
-                    "io.cordova.allariscopertadicese", 
-                    "com.surfdose.surfdosealert"
-                ], 
-                "name": "org.apache.cordova.device-orientation"
             }, 
             {
                 "apks": [
@@ -2051,15 +1912,6 @@
                     "com.root.CookingBooks"
                 ], 
                 "name": "com.smartmobilesoftware.inappbilling"
-            }, 
-            {
-                "apks": [
-                    "com.nudgeyourself.nudge", 
-                    "com.samhall.app", 
-                    "de.animexx.events.std", 
-                    "mx.elsiglo.torreon"
-                ], 
-                "name": "com.borismus.webintent"
             }, 
             {
                 "apks": [
@@ -2089,6 +1941,14 @@
             }, 
             {
                 "apks": [
+                    "com.nudgeyourself.nudge", 
+                    "com.samhall.app", 
+                    "de.animexx.events.std"
+                ], 
+                "name": "com.borismus.webintent"
+            }, 
+            {
+                "apks": [
                     "bites.solutek.com.co", 
                     "com.etobb.www", 
                     "net.diogok.miniparty"
@@ -2113,30 +1973,6 @@
             }, 
             {
                 "apks": [
-                    "com.coinmad.findthemovie", 
-                    "com.quick_reads.quickreads", 
-                    "com.urucas.cineros"
-                ], 
-                "name": "com.phonegap.plugins.sqlite"
-            }, 
-            {
-                "apks": [
-                    "com.root.AvantiFurs", 
-                    "com.samhall.app", 
-                    "com.utopiasl.hsantos"
-                ], 
-                "name": "com.pushwoosh.plugins.pushwoosh"
-            }, 
-            {
-                "apks": [
-                    "cc.conyac.reshare", 
-                    "com.ququplay.literaki", 
-                    "mx.elsiglo.torreon"
-                ], 
-                "name": "com.google.playservices"
-            }, 
-            {
-                "apks": [
                     "com.bluepants.offcourse", 
                     "com.premii.hn", 
                     "com.recipefolder.app"
@@ -2156,13 +1992,6 @@
                     "com.kayweb.armeniamobile"
                 ], 
                 "name": "com.danielcwilson.plugins.googleanalytics"
-            }, 
-            {
-                "apks": [
-                    "cc.conyac.reshare", 
-                    "mx.elsiglo.torreon"
-                ], 
-                "name": "com.rjfun.cordova.plugin.admob"
             }, 
             {
                 "apks": [
@@ -2208,6 +2037,20 @@
             }, 
             {
                 "apks": [
+                    "com.coinmad.findthemovie", 
+                    "com.urucas.cineros"
+                ], 
+                "name": "com.phonegap.plugins.sqlite"
+            }, 
+            {
+                "apks": [
+                    "com.root.AvantiFurs", 
+                    "com.samhall.app"
+                ], 
+                "name": "com.pushwoosh.plugins.pushwoosh"
+            }, 
+            {
+                "apks": [
                     "com.phonegap.linkpass", 
                     "org.k4fun.app"
                 ], 
@@ -2222,17 +2065,17 @@
             }, 
             {
                 "apks": [
+                    "cc.conyac.reshare", 
+                    "com.ququplay.literaki"
+                ], 
+                "name": "com.google.playservices"
+            }, 
+            {
+                "apks": [
                     "com.bluepants.offcourse", 
                     "com.in2nite.in2nite"
                 ], 
                 "name": "com.phonegap.plugins.mapkit"
-            }, 
-            {
-                "apks": [
-                    "com.openpiece.two_dots", 
-                    "com.ququplay.literaki"
-                ], 
-                "name": "com.phonegap.LowLatencyAudio"
             }, 
             {
                 "apks": [
@@ -2308,12 +2151,6 @@
                     "com.surfdose.surfdosealert"
                 ], 
                 "name": "com.phonegap.plugins.speech"
-            }, 
-            {
-                "apks": [
-                    "org.arielext.mobilemusicdb"
-                ], 
-                "name": "org.arielext.mp3scan"
             }, 
             {
                 "apks": [
@@ -2401,6 +2238,12 @@
             }, 
             {
                 "apks": [
+                    "cc.conyac.reshare"
+                ], 
+                "name": "com.rjfun.cordova.plugin.admob"
+            }, 
+            {
+                "apks": [
                     "com.surfdose.surfdosealert"
                 ], 
                 "name": "dk.interface.cordova.plugin.googlenavigate"
@@ -2455,12 +2298,6 @@
             }, 
             {
                 "apks": [
-                    "com.bqusams.app"
-                ], 
-                "name": "com.simonmacdonald.telephonenumber"
-            }, 
-            {
-                "apks": [
                     "com.coloreight.qtag"
                 ], 
                 "name": "ImageViewer"
@@ -2491,9 +2328,9 @@
             }, 
             {
                 "apks": [
-                    "com.squadratechnologies.secRMM.mobileApp"
+                    "org.arielext.mobilemusicdb"
                 ], 
-                "name": "com.squadratechnologies.secRMM.mobileApp.secRMMPlugin"
+                "name": "org.arielext.mp3scan"
             }, 
             {
                 "apks": [
@@ -2524,12 +2361,6 @@
                     "org.arielext.mobilemusicdb"
                 ], 
                 "name": "org.chromium.runtime.app"
-            }, 
-            {
-                "apks": [
-                    "mx.elsiglo.torreon"
-                ], 
-                "name": "com.dawsonloudon.videoplayer"
             }, 
             {
                 "apks": [
@@ -2605,12 +2436,6 @@
             }, 
             {
                 "apks": [
-                    "com.quick_reads.quickreads"
-                ], 
-                "name": "com.mcm.plugins.androidinappbilling"
-            }, 
-            {
-                "apks": [
                     "com.bunkerpalace.forestcc"
                 ], 
                 "name": "com.bunkerpalace.cordova.YoutubeVideoPlayer"
@@ -2623,12 +2448,6 @@
             }, 
             {
                 "apks": [
-                    "com.utopiasl.hsantos"
-                ], 
-                "name": "com.bikasv.plugins.datepicker"
-            }, 
-            {
-                "apks": [
                     "com.ojoylapiz.oxfamcomic"
                 ], 
                 "name": "uk.co.ilee.socialmessage"
@@ -2638,6 +2457,12 @@
                     "ro.stiam.stiri"
                 ], 
                 "name": "com.phonegap.plugins.GAPlugin"
+            }, 
+            {
+                "apks": [
+                    "com.ququplay.literaki"
+                ], 
+                "name": "com.phonegap.LowLatencyAudio"
             }, 
             {
                 "apks": [
@@ -2659,5 +2484,5 @@
             }
         ]
     }, 
-    "timestamp": 1402239996
+    "timestamp": 1402221634
 }

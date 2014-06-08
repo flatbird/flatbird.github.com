@@ -18,7 +18,7 @@
                     "name": "WeatherJams", 
                     "package": "com.socialdesignhouse.weatherjams", 
                     "publishDate": "2014\u5e744\u67083\u65e5", 
-                    "rating": "82.85714149475098%", 
+                    "rating": "82.5%", 
                     "url": "https://play.google.com/store/apps/details?id=com.socialdesignhouse.weatherjams"
                 }, 
                 "ios": {
@@ -44,7 +44,7 @@
                     "name": "Postreet", 
                     "package": "io.postreet.app", 
                     "publishDate": "2014\u5e745\u670830\u65e5", 
-                    "rating": "89.58333015441895%", 
+                    "rating": "90%", 
                     "url": "https://play.google.com/store/apps/details?id=io.postreet.app"
                 }, 
                 "ios": {
@@ -70,7 +70,7 @@
                     "name": "Webchemy", 
                     "package": "com.bitbof.webchemy", 
                     "publishDate": "2014\u5e743\u670825\u65e5", 
-                    "rating": "88.48484992980957%", 
+                    "rating": "88.82352828979492%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bitbof.webchemy"
                 }
             }
@@ -86,7 +86,7 @@
                     "androidVersion": "2.1 \u4ee5\u4e0a", 
                     "category": "TOOLS", 
                     "developer": "Mohammed Kashmiry", 
-                    "downloadCount": "50\uff5e100", 
+                    "downloadCount": "100\uff5e500", 
                     "fileSize": "390k", 
                     "icon": "https://lh6.ggpht.com/2CZra2g64uPE3EPQ4LQN438VmfmVEK24XLVn-ygCKCjW_T_Dmz5KaGR3dlIIjDJgXeY=w300", 
                     "language": "ja", 
@@ -135,6 +135,594 @@
         }, 
         {
             "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-05-bqu-sams.webp", 
+                "name": "BQu SAMS", 
+                "url": "http://phonegap.com/app/bqu-sams"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "category": "PRODUCTIVITY", 
+                    "developer": "BQu", 
+                    "downloadCount": "5\uff5e10", 
+                    "fileSize": "4.0M", 
+                    "icon": "https://lh4.ggpht.com/ZHs4L1QvZkn6LZVuJvsw13pEiHbR1DYFvuGY2_6ZkMkzxqv5sY7mtSWrxh9zz2nOXDY=w300", 
+                    "language": "ja", 
+                    "name": "BQu SAMS", 
+                    "package": "com.bqusams.app", 
+                    "publishDate": "2014\u5e746\u67085\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.bqusams.app"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-04-beetube.png", 
+                "name": "BeeTube", 
+                "url": "http://phonegap.com/app/beetube"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
+                    "category": "ENTERTAINMENT", 
+                    "developer": "Kamesh Tagore", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "1.7M", 
+                    "icon": "https://lh4.ggpht.com/v_Cn8Mc5jwP4r8ORSfKBJg0W-7aMQ7QAfwJwNX18_gAX0QIWzIJ3fkn1khz-TAXRL1hX=w300", 
+                    "language": "ja", 
+                    "name": "Bee Tube", 
+                    "package": "com.idealcomputers.btube", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
+                    "rating": "91.99999809265137%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.idealcomputers.btube"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-04-my-diary-secret-diary.png", 
+                "name": "My Diary - Secret Diary", 
+                "url": "http://phonegap.com/app/my-diary-secret-diary"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "4.0 \u4ee5\u4e0a", 
+                    "category": "LIFESTYLE", 
+                    "developer": "BRC Mobile", 
+                    "downloadCount": "50\uff5e100", 
+                    "fileSize": "3.6M", 
+                    "icon": "https://lh6.ggpht.com/rvm5fPT3vPq1mghTf45gUrjMLMisd_TCh2g6n3n5ECwrw0EKFFd5ekg7PKLIKPfi-OV_=w300", 
+                    "language": "ja", 
+                    "name": "My Diary - Secret Diary", 
+                    "package": "com.brc.MyDiary", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
+                    "rating": "95%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.brc.MyDiary"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-04-know-the-92.png", 
+                "name": "Know The 92", 
+                "url": "http://phonegap.com/app/know-the-92"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "category": "GAME_SPORTS", 
+                    "developer": "Andrew Robert Campbell", 
+                    "downloadCount": "1\uff5e5", 
+                    "fileSize": "5.1M", 
+                    "icon": "https://lh4.ggpht.com/YE1UhtvkF2p1hNv9SmWM-0rLAg1-1cAHkXVgregWflpppJe-biGX1w8QFKPH9IKDSYs=w300", 
+                    "language": "ja", 
+                    "name": "Know The 92", 
+                    "package": "com.github.andycampbell92.knowthe92", 
+                    "publishDate": "2014\u5e746\u67084\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.github.andycampbell92.knowthe92"
+                }, 
+                "windows_phone": {
+                    "url": "http://www.windowsphone.com/en-gb/store/app/know-the-92/0e9126f6-1c8a-4e5d-9bb9-292ad796f864"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-04-tower-of-hanoi-drag-n-drop.png", 
+                "name": "Tower of Hanoi (Drag-n-Drop)", 
+                "url": "http://phonegap.com/app/tower-of-hanoi-drag-n-drop"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "category": "GAME_PUZZLE", 
+                    "developer": "noypiscripter", 
+                    "downloadCount": "5,000\uff5e10,000", 
+                    "fileSize": "391k", 
+                    "icon": "https://lh4.ggpht.com/AYF1HqSvlW7wALTfqKAzsVg2dTJGVvTg9BBQsZg-gbaJdeKP8-aGME7HVOa7YbVzs5I=w300", 
+                    "language": "ja", 
+                    "name": "Tower of Hanoi (Drag-n-Drop)", 
+                    "package": "com.noypiscripter.towerofhanoi", 
+                    "publishDate": "2013\u5e7410\u67085\u65e5", 
+                    "rating": "74.6666669845581%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.noypiscripter.towerofhanoi"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-03-uv-radiation-now.png", 
+                "name": "UV radiation now", 
+                "url": "http://phonegap.com/app/uv-radiation-now"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "category": "HEALTH_AND_FITNESS", 
+                    "developer": "Markus Karjalainen", 
+                    "fileSize": "653k", 
+                    "icon": "https://lh3.ggpht.com/xIxvkxyl5UxBvV0yJgkPlrxuJk-q1rsTwKaNj5HhISPVIZMBstQH8-XhEK8_ltJ7Y54=w300", 
+                    "language": "ja", 
+                    "name": "UV-s\u00e4teily nyt", 
+                    "package": "com.markuskarjalainen.uvtracker", 
+                    "publishDate": "2014\u5e745\u670824\u65e5", 
+                    "rating": "0%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.markuskarjalainen.uvtracker"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/fi/app/uv-radiation-now/id882320475?ls=1&mt=8"
+                }, 
+                "windows_phone": {
+                    "url": "http://www.windowsphone.com/en-US/store/app/uv-radiation-now/55caa454-3666-42a2-855f-8f777df59f71"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-03-scratch-protector.jpg", 
+                "name": "Scratch Protector", 
+                "url": "http://phonegap.com/app/scratch-protector"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
+                    "category": "TOOLS", 
+                    "developer": "PluggedIn", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "4.4M", 
+                    "icon": "https://lh3.ggpht.com/QaArFVVd5IflyJQZlwv9G-Pz30dqetCKggeweVmsnvA0kb_dMEN1hn1XakRpalx3FsA=w300", 
+                    "language": "ja", 
+                    "name": "\u30b9\u30af\u30e9\u30c3\u30c1\u30d7\u30ed\u30c6\u30af\u30bf\u30fc", 
+                    "package": "com.pluggdd.scratchprotector", 
+                    "publishDate": "2014\u5e745\u670827\u65e5", 
+                    "rating": "85.5555534362793%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.pluggdd.scratchprotector"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-02-brightest-led-flashlight-torch.png", 
+                "name": "Brightest LED Flashlight Torch", 
+                "url": "http://phonegap.com/app/brightest-led-flashlight-torch"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2 \u4ee5\u4e0a", 
+                    "category": "TOOLS", 
+                    "developer": "Sweet Sugar", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "2.6M", 
+                    "icon": "https://lh4.ggpht.com/bmX4Ur8jT_pfgh5Fb6TXIk5xSKhLPpvDqSxNKuz5MYsEOMxqvhPCd10INK1DocKxzQ=w300", 
+                    "language": "ja", 
+                    "name": "\u6700\u3082\u660e\u308b\u3044\u61d0\u4e2d\u96fb\u706f\u30c8\u30fc\u30c1", 
+                    "package": "com.sweetsugar.flashlight", 
+                    "publishDate": "2014\u5e746\u67081\u65e5", 
+                    "rating": "93.33333015441895%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.flashlight"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-02-iweather.png", 
+                "name": "iWeather", 
+                "url": "http://phonegap.com/app/iweather"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "4.0 \u4ee5\u4e0a", 
+                    "category": "WEATHER", 
+                    "developer": "r3app, inc.", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "7.6M", 
+                    "icon": "https://lh6.ggpht.com/g14ZxhCQn5uWTJ77rjTQ9Z8rSBNsvPNLrg2i_v2nWBmnNq3tgI16xfNSJJ5QhvwOElE=w300", 
+                    "language": "ja", 
+                    "name": "iWeather - World Weather", 
+                    "package": "com.r3app.iweatherfree", 
+                    "publishDate": "2014\u5e746\u67086\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.r3app.iweatherfree"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/id823413326?ls=1&mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-02-diabolika-mankolista.jpg", 
+                "name": "Diabolika Mankolista", 
+                "url": "http://phonegap.com/app/diabolika-mankolista"
+            }, 
+            "platforms": {
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/diabolika-mankolista/id844272116?mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-06/2014-06-01-tic-tac-tic.png", 
+                "name": "Tic Tac Tic", 
+                "url": "http://phonegap.com/app/tic-tac-tic"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
+                    "category": "GAME_PUZZLE", 
+                    "developer": "Klemen Ivsek", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "1.6M", 
+                    "icon": "https://lh6.ggpht.com/e9MSxM-CJ7Wnw-N5gmYJnmSZSZ-k_VB6R2CXzkZoVIpV03Lt8mhq6G-XBqWmQcOqEQ=w300", 
+                    "language": "ja", 
+                    "name": "Tic Tac Tic", 
+                    "package": "com.klem.TicTacTic", 
+                    "publishDate": "2014\u5e745\u670816\u65e5", 
+                    "rating": "99.25926208496094%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.klem.TicTacTic"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-31-auction-application-for-iphone-ipad-and-android.png", 
+                "name": "Auction Application for iPhone, iPad and Android ", 
+                "url": "http://phonegap.com/app/auction-application-for-iphone-ipad-and-android"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "category": "BUSINESS", 
+                    "developer": "auctionevo", 
+                    "downloadCount": "10\uff5e50", 
+                    "fileSize": "653k", 
+                    "icon": "https://lh4.ggpht.com/0rW3eleBdaZXqGI2cPPmKoqB_1W727KmFh_ywG0N7NT7kzeBxAJPnnyHO-IIAUmj5A=w300", 
+                    "language": "ja", 
+                    "name": "auctionevo lotting", 
+                    "package": "com.kipl.auctionlot", 
+                    "publishDate": "2013\u5e747\u670824\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.kipl.auctionlot"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/auctionevo-lotting/id675584070?mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-31-ipad-directory-application-of-wine-list.png", 
+                "name": "iPad Directory Application of Wine List", 
+                "url": "http://phonegap.com/app/ipad-directory-application-of-wine-list"
+            }, 
+            "platforms": {
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/wine-list-by-esommelier/id484851677?ls=1&mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-29-el-siglo-de-torreon.jpg", 
+                "name": "El Siglo de Torre\u00f3n", 
+                "url": "http://phonegap.com/app/el-siglo-de-torreon"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "3.2 \u4ee5\u4e0a", 
+                    "category": "NEWS_AND_MAGAZINES", 
+                    "developer": "Cia. Editora de la Laguna S.A. de C.V.", 
+                    "downloadCount": "10,000\uff5e50,000", 
+                    "fileSize": "1.1M", 
+                    "icon": "https://lh5.ggpht.com/Q68KRz4A-kuUau_cQWUKDeUy7PJwr6ekrO-CcwG_-PFZ6LISwUJCr6K-q--iPmv7j1Hm=w300", 
+                    "language": "ja", 
+                    "name": "El Siglo de Torre\u00f3n", 
+                    "package": "mx.elsiglo.torreon", 
+                    "publishDate": "2014\u5e746\u67087\u65e5", 
+                    "rating": "89.71962928771973%", 
+                    "url": "https://play.google.com/store/apps/details?id=mx.elsiglo.torreon"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-28-1024.png", 
+                "name": "1024", 
+                "url": "http://phonegap.com/app/1024"
+            }, 
+            "platforms": {
+                "ios": {
+                    "url": "https://itunes.apple.com/app/meeting-assistant/id534139466"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-26-peru-de-moda.png", 
+                "name": "Per\u00fa de Moda", 
+                "url": "http://phonegap.com/app/peru-de-moda"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2 \u4ee5\u4e0a", 
+                    "category": "SOCIAL", 
+                    "developer": "ayasolutions", 
+                    "downloadCount": "100\uff5e500", 
+                    "fileSize": "1.2M", 
+                    "icon": "https://lh5.ggpht.com/9aj6CpS-AaUxLOd_ua3BGLFxzuU8A6sykVV_PoH4zXxRkTdvoIUGviczf0BYviJahkfB=w300", 
+                    "language": "ja", 
+                    "name": "Per\u00fa Moda", 
+                    "package": "com.utopiasl.perumoda", 
+                    "publishDate": "2013\u5e744\u670812\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.utopiasl.perumoda"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/app/id659297573"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-26-hoteles-santos.jpg", 
+                "name": "Hoteles Santos", 
+                "url": "http://phonegap.com/app/hoteles-santos"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.3.3 e superiori", 
+                    "category": "TRAVEL_AND_LOCAL", 
+                    "developer": "Dienteazul", 
+                    "downloadCount": "100-500", 
+                    "fileSize": "1,0M", 
+                    "icon": "https://lh6.ggpht.com/gQKdakE8t61pg6WSzL9L2FthGAQNGg8R3qhY66bqUWhbTWCMYsM70xylRF-gblLnzQ=w300", 
+                    "language": "it", 
+                    "name": "Hoteles Santos", 
+                    "package": "com.utopiasl.hsantos", 
+                    "publishDate": "21 maggio 2014", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.utopiasl.hsantos&hl=it"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/es/app/hoteles-santos/id797025991?mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-26-shopmap.png", 
+                "name": "ShopMap", 
+                "url": "http://phonegap.com/app/shopmap"
+            }, 
+            "platforms": {
+                "android": {}
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-25-gm-keys.png", 
+                "name": "GM Keys", 
+                "url": "http://phonegap.com/app/gm-keys"
+            }, 
+            "platforms": {
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/gm-keys/id871848873"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-25-droboto.png", 
+                "name": "Droboto", 
+                "url": "http://phonegap.com/app/droboto"
+            }, 
+            "platforms": {
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/droboto/id797590282"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-25-pozzy.png", 
+                "name": "Pozzy", 
+                "url": "http://phonegap.com/app/pozzy"
+            }, 
+            "platforms": {
+                "windows_phone": {
+                    "url": "http://www.windowsphone.com/en-us/store/app/pozzy/4278d47c-a53f-4ed0-b6c8-8c2c8e73cd98"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-arrow-slider.png", 
+                "name": "Arrow Slider", 
+                "url": "http://phonegap.com/app/arrow-slider"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2 \u4ee5\u4e0a", 
+                    "category": "GAME_PUZZLE", 
+                    "developer": "BdR Games", 
+                    "downloadCount": "10\uff5e50", 
+                    "fileSize": "838k", 
+                    "icon": "https://lh5.ggpht.com/qfrEUP4grGTqmzBWm4OyelFmxNvSU5BY1ZcQ5yhy_j4gi-7ldPaOu3WNIQ7teYJEc9E=w300", 
+                    "language": "ja", 
+                    "name": "Arrow Slider", 
+                    "package": "com.bdrgames.arrowslider.ads", 
+                    "publishDate": "2014\u5e745\u670824\u65e5", 
+                    "rating": "0%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.bdrgames.arrowslider.ads"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-windows-active-directory-login.jpg", 
+                "name": "Windows Active Directory Login", 
+                "url": "http://phonegap.com/app/windows-active-directory-login"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "1.0 \u4ee5\u4e0a", 
+                    "category": "BUSINESS", 
+                    "developer": "Squadra Technologies", 
+                    "downloadCount": "10\uff5e50", 
+                    "fileSize": "39M", 
+                    "icon": "https://lh6.ggpht.com/pVQeqWRZjlonM4S8vH_nYmQPLPl9erWHA-RaRmx9QVgCURkpDPYKoW02iNuwMbfNGw=w300", 
+                    "language": "ja", 
+                    "name": "Windows Active Directory Login", 
+                    "package": "com.squadratechnologies.secRMM.mobileApp", 
+                    "publishDate": "2014\u5e744\u670828\u65e5", 
+                    "rating": "0%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.squadratechnologies.secRMM.mobileApp"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/us/app/windows-active-directory-login/id870644853?mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-expense-manager.png", 
+                "name": " Expense Manager", 
+                "url": "http://phonegap.com/app/expense-manager"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2 \u4ee5\u4e0a", 
+                    "category": "FINANCE", 
+                    "developer": "letsnurture", 
+                    "downloadCount": "1,000\uff5e5,000", 
+                    "fileSize": "1.7M", 
+                    "icon": "https://lh6.ggpht.com/HYGBNQLNuOejw0qkJa7YxAvxEE5UG73mZHPfbAuXzXhyWG5I3Qv89Rqsd1F4C0WO63c=w300", 
+                    "language": "ja", 
+                    "name": "Expense Manager", 
+                    "package": "com.letsnurture.expense_manager", 
+                    "publishDate": "2013\u5e7411\u670812\u65e5", 
+                    "rating": "76.77419185638428%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.letsnurture.expense_manager"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-seo-holic.png", 
+                "name": " SEO Holic", 
+                "url": "http://phonegap.com/app/seo-holic"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2 \u4ee5\u4e0a", 
+                    "category": "BUSINESS", 
+                    "developer": "letsnurture", 
+                    "downloadCount": "1,000\uff5e5,000", 
+                    "fileSize": "1.4M", 
+                    "icon": "https://lh6.ggpht.com/P3EM08xxV_T4Ili9JCR3LK65Z8Q1aQjgeMLamR6SJmMRM2AoAK1IK3FSm01C67udbrs=w300", 
+                    "language": "ja", 
+                    "name": "SEO Holic", 
+                    "package": "com.seo.seoholic", 
+                    "publishDate": "2014\u5e745\u670816\u65e5", 
+                    "rating": "69.16666507720947%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.seo.seoholic"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-one-touch-safety.png", 
+                "name": " One Touch Safety", 
+                "url": "http://phonegap.com/app/one-touch-safety"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.3 \u4ee5\u4e0a", 
+                    "category": "TOOLS", 
+                    "developer": "letsnurture", 
+                    "downloadCount": "500\uff5e1,000", 
+                    "fileSize": "937k", 
+                    "icon": "https://lh4.ggpht.com/NnOFOsHnkvDEBI-ZjXBpJfoUbgOrnBJP2PJNFHuSlH9awKE7Qv2fmESRehKfRATkcg0=w300", 
+                    "language": "ja", 
+                    "name": "One Touch Safety", 
+                    "package": "com.letsnurture.safety", 
+                    "publishDate": "2013\u5e742\u670813\u65e5", 
+                    "rating": "96.66666984558105%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.letsnurture.safety"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-vaccination-reminder.png", 
+                "name": " Vaccination Reminder", 
+                "url": "http://phonegap.com/app/vaccination-reminder"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "3.0 \u4ee5\u4e0a", 
+                    "category": "HEALTH_AND_FITNESS", 
+                    "developer": "letsnurture", 
+                    "downloadCount": "50\uff5e100", 
+                    "fileSize": "5.7M", 
+                    "icon": "https://lh3.ggpht.com/7wUO8Ti6Rckm6NhtU03hN9oyxEADz9BPrvlEzs4th7ET3FAFJs3mjcjfM4quQNysF1o=w300", 
+                    "language": "ja", 
+                    "name": "Vaccination Reminder", 
+                    "package": "com.letsnurture.vaccination_reminder", 
+                    "publishDate": "2014\u5e746\u67082\u65e5", 
+                    "rating": "100%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.letsnurture.vaccination_reminder"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-24-share-your-music.jpg", 
+                "name": " Share your Music", 
+                "url": "http://phonegap.com/app/share-your-music"
+            }, 
+            "platforms": {
+                "android": {
+                    "androidVersion": "2.2\uff5e4.2", 
+                    "category": "MUSIC_AND_AUDIO", 
+                    "developer": "letsnurture", 
+                    "downloadCount": "10,000\uff5e50,000", 
+                    "fileSize": "1.8M", 
+                    "icon": "https://lh3.ggpht.com/aHNtK_mwM9BmybFDi9GipQAsHTlrowXb_p9lf5_oOqFWJwk4ce9pijJXuv-i4q5ddMc=w300", 
+                    "language": "ja", 
+                    "name": "Share your Music", 
+                    "package": "com.letsnurture.sharemusic", 
+                    "publishDate": "2014\u5e745\u670819\u65e5", 
+                    "rating": "80.39604187011719%", 
+                    "url": "https://play.google.com/store/apps/details?id=com.letsnurture.sharemusic"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
                 "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-23-barselinos.png", 
                 "name": "Barselinos", 
                 "url": "http://phonegap.com/app/barselinos"
@@ -144,14 +732,14 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "LIFESTYLE", 
                     "developer": "Barselinos", 
-                    "downloadCount": "100\uff5e500", 
+                    "downloadCount": "500\uff5e1,000", 
                     "fileSize": "4.1M", 
                     "icon": "https://lh5.ggpht.com/JRrGVcB_4lR6QsuDnCzNgkh2NASQObRQ-s2AKvoR3lkbjY4ldmBzEAZBth7euw741w=w300", 
                     "language": "ja", 
                     "name": "Barselinos", 
                     "package": "ar.com.keants.barselinos", 
                     "publishDate": "2014\u5e745\u670823\u65e5", 
-                    "rating": "98.18181991577148%", 
+                    "rating": "96.07142448425293%", 
                     "url": "https://play.google.com/store/apps/details?id=ar.com.keants.barselinos"
                 }
             }
@@ -174,7 +762,7 @@
                     "name": "Ab Workout by MHB", 
                     "package": "com.mindheartbody.android.app", 
                     "publishDate": "January 29, 2014", 
-                    "rating": "99.04762268066406%", 
+                    "rating": "98.8888931274414%", 
                     "url": "https://play.google.com/store/apps/details?id=com.mindheartbody.android.app&hl=en"
                 }, 
                 "ios": {
@@ -200,7 +788,7 @@
                     "name": "Tu Cartera lite", 
                     "package": "xolo.soft.mywallet", 
                     "publishDate": "2014\u5e745\u670821\u65e5", 
-                    "rating": "92.5%", 
+                    "rating": "93.33333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=xolo.soft.mywallet"
                 }
             }
@@ -223,7 +811,7 @@
                     "name": "Search Engine Daily", 
                     "package": "com.letsnurture.sed", 
                     "publishDate": "2014\u5e745\u670820\u65e5", 
-                    "rating": "93.33333015441895%", 
+                    "rating": "92.9230785369873%", 
                     "url": "https://play.google.com/store/apps/details?id=com.letsnurture.sed"
                 }
             }
@@ -297,7 +885,7 @@
                     "androidVersion": "3.1 \u4ee5\u4e0a", 
                     "category": "LIFESTYLE", 
                     "developer": "Bunker Palace SA", 
-                    "downloadCount": "10\uff5e50", 
+                    "downloadCount": "50\uff5e100", 
                     "fileSize": "37M", 
                     "icon": "https://lh5.ggpht.com/uuSBcRbdCDSnmrvjzsG3eD5_-oHMquig6n_MjkSJ_XUNX809G95PlMwKm61d5T0v619i=w300", 
                     "language": "ja", 
@@ -315,7 +903,7 @@
         {
             "phonegap": {
                 "icon": "http://phonegap.com/uploads/app/2014-05/2014-05-21-sie-dtsie-l-da-heart-of-ice.png", 
-                "name": "\u0421\u0435\u0440\u0434\u0446\u0435 \u043b\u044c\u0434\u0430 (Heart Of Ice)", 
+                "name": "Heart of Ice", 
                 "url": "http://phonegap.com/app/sie-dtsie-l-da-heart-of-ice"
             }, 
             "platforms": {
@@ -330,7 +918,7 @@
                     "name": "\u0421\u0435\u0440\u0434\u0446\u0435 \u043b\u044c\u0434\u0430", 
                     "package": "com.questbook.heartofice", 
                     "publishDate": "2013\u5e749\u670830\u65e5", 
-                    "rating": "94.97757911682129%", 
+                    "rating": "94.92273330688477%", 
                     "url": "https://play.google.com/store/apps/details?id=com.questbook.heartofice"
                 }
             }
@@ -389,7 +977,7 @@
                     "name": "Norma Ballistics", 
                     "package": "app.norma.ballistics", 
                     "publishDate": "May 14, 2014", 
-                    "rating": "86.19047164916992%", 
+                    "rating": "84.70588684082031%", 
                     "url": "https://play.google.com/store/apps/details?id=app.norma.ballistics&hl=en"
                 }
             }
@@ -437,7 +1025,7 @@
                     "language": "ja", 
                     "name": "PhoneGap with jQuery Mobile", 
                     "package": "com.littlebau.phonegap", 
-                    "publishDate": "2014\u5e745\u670825\u65e5", 
+                    "publishDate": "2014\u5e746\u67085\u65e5", 
                     "rating": "100%", 
                     "url": "https://play.google.com/store/apps/details?id=com.littlebau.phonegap"
                 }, 
@@ -460,7 +1048,7 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "NEWS_AND_MAGAZINES", 
                     "developer": "KAYWEB", 
-                    "downloadCount": "50\uff5e100", 
+                    "downloadCount": "100\uff5e500", 
                     "fileSize": "9.6M", 
                     "icon": "https://lh3.ggpht.com/6r_DFjHyZiAgRAsWRCCLQabYNOvBzbC2x2GU_3CnMOWh-1eSitHPw8wCXxaAJ_lCJ8Q=w300", 
                     "language": "ja", 
@@ -510,14 +1098,14 @@
                     "androidVersion": "2.3 \u4ee5\u4e0a", 
                     "category": "TRAVEL_AND_LOCAL", 
                     "developer": "Zappme", 
-                    "downloadCount": "10\uff5e50", 
+                    "downloadCount": "50\uff5e100", 
                     "fileSize": "3.2M", 
                     "icon": "https://lh5.ggpht.com/cj9M3zLmDUM1lxdZIlNvqcEUc_8AXSP72Hlv9O9BQBIwNCRKRvWGeL1uITnheFJ-W18=w300", 
                     "language": "ja", 
                     "name": "Hotels with Deals - Tazoff.com", 
                     "package": "com.tazoff.app", 
                     "publishDate": "2014\u5e744\u670820\u65e5", 
-                    "rating": "94.66666221618652%", 
+                    "rating": "94.83870506286621%", 
                     "url": "https://play.google.com/store/apps/details?id=com.tazoff.app"
                 }
             }
@@ -582,7 +1170,7 @@
                     "androidVersion": "4.2 \u4ee5\u4e0a", 
                     "category": "GAME_ARCADE", 
                     "developer": "Steve Nash", 
-                    "downloadCount": "50\uff5e100", 
+                    "downloadCount": "100\uff5e500", 
                     "fileSize": "1.2M", 
                     "icon": "https://lh6.ggpht.com/CeMn4EizBdyj29p9faY-mjvQsxIkirgNdgZqO4LSsRO9UZn9yLD8DVSXjA762SE9RJsD=w300", 
                     "language": "ja", 
@@ -631,11 +1219,11 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "SOCIAL", 
                     "developer": "Ronen Tsamir", 
-                    "downloadCount": "10\uff5e50", 
+                    "downloadCount": "50\uff5e100", 
                     "fileSize": "17M", 
                     "icon": "https://lh3.ggpht.com/-KJvt2REkxVRkIz1bHSvJntYNPlxmC5C24WfsU7ySgtZoG5YTEiap8GGqVaDbUS_UPs=w300", 
                     "language": "ja", 
-                    "name": "picabin", 
+                    "name": "Pic A Recycle Bin", 
                     "package": "com.app.picabin", 
                     "publishDate": "2014\u5e745\u67088\u65e5", 
                     "rating": "100%", 
@@ -669,14 +1257,14 @@
                     "androidVersion": "2.2 \u4ee5\u4e0a", 
                     "category": "ENTERTAINMENT", 
                     "developer": "Dekinw Group", 
-                    "downloadCount": "100\uff5e500", 
+                    "downloadCount": "500\uff5e1,000", 
                     "fileSize": "595k", 
                     "icon": "https://lh5.ggpht.com/8rGF1Ew-RYroeDAV9l7xhUHa0GlKMyC76-eNxP89M2_Cz99kG96rTo59J1dKor1TQOI=w300", 
                     "language": "ja", 
                     "name": "Dekme Anime Radio - Miku dance", 
                     "package": "com.wDekmeAnimeRadio", 
                     "publishDate": "2014\u5e745\u670818\u65e5", 
-                    "rating": "100%", 
+                    "rating": "95.5555534362793%", 
                     "url": "https://play.google.com/store/apps/details?id=com.wDekmeAnimeRadio"
                 }
             }
@@ -698,8 +1286,8 @@
                     "language": "ja", 
                     "name": "Meraki", 
                     "package": "com.meraki.Dashboard", 
-                    "publishDate": "2014\u5e745\u670821\u65e5", 
-                    "rating": "86.88371658325195%", 
+                    "publishDate": "2014\u5e746\u67086\u65e5", 
+                    "rating": "86.98690414428711%", 
                     "url": "https://play.google.com/store/apps/details?id=com.meraki.Dashboard"
                 }, 
                 "ios": {
@@ -725,7 +1313,7 @@
                     "name": "\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u30ed\u30c3\u30af", 
                     "package": "com.sweetsugar.applockfree", 
                     "publishDate": "2014\u5e744\u67085\u65e5", 
-                    "rating": "76.05694770812988%", 
+                    "rating": "75.95097064971924%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.applockfree"
                 }
             }
@@ -835,7 +1423,7 @@
                     "name": "IN2NITE", 
                     "package": "com.in2nite.in2nite", 
                     "publishDate": "2014\u5e745\u670828\u65e5", 
-                    "rating": "81.49660110473633%", 
+                    "rating": "80.9876537322998%", 
                     "url": "https://play.google.com/store/apps/details?id=com.in2nite.in2nite"
                 }, 
                 "ios": {
@@ -899,7 +1487,7 @@
                     "name": "Motivational Poster \u2013 AppMot", 
                     "package": "com.zdz.AppMotivational", 
                     "publishDate": "May 26, 2014", 
-                    "rating": "78.46153736114502%", 
+                    "rating": "77.14285850524902%", 
                     "url": "https://play.google.com/store/apps/details?id=com.zdz.AppMotivational&hl=en"
                 }, 
                 "ios": {
@@ -925,7 +1513,7 @@
                     "name": "Wanted Poster Maker Editor", 
                     "package": "com.zdz.WantedPosterMaker", 
                     "publishDate": "May 25, 2014", 
-                    "rating": "72.59259223937988%", 
+                    "rating": "74.22222137451172%", 
                     "url": "https://play.google.com/store/apps/details?id=com.zdz.WantedPosterMaker&hl=en"
                 }, 
                 "ios": {
@@ -951,7 +1539,7 @@
                     "name": "Movie Music Quiz \u2013 MTF!", 
                     "package": "com.zdz.MusicThinkFastMovies", 
                     "publishDate": "May 15, 2014", 
-                    "rating": "68.78048896789551%", 
+                    "rating": "68.34645748138428%", 
                     "url": "https://play.google.com/store/apps/details?id=com.zdz.MusicThinkFastMovies&hl=en"
                 }, 
                 "ios": {
@@ -1076,7 +1664,7 @@
                     "name": "Find the difference", 
                     "package": "com.bdrgames.finddifferences.ads", 
                     "publishDate": "2014\u5e745\u670825\u65e5", 
-                    "rating": "90%", 
+                    "rating": "96.00000381469727%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bdrgames.finddifferences.ads"
                 }
             }
@@ -1092,14 +1680,14 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "EDUCATION", 
                     "developer": "Halil B\u0130LG\u0130N", 
-                    "downloadCount": "1,000\uff5e5,000", 
+                    "downloadCount": "5,000\uff5e10,000", 
                     "fileSize": "525k", 
                     "icon": "https://lh4.ggpht.com/964wA9uhZqtnyXNxznYKDMOPS4j4SV-kuzKX5L2xIPdF9zzLwOTF2oWKWUfjJZ0ziN3t=w300", 
                     "language": "ja", 
                     "name": "Takdir Te\u015fekk\u00fcr Hesaplama", 
                     "package": "com.halilbilgin.takdirtesekkur", 
                     "publishDate": "2014\u5e744\u670824\u65e5", 
-                    "rating": "81.03447914123535%", 
+                    "rating": "80.94488143920898%", 
                     "url": "https://play.google.com/store/apps/details?id=com.halilbilgin.takdirtesekkur"
                 }
             }
@@ -1177,7 +1765,7 @@
                     "name": "Best Wallpapers HD", 
                     "package": "com.wallpapers.backgroud.hd", 
                     "publishDate": "2014\u5e745\u67083\u65e5", 
-                    "rating": "87.05658912658691%", 
+                    "rating": "86.92071914672852%", 
                     "url": "https://play.google.com/store/apps/details?id=com.wallpapers.backgroud.hd"
                 }
             }
@@ -1223,7 +1811,7 @@
                     "name": "ScanIt", 
                     "package": "com.bullsitoy.scanit", 
                     "publishDate": "2014\u5e743\u670827\u65e5", 
-                    "rating": "0%", 
+                    "rating": "100%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bullsitoy.scanit"
                 }, 
                 "ios": {
@@ -1243,12 +1831,12 @@
                     "category": "BUSINESS", 
                     "developer": "Prondo, LLC", 
                     "downloadCount": "100\uff5e500", 
-                    "fileSize": "28M", 
+                    "fileSize": "30M", 
                     "icon": "https://lh3.ggpht.com/-xjW7MFBWTn7r2nYDuzyVD1P3Pzw2s153F1mnUfKA-3Mru7LQaeHoUtbLnBPyaZM6ZE=w300", 
                     "language": "ja", 
                     "name": "Avnet HP PowerPitch", 
                     "package": "com.prondo.avnet.hp", 
-                    "publishDate": "2014\u5e745\u670823\u65e5", 
+                    "publishDate": "2014\u5e746\u67087\u65e5", 
                     "rating": "100%", 
                     "url": "https://play.google.com/store/apps/details?id=com.prondo.avnet.hp"
                 }, 
@@ -1274,8 +1862,8 @@
                     "language": "ja", 
                     "name": "PamFax \u2013 Complete Fax Solution", 
                     "package": "com.scendix.pamfax", 
-                    "publishDate": "2014\u5e744\u670825\u65e5", 
-                    "rating": "65.53191661834717%", 
+                    "publishDate": "2014\u5e746\u67084\u65e5", 
+                    "rating": "66.34482860565186%", 
                     "url": "https://play.google.com/store/apps/details?id=com.scendix.pamfax"
                 }, 
                 "blackberry": {
@@ -1391,7 +1979,7 @@
                     "name": "Mathinary math", 
                     "package": "com.mathinary", 
                     "publishDate": "2014\u5e744\u670828\u65e5", 
-                    "rating": "87.55905151367188%", 
+                    "rating": "87.57143020629883%", 
                     "url": "https://play.google.com/store/apps/details?id=com.mathinary"
                 }
             }
@@ -1452,7 +2040,7 @@
                     "name": "How To Be Happy Quotes", 
                     "package": "sunnyappz.howtobehappy", 
                     "publishDate": "2013\u5e7411\u670827\u65e5", 
-                    "rating": "83.60655784606934%", 
+                    "rating": "84.33333396911621%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.howtobehappy"
                 }, 
                 "ios": {
@@ -1524,7 +2112,7 @@
                     "name": "Bible Quotes & Pictures", 
                     "package": "sunnyappz.biblequotes", 
                     "publishDate": "2013\u5e7411\u670827\u65e5", 
-                    "rating": "93.21428298950195%", 
+                    "rating": "93.33333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.biblequotes"
                 }, 
                 "ios": {
@@ -1550,7 +2138,7 @@
                     "name": "Inspirational Pictures", 
                     "package": "sunnyappz.inspirationalpictures", 
                     "publishDate": "2013\u5e7411\u670827\u65e5", 
-                    "rating": "79.3684196472168%", 
+                    "rating": "80%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.inspirationalpictures"
                 }
             }
@@ -1573,7 +2161,7 @@
                     "name": "Life Quotes and Pictures", 
                     "package": "sunnyappz.lifequotes", 
                     "publishDate": "2013\u5e7412\u670829\u65e5", 
-                    "rating": "81.42857551574707%", 
+                    "rating": "81.83908462524414%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.lifequotes"
                 }, 
                 "ios": {
@@ -1599,7 +2187,7 @@
                     "name": "Cool Math + Algebra Game", 
                     "package": "sunnyappz.coolmathsalgebragame", 
                     "publishDate": "2014\u5e742\u67088\u65e5", 
-                    "rating": "71.26436710357666%", 
+                    "rating": "71.20879173278809%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.coolmathsalgebragame"
                 }, 
                 "ios": {
@@ -1618,14 +2206,14 @@
                     "androidVersion": "2.3 \u4ee5\u4e0a", 
                     "category": "COMMUNICATION", 
                     "developer": "Global Telelinks", 
-                    "downloadCount": "1,000\uff5e5,000", 
+                    "downloadCount": "5,000\uff5e10,000", 
                     "fileSize": "15M", 
                     "icon": "https://lh5.ggpht.com/p1P8_50V2vwim0X2xi20viRd2n2bMaJskWe5oku_XaSCMJ_COeKjSOxwmedZb3HQtg=w300", 
                     "language": "ja", 
                     "name": "WhizExpress", 
                     "package": "com.voip.whizxpress", 
-                    "publishDate": "2014\u5e745\u670823\u65e5", 
-                    "rating": "83.99999618530273%", 
+                    "publishDate": "2014\u5e746\u67086\u65e5", 
+                    "rating": "83.39285850524902%", 
                     "url": "https://play.google.com/store/apps/details?id=com.voip.whizxpress"
                 }, 
                 "ios": {
@@ -1651,7 +2239,7 @@
                     "name": "\u30d5\u30a1\u30f3\u30b7\u30fc\u30d4\u30f3\u30af\u306e\u30ad\u30fc\u30dc\u30fc\u30c9", 
                     "package": "com.bhimaapps.keyboardpinkfree", 
                     "publishDate": "2014\u5e744\u670810\u65e5", 
-                    "rating": "86.06060981750488%", 
+                    "rating": "83.00000190734863%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.keyboardpinkfree"
                 }
             }
@@ -1674,7 +2262,7 @@
                     "name": "\u30c8\u30fc\u30ad\u30f3\u30b0\u30e1\u30c3\u30bb\u30fc\u30b8\u30dd\u30c3\u30d7\u30a2\u30c3\u30d7", 
                     "package": "com.bhimaapps.smspopupspeaker", 
                     "publishDate": "2014\u5e744\u670820\u65e5", 
-                    "rating": "79.83470916748047%", 
+                    "rating": "79.68668460845947%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.smspopupspeaker"
                 }
             }
@@ -1697,7 +2285,7 @@
                     "name": "Baby Lyrics & Songs", 
                     "package": "sunnyappz.babylyricsandsongs", 
                     "publishDate": "2013\u5e7411\u670827\u65e5", 
-                    "rating": "79.86577033996582%", 
+                    "rating": "80%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.babylyricsandsongs"
                 }, 
                 "ios": {
@@ -1723,7 +2311,7 @@
                     "name": "Spiritual Quotes and Pictures", 
                     "package": "sunnyapps.spiritualquotes", 
                     "publishDate": "2014\u5e741\u670815\u65e5", 
-                    "rating": "88.74317169189453%", 
+                    "rating": "87.95811653137207%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyapps.spiritualquotes"
                 }, 
                 "ios": {
@@ -1749,7 +2337,7 @@
                     "name": "Love Letter eCards", 
                     "package": "sunnyappz.loveletterecards", 
                     "publishDate": "2014\u5e744\u670811\u65e5", 
-                    "rating": "83.44085693359375%", 
+                    "rating": "83.19149017333984%", 
                     "url": "https://play.google.com/store/apps/details?id=sunnyappz.loveletterecards"
                 }, 
                 "ios": {
@@ -1768,7 +2356,7 @@
                     "androidVersion": "2.1 \u4ee5\u4e0a", 
                     "category": "NEWS_AND_MAGAZINES", 
                     "developer": "California Professional Firefighters", 
-                    "downloadCount": "500\uff5e1,000", 
+                    "downloadCount": "1,000\uff5e5,000", 
                     "fileSize": "2.2M", 
                     "icon": "https://lh5.ggpht.com/4Fr2rBD2AZzgiBsQWQJZks5ELOUSxS8UcCuSpwAAvb9B1l3EwESiJjp6_5_4rPUZ_BN4=w300", 
                     "language": "ja", 
@@ -1801,7 +2389,7 @@
                     "name": "Wonder Polls: Free Version", 
                     "package": "com.wonderpolls.android", 
                     "publishDate": "2014\u5e745\u670814\u65e5", 
-                    "rating": "76.38341426849365%", 
+                    "rating": "76.6429090499878%", 
                     "url": "https://play.google.com/store/apps/details?id=com.wonderpolls.android"
                 }, 
                 "ios": {
@@ -1842,7 +2430,7 @@
                     "name": "eTobb", 
                     "package": "com.etobb.www", 
                     "publishDate": "2014\u5e745\u67089\u65e5", 
-                    "rating": "94.47619438171387%", 
+                    "rating": "94.57943916320801%", 
                     "url": "https://play.google.com/store/apps/details?id=com.etobb.www"
                 }
             }
@@ -1934,7 +2522,7 @@
                     "name": "FMO Fussball Manager", 
                     "package": "com.zent.fmo.de", 
                     "publishDate": "2014\u5e745\u67086\u65e5", 
-                    "rating": "72.75862216949463%", 
+                    "rating": "72.05882549285889%", 
                     "url": "https://play.google.com/store/apps/details?id=com.zent.fmo.de"
                 }
             }
@@ -1957,7 +2545,7 @@
                     "name": "\u30d5\u30a1\u30f3\u30b7\u30fc\u30c6\u30ad\u30b9\u30c8", 
                     "package": "com.bhimaapps.fancytextfree", 
                     "publishDate": "2014\u5e744\u670820\u65e5", 
-                    "rating": "81.57278060913086%", 
+                    "rating": "81.66311264038086%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.fancytextfree"
                 }
             }
@@ -1980,7 +2568,7 @@
                     "name": "\u5199\u771f\u925b\u7b46\u30b9\u30b1\u30c3\u30c1\u30a8\u30d5\u30a7\u30af\u30c8", 
                     "package": "com.bhimaapps.photopencilsketchfree", 
                     "publishDate": "2014\u5e744\u670820\u65e5", 
-                    "rating": "73.82291316986084%", 
+                    "rating": "73.55352401733398%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.photopencilsketchfree"
                 }
             }
@@ -2003,7 +2591,7 @@
                     "name": "\u643a\u5e2f\u96fb\u8a71\u756a\u53f7\u306e\u30b3\u30fc\u30eb\u30c8\u30e9\u30c3\u30ab\u30fc", 
                     "package": "com.bhimaapps.mobilenumbertraker", 
                     "publishDate": "2014\u5e744\u670812\u65e5", 
-                    "rating": "76.75841808319092%", 
+                    "rating": "76.64504051208496%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.mobilenumbertraker"
                 }
             }
@@ -2026,7 +2614,7 @@
                     "name": "\u767a\u4fe1\u8005\u540d\u30b9\u30d4\u30fc\u30ab\u30fc", 
                     "package": "com.bhimaapps.callernamespeaker", 
                     "publishDate": "2014\u5e744\u670816\u65e5", 
-                    "rating": "78.45818996429443%", 
+                    "rating": "78.52501392364502%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bhimaapps.callernamespeaker"
                 }
             }
@@ -2147,7 +2735,7 @@
                     "name": "FLKR PhotoFun", 
                     "package": "com.FLKR.PhotoFun", 
                     "publishDate": "2014\u5e745\u670824\u65e5", 
-                    "rating": "20%", 
+                    "rating": "60%", 
                     "url": "https://play.google.com/store/apps/details?id=com.FLKR.PhotoFun"
                 }, 
                 "ios": {
@@ -2199,7 +2787,7 @@
                     "name": "Funny Memes", 
                     "package": "com.polso.info.memes", 
                     "publishDate": "2014\u5e745\u670812\u65e5", 
-                    "rating": "96.92307472229004%", 
+                    "rating": "96.36363983154297%", 
                     "url": "https://play.google.com/store/apps/details?id=com.polso.info.memes"
                 }
             }
@@ -2260,7 +2848,7 @@
                     "name": "\u611b\u96fb\u5353 - \u30e9\u30d6\u30de\u30c3\u30c1", 
                     "package": "com.sweetsugar.lovecalculatorfree", 
                     "publishDate": "2014\u5e744\u670813\u65e5", 
-                    "rating": "75.6263256072998%", 
+                    "rating": "75.86912155151367%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.lovecalculatorfree"
                 }
             }
@@ -2283,7 +2871,7 @@
                     "name": "\u767a\u4fe1\u8005\u306e\u540d\u524d\u3092\u767a\u8868", 
                     "package": "com.sweetsugar.callernamespeaker", 
                     "publishDate": "2014\u5e744\u67088\u65e5", 
-                    "rating": "79.80401515960693%", 
+                    "rating": "79.80546474456787%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.callernamespeaker"
                 }
             }
@@ -2318,7 +2906,7 @@
                     "name": "\u30a4\u30f3\u30c9\u306e\u767a\u4fe1\u5834\u6240\u30c8\u30e9\u30c3\u30ab\u30fc", 
                     "package": "com.sweetsugar.mobilenumbertraker", 
                     "publishDate": "2014\u5e744\u670813\u65e5", 
-                    "rating": "76.39337539672852%", 
+                    "rating": "76.33791446685791%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.mobilenumbertraker"
                 }
             }
@@ -2437,7 +3025,7 @@
                     "name": "Molana Ilyas Qadri", 
                     "package": "com.hasshub.medialibrary.activity", 
                     "publishDate": "2014\u5e744\u670814\u65e5", 
-                    "rating": "95.65217018127441%", 
+                    "rating": "95.5286979675293%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hasshub.medialibrary.activity"
                 }, 
                 "ios": {
@@ -2575,7 +3163,7 @@
                     "androidVersion": "2.2 and up", 
                     "category": "EDUCATION", 
                     "developer": "Miltiadis Stamos", 
-                    "downloadCount": "10 - 50", 
+                    "downloadCount": "50 - 100", 
                     "fileSize": "843k", 
                     "icon": "https://lh6.ggpht.com/ZHntchUnh1xOkfYnvdVVlf9EbKDkL4wFLgPNxUCC3U2lwX2YyPX77StwHUIwpS6qClM=w300", 
                     "language": "en", 
@@ -2634,7 +3222,7 @@
                     "name": "Yunky Monkey: Fruit Saga Game", 
                     "package": "com.hasshub.technolitious.monkeygame", 
                     "publishDate": "2014\u5e744\u670817\u65e5", 
-                    "rating": "98.75%", 
+                    "rating": "98.85714530944824%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hasshub.technolitious.monkeygame"
                 }
             }
@@ -2741,7 +3329,7 @@
                     "name": "\u4e03\u5206\u30ef\u30fc\u30af\u30a2\u30a6\u30c8", 
                     "package": "com.sevenminutes.workout.free", 
                     "publishDate": "2014\u5e743\u67083\u65e5", 
-                    "rating": "80.5752182006836%", 
+                    "rating": "80.2173900604248%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sevenminutes.workout.free"
                 }
             }
@@ -2837,7 +3425,7 @@
                     "name": "Hymn Book Believers | eHymns", 
                     "package": "com.ehymns", 
                     "publishDate": "2014\u5e744\u670824\u65e5", 
-                    "rating": "100%", 
+                    "rating": "91.1111068725586%", 
                     "url": "https://play.google.com/store/apps/details?id=com.ehymns"
                 }
             }
@@ -2957,7 +3545,7 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "GAME_CASUAL", 
                     "developer": "GNUton labs", 
-                    "downloadCount": "50\uff5e100", 
+                    "downloadCount": "100\uff5e500", 
                     "fileSize": "298k", 
                     "icon": "https://lh6.ggpht.com/dVsm8KGqn4DWxbKnTCVUkXoXxENmElx-6o7wtUhlEb3PptlWFdzY7OGWfYLcpWF4Vu8=w300", 
                     "language": "ja", 
@@ -3039,7 +3627,7 @@
                     "name": "Banm\u00e9dica", 
                     "package": "cl.banmedica.app", 
                     "publishDate": "2013\u5e7412\u670810\u65e5", 
-                    "rating": "65.71428775787354%", 
+                    "rating": "66.12245082855225%", 
                     "url": "https://play.google.com/store/apps/details?id=cl.banmedica.app"
                 }, 
                 "ios": {
@@ -3053,7 +3641,7 @@
         {
             "phonegap": {
                 "icon": "http://phonegap.com/uploads/app/2014-03/2014-03-31-gobaeggidojib-confession.png", 
-                "name": "\uace0\ubc31\uae30\ub3c4\uc9d1 (Confession)", 
+                "name": "Confession", 
                 "url": "http://phonegap.com/app/gobaeggidojib-confession"
             }, 
             "platforms": {
@@ -3068,7 +3656,7 @@
                     "name": "\uc0c8\ub85c\uc6b4 \ud53c\uc870\ubb3c \uace0\ubc31 \uae30\ub3c4\uc9d1", 
                     "package": "com.jewonagency.confession", 
                     "publishDate": "2014\u5e743\u670813\u65e5", 
-                    "rating": "93.75%", 
+                    "rating": "94.11765098571777%", 
                     "url": "https://play.google.com/store/apps/details?id=com.jewonagency.confession"
                 }, 
                 "ios": {
@@ -3152,7 +3740,7 @@
                     "name": "My Pocket Coach", 
                     "package": "com.a2morrowmobile.aMPC", 
                     "publishDate": "2014\u5e744\u67087\u65e5", 
-                    "rating": "83.19999694824219%", 
+                    "rating": "81.05262756347656%", 
                     "url": "https://play.google.com/store/apps/details?id=com.a2morrowmobile.aMPC"
                 }
             }
@@ -3218,13 +3806,13 @@
                     "category": "TOOLS", 
                     "developer": "Samer Albahra", 
                     "downloadCount": "500\uff5e1,000", 
-                    "fileSize": "560k", 
+                    "fileSize": "585k", 
                     "icon": "https://lh5.ggpht.com/c_Lf8r5M9nwHMX3qnUs7vBgh1mPgEZkgaNZP5pDFQRTmgy5rXiwyJ3Zi4OSpPdvNBlg=w300", 
                     "language": "ja", 
                     "name": "Sprinklers", 
                     "package": "com.albahra.sprinklers", 
-                    "publishDate": "2014\u5e745\u670822\u65e5", 
-                    "rating": "96.80000305175781%", 
+                    "publishDate": "2014\u5e746\u67081\u65e5", 
+                    "rating": "97.14285850524902%", 
                     "url": "https://play.google.com/store/apps/details?id=com.albahra.sprinklers"
                 }, 
                 "ios": {
@@ -3249,8 +3837,8 @@
                     "language": "ja", 
                     "name": "YAMU - Colombo City Guide", 
                     "package": "org.farook.yamu", 
-                    "publishDate": "2014\u5e744\u670811\u65e5", 
-                    "rating": "83.07116508483887%", 
+                    "publishDate": "2014\u5e745\u670831\u65e5", 
+                    "rating": "83.08823585510254%", 
                     "url": "https://play.google.com/store/apps/details?id=org.farook.yamu"
                 }, 
                 "ios": {
@@ -3276,7 +3864,7 @@
                     "name": "League of Legends Champions", 
                     "package": "com.CreativeDK.LeagueofLegendsChampions", 
                     "publishDate": "2014\u5e745\u670813\u65e5", 
-                    "rating": "90.72484970092773%", 
+                    "rating": "90.68376541137695%", 
                     "url": "https://play.google.com/store/apps/details?id=com.CreativeDK.LeagueofLegendsChampions"
                 }
             }
@@ -3437,10 +4025,10 @@
                     "fileSize": "4.2M", 
                     "icon": "https://lh5.ggpht.com/Y-QTUAqhAtBBKpBJBq6wJNSAFgKBdxR6ULQQqm7S8V74HhDElXYDB_s7Rl1LhoeCgVA=w300", 
                     "language": "ja", 
-                    "name": "Note Board app", 
+                    "name": "Note Board", 
                     "package": "com.oscardr.tablonnotas", 
                     "publishDate": "2014\u5e744\u67089\u65e5", 
-                    "rating": "75.43478488922119%", 
+                    "rating": "76.45833492279053%", 
                     "url": "https://play.google.com/store/apps/details?id=com.oscardr.tablonnotas"
                 }
             }
@@ -3475,7 +4063,7 @@
                     "name": "Animexx.de: Events", 
                     "package": "de.animexx.events.std", 
                     "publishDate": "2014\u5e744\u670829\u65e5", 
-                    "rating": "84.21052932739258%", 
+                    "rating": "85%", 
                     "url": "https://play.google.com/store/apps/details?id=de.animexx.events.std"
                 }, 
                 "ios": {
@@ -3570,7 +4158,7 @@
                     "name": "Shellfire VPN", 
                     "package": "de.shellfire.vpn.android", 
                     "publishDate": "May 26, 2014", 
-                    "rating": "77.4117660522461%", 
+                    "rating": "77.05977439880371%", 
                     "url": "https://play.google.com/store/apps/details?id=de.shellfire.vpn.android&hl=en"
                 }
             }
@@ -3666,7 +4254,7 @@
                     "name": "goFLUENT", 
                     "package": "com.gofluent.mobile", 
                     "publishDate": "2014\u5e742\u670818\u65e5", 
-                    "rating": "81.17647171020508%", 
+                    "rating": "80.57143211364746%", 
                     "url": "https://play.google.com/store/apps/details?id=com.gofluent.mobile"
                 }, 
                 "ios": {
@@ -3677,7 +4265,7 @@
         {
             "phonegap": {
                 "icon": "http://phonegap.com/uploads/app/2014-03/2014-03-13-ke-tang.png", 
-                "name": "\u540c\u6b65\u8bfe\u5802", 
+                "name": "Ke Tang", 
                 "url": "http://phonegap.com/app/ke-tang"
             }, 
             "platforms": {
@@ -3731,7 +4319,7 @@
                     "name": "Spotware cTrader", 
                     "package": "com.spotware.ct", 
                     "publishDate": "2014\u5e742\u670810\u65e5", 
-                    "rating": "85%", 
+                    "rating": "83.80952835083008%", 
                     "url": "https://play.google.com/store/apps/details?id=com.spotware.ct"
                 }, 
                 "ios": {
@@ -3809,7 +4397,7 @@
                     "name": "tamil naal kaati", 
                     "package": "com.handheldapplication.calendaroid", 
                     "publishDate": "2014\u5e741\u670826\u65e5", 
-                    "rating": "88.50144386291504%", 
+                    "rating": "88.45110893249512%", 
                     "url": "https://play.google.com/store/apps/details?id=com.handheldapplication.calendaroid"
                 }
             }
@@ -3938,7 +4526,7 @@
                     "name": "Petrol Spy Australia", 
                     "package": "com.pineconesoft.petrolspy", 
                     "publishDate": "2014\u5e744\u670811\u65e5", 
-                    "rating": "72.5%", 
+                    "rating": "72.22222328186035%", 
                     "url": "https://play.google.com/store/apps/details?id=com.pineconesoft.petrolspy"
                 }, 
                 "ios": {
@@ -4013,7 +4601,7 @@
                     "name": "Keeeb Reader", 
                     "package": "com.keeeb.keeeb", 
                     "publishDate": "2014\u5e745\u670812\u65e5", 
-                    "rating": "75.29411792755127%", 
+                    "rating": "75.5555534362793%", 
                     "url": "https://play.google.com/store/apps/details?id=com.keeeb.keeeb"
                 }, 
                 "ios": {
@@ -4039,7 +4627,7 @@
                     "name": "La Gazette des communes", 
                     "package": "com.netapsys.lagazettedescommunes", 
                     "publishDate": "2014\u5e744\u67083\u65e5", 
-                    "rating": "84.82758522033691%", 
+                    "rating": "84.375%", 
                     "url": "https://play.google.com/store/apps/details?id=com.netapsys.lagazettedescommunes"
                 }, 
                 "ios": {
@@ -4065,7 +4653,7 @@
                     "name": "Samhall", 
                     "package": "com.samhall.app", 
                     "publishDate": "20 mars 2014", 
-                    "rating": "73.58490467071533%", 
+                    "rating": "74.07407283782959%", 
                     "url": "https://play.google.com/store/apps/details?id=com.samhall.app&hl=sv"
                 }, 
                 "ios": {
@@ -4175,7 +4763,7 @@
                     "language": "ja", 
                     "name": "Telovendoytelocompro.com", 
                     "package": "com.telo.vendo", 
-                    "publishDate": "2014\u5e745\u670826\u65e5", 
+                    "publishDate": "2014\u5e746\u67085\u65e5", 
                     "rating": "100%", 
                     "url": "https://play.google.com/store/apps/details?id=com.telo.vendo"
                 }
@@ -4199,7 +4787,7 @@
                     "name": "DesignMyNight", 
                     "package": "com.designmynight.dmn", 
                     "publishDate": "16 February 2014", 
-                    "rating": "72.5%", 
+                    "rating": "71.70731544494629%", 
                     "url": "https://play.google.com/store/apps/details?id=com.designmynight.dmn&hl=en_GB"
                 }, 
                 "ios": {
@@ -4309,7 +4897,7 @@
                     "name": "Rohani Ilaj", 
                     "package": "com.hasshub.rohaniilaj", 
                     "publishDate": "2014\u5e743\u670824\u65e5", 
-                    "rating": "84.73282814025879%", 
+                    "rating": "84.62686538696289%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hasshub.rohaniilaj"
                 }
             }
@@ -4433,7 +5021,7 @@
                     "name": "Antena 8", 
                     "package": "ar.com.newcycle.radioantena8", 
                     "publishDate": "February 21, 2014", 
-                    "rating": "85.2173900604248%", 
+                    "rating": "85.83333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=ar.com.newcycle.radioantena8&hl=en"
                 }, 
                 "ios": {
@@ -4547,7 +5135,7 @@
                     "name": "spoonacular - your recipe book", 
                     "package": "com.spoonacular.app", 
                     "publishDate": "2014\u5e741\u67085\u65e5", 
-                    "rating": "95%", 
+                    "rating": "91.1111068725586%", 
                     "url": "https://play.google.com/store/apps/details?id=com.spoonacular.app"
                 }, 
                 "ios": {
@@ -4681,7 +5269,7 @@
                     "name": "InstaGeo", 
                     "package": "com.geoinstagram.app", 
                     "publishDate": "2014\u5e742\u670818\u65e5", 
-                    "rating": "83.00000190734863%", 
+                    "rating": "83.4782600402832%", 
                     "url": "https://play.google.com/store/apps/details?id=com.geoinstagram.app"
                 }
             }
@@ -4704,7 +5292,7 @@
                     "name": "Live Gaelic", 
                     "package": "com.fergalcondron.clubscores.livegaelic", 
                     "publishDate": "2014\u5e744\u67086\u65e5", 
-                    "rating": "82.96296119689941%", 
+                    "rating": "82.06896781921387%", 
                     "url": "https://play.google.com/store/apps/details?id=com.fergalcondron.clubscores.livegaelic"
                 }, 
                 "ios": {
@@ -4786,7 +5374,7 @@
                     "name": "\u30be\u30c7\u30a3\u30a2\u30c3\u30af\u661f\u5360\u30442014", 
                     "package": "com.invedion.Horoscope", 
                     "publishDate": "2014\u5e743\u670824\u65e5", 
-                    "rating": "77.38562107086182%", 
+                    "rating": "77.07316875457764%", 
                     "url": "https://play.google.com/store/apps/details?id=com.invedion.Horoscope"
                 }
             }
@@ -4887,7 +5475,7 @@
                     "name": "EuroAirport", 
                     "package": "com.application.euroairport", 
                     "publishDate": "2014\u5e744\u670822\u65e5", 
-                    "rating": "83.75%", 
+                    "rating": "83.03030014038086%", 
                     "url": "https://play.google.com/store/apps/details?id=com.application.euroairport"
                 }, 
                 "ios": {
@@ -4913,7 +5501,7 @@
                     "name": "Image Express", 
                     "package": "com.sapientiam.imageexpress", 
                     "publishDate": "2014\u5e744\u67083\u65e5", 
-                    "rating": "86.3888931274414%", 
+                    "rating": "86.48648262023926%", 
                     "url": "https://play.google.com/store/apps/details?id=com.sapientiam.imageexpress"
                 }
             }
@@ -4962,7 +5550,7 @@
                     "name": "Kuona Shopping List", 
                     "package": "com.app.kuona", 
                     "publishDate": "2014\u5e743\u670821\u65e5", 
-                    "rating": "74.80000019073486%", 
+                    "rating": "75%", 
                     "url": "https://play.google.com/store/apps/details?id=com.app.kuona"
                 }, 
                 "ios": {
@@ -4988,7 +5576,7 @@
                     "name": "tamil yosi", 
                     "package": "com.handheldapplication.yosi", 
                     "publishDate": "January 14, 2014", 
-                    "rating": "90.32535552978516%", 
+                    "rating": "90.21967887878418%", 
                     "url": "https://play.google.com/store/apps/details?id=com.handheldapplication.yosi&hl=en"
                 }
             }
@@ -5062,7 +5650,7 @@
                     "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "SOCIAL", 
                     "developer": "WebMobi", 
-                    "downloadCount": "1\uff5e5", 
+                    "downloadCount": "5\uff5e10", 
                     "fileSize": "2.7M", 
                     "icon": "https://lh4.ggpht.com/wo8dh1c3WtGG7bJ7PP3Y-cdsljv_sFo-5drN9iFsoN9cWCWl0SHTtW1tJ8KxfUclTpU=w300", 
                     "language": "ja", 
@@ -5165,7 +5753,7 @@
                     "name": "Smart Browser", 
                     "package": "smartbrowser.geniuscloud", 
                     "publishDate": "2014\u5e742\u67088\u65e5", 
-                    "rating": "79.26910400390625%", 
+                    "rating": "79.11602020263672%", 
                     "url": "https://play.google.com/store/apps/details?id=smartbrowser.geniuscloud"
                 }
             }
@@ -5188,7 +5776,7 @@
                     "name": "Grafton Medical History Dublin", 
                     "package": "com.madebyjohann.curatio", 
                     "publishDate": "May 4, 2014", 
-                    "rating": "97.14285850524902%", 
+                    "rating": "96.42857551574707%", 
                     "url": "https://play.google.com/store/apps/details?id=com.madebyjohann.curatio&hl=en"
                 }
             }
@@ -5298,7 +5886,7 @@
                     "name": "Android \u0130stanbul - Viewist", 
                     "package": "com.noda.onder.viewist", 
                     "publishDate": "18 Kas\u0131m 2013", 
-                    "rating": "81.93548202514648%", 
+                    "rating": "82.22222328186035%", 
                     "url": "https://play.google.com/store/apps/details?id=com.noda.onder.viewist&hl=tr"
                 }, 
                 "ios": {
@@ -5324,7 +5912,7 @@
                     "name": "The Secret Society\u00ae", 
                     "package": "com.g5e.secretsociety", 
                     "publishDate": "March 6, 2014", 
-                    "rating": "87.8569507598877%", 
+                    "rating": "87.82468795776367%", 
                     "url": "https://play.google.com/store/apps/details?id=com.g5e.secretsociety&hl=en"
                 }
             }
@@ -5359,7 +5947,7 @@
                     "name": "intoLeague - LoL game lookup", 
                     "package": "com.novikk.intoleague", 
                     "publishDate": "2014\u5e745\u670825\u65e5", 
-                    "rating": "89.40593719482422%", 
+                    "rating": "89.33333396911621%", 
                     "url": "https://play.google.com/store/apps/details?id=com.novikk.intoleague"
                 }
             }
@@ -5458,7 +6046,7 @@
                     "name": "Al Quran Kareem", 
                     "package": "com.dawateislami.kanzulimaan", 
                     "publishDate": "2014\u5e741\u670829\u65e5", 
-                    "rating": "95.89285850524902%", 
+                    "rating": "95.96566200256348%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.kanzulimaan"
                 }, 
                 "ios": {
@@ -5499,7 +6087,7 @@
                     "name": "Friends Latitude (Mapacha)", 
                     "package": "com.ubicuo.contact", 
                     "publishDate": "2014\u5e745\u670825\u65e5", 
-                    "rating": "83.18840980529785%", 
+                    "rating": "81.64383888244629%", 
                     "url": "https://play.google.com/store/apps/details?id=com.ubicuo.contact"
                 }
             }
@@ -5522,7 +6110,7 @@
                     "name": "Tech Vibrator SmartWatch 2 & 1", 
                     "package": "com.dynamicu.techVibrator", 
                     "publishDate": "2014\u5e741\u670811\u65e5", 
-                    "rating": "67.30769157409668%", 
+                    "rating": "67.27272510528564%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dynamicu.techVibrator"
                 }
             }
@@ -5545,7 +6133,7 @@
                     "name": "Sphero Alive", 
                     "package": "com.dynamicu.spheroAlive", 
                     "publishDate": "2014\u5e743\u670820\u65e5", 
-                    "rating": "75.789475440979%", 
+                    "rating": "73.0434799194336%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dynamicu.spheroAlive"
                 }
             }
@@ -5580,7 +6168,7 @@
                     "name": "Photo Grid", 
                     "package": "com.xevoke.photogrid", 
                     "publishDate": "2014\u5e745\u670828\u65e5", 
-                    "rating": "78.21322917938232%", 
+                    "rating": "78.29497814178467%", 
                     "url": "https://play.google.com/store/apps/details?id=com.xevoke.photogrid"
                 }
             }
@@ -5641,7 +6229,7 @@
                     "name": "Print My Contacts", 
                     "package": "com.tikoo.pmcontacts", 
                     "publishDate": "2014\u5e741\u67088\u65e5", 
-                    "rating": "85.91548919677734%", 
+                    "rating": "85.86667060852051%", 
                     "url": "https://play.google.com/store/apps/details?id=com.tikoo.pmcontacts"
                 }, 
                 "ios": {
@@ -5717,7 +6305,7 @@
                     "name": "Learn Setswana", 
                     "package": "com.learn.setswana", 
                     "publishDate": "2013\u5e7411\u670814\u65e5", 
-                    "rating": "72.5%", 
+                    "rating": "74.11764621734619%", 
                     "url": "https://play.google.com/store/apps/details?id=com.learn.setswana"
                 }, 
                 "symbian": {
@@ -5980,7 +6568,7 @@
                     "name": "Speedy Cash", 
                     "package": "com.tigerfinancial.src_mobile", 
                     "publishDate": "2014\u5e745\u670822\u65e5", 
-                    "rating": "76.36363506317139%", 
+                    "rating": "75.50000190734863%", 
                     "url": "https://play.google.com/store/apps/details?id=com.tigerfinancial.src_mobile"
                 }, 
                 "ios": {
@@ -6044,7 +6632,7 @@
                     "name": "\u30ab\u30a4\u30c8\u30b5\u30fc\u30d5\u30a3\u30f3\u30ec\u30fc\u30c0\u30fc", 
                     "package": "com.zerouno.spot", 
                     "publishDate": "2014\u5e744\u670814\u65e5", 
-                    "rating": "82.43902206420898%", 
+                    "rating": "79.53488349914551%", 
                     "url": "https://play.google.com/store/apps/details?id=com.zerouno.spot"
                 }
             }
@@ -6079,7 +6667,7 @@
                     "name": "Mobile Recharge Plans/Tariffs", 
                     "package": "com.vishnu.mobitariff", 
                     "publishDate": "2014\u5e741\u670828\u65e5", 
-                    "rating": "76.9911527633667%", 
+                    "rating": "76.50000095367432%", 
                     "url": "http://play.google.com/store/apps/details?id=com.vishnu.mobitariff"
                 }
             }
@@ -6102,7 +6690,7 @@
                     "name": "Resus Algorithms", 
                     "package": "com.subjectiveeffect.resus", 
                     "publishDate": "2014\u5e741\u670813\u65e5", 
-                    "rating": "86.85714721679688%", 
+                    "rating": "85.83333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=com.subjectiveeffect.resus"
                 }, 
                 "ios": {
@@ -6308,7 +6896,7 @@
                     "name": "Rohani Elaj (Urdu)", 
                     "package": "com.dawateislami.rohanielaj", 
                     "publishDate": "2013\u5e7412\u670831\u65e5", 
-                    "rating": "88.71587753295898%", 
+                    "rating": "88.79446983337402%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.rohanielaj"
                 }, 
                 "ios": {
@@ -6334,7 +6922,7 @@
                     "name": "VTECRM Mobile", 
                     "package": "biz.crmvillage.vte", 
                     "publishDate": "15 aprile 2014", 
-                    "rating": "67.27272510528564%", 
+                    "rating": "68.69565010070801%", 
                     "url": "https://play.google.com/store/apps/details?id=biz.crmvillage.vte&hl=it"
                 }, 
                 "ios": {
@@ -6611,7 +7199,7 @@
                     "name": "Hayat-e-Raza", 
                     "package": "com.dawateislami.hayateraza", 
                     "publishDate": "2014\u5e741\u67089\u65e5", 
-                    "rating": "94.08866882324219%", 
+                    "rating": "94.14633750915527%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.hayateraza"
                 }
             }
@@ -6646,7 +7234,7 @@
                     "name": "Madani Channel", 
                     "package": "com.dawateislami.madanichannel", 
                     "publishDate": "2013\u5e7412\u67089\u65e5", 
-                    "rating": "95.18916130065918%", 
+                    "rating": "95.14181137084961%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.madanichannel"
                 }, 
                 "ios": {
@@ -6672,7 +7260,7 @@
                     "name": "Auqaat-e-Salaat", 
                     "package": "com.dawateislami.namaz", 
                     "publishDate": "2013\u5e7411\u670830\u65e5", 
-                    "rating": "95.57446479797363%", 
+                    "rating": "95.48965454101562%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.namaz"
                 }, 
                 "ios": {
@@ -6698,7 +7286,7 @@
                     "name": "Madani Inamat", 
                     "package": "com.dawateislami.madaniinamat", 
                     "publishDate": "2013\u5e7412\u67089\u65e5", 
-                    "rating": "92.62786865234375%", 
+                    "rating": "92.6608657836914%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.madaniinamat"
                 }, 
                 "ios": {
@@ -6724,7 +7312,7 @@
                     "name": "Hajj O Umrah", 
                     "package": "com.hasshub.hajjoumrah", 
                     "publishDate": "2013\u5e7412\u67089\u65e5", 
-                    "rating": "95.40740966796875%", 
+                    "rating": "95.43689727783203%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hasshub.hajjoumrah"
                 }
             }
@@ -6747,7 +7335,7 @@
                     "name": "Karamat-e-AlaHazrat", 
                     "package": "com.dawateislami.karamatealahazrat", 
                     "publishDate": "2013\u5e7412\u670824\u65e5", 
-                    "rating": "91.4893627166748%", 
+                    "rating": "91.56908988952637%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.karamatealahazrat"
                 }
             }
@@ -6770,7 +7358,7 @@
                     "name": "Salam-e-Raza", 
                     "package": "com.dawateislami.salameraza", 
                     "publishDate": "2013\u5e7412\u670818\u65e5", 
-                    "rating": "93.99999618530273%", 
+                    "rating": "94.02542114257812%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dawateislami.salameraza"
                 }
             }
@@ -6857,7 +7445,7 @@
                     "name": "Kick the Ball! FREE", 
                     "package": "com.immanitas.kicktheballfree", 
                     "publishDate": "2014\u5e742\u670828\u65e5", 
-                    "rating": "74.26315784454346%", 
+                    "rating": "74.32989597320557%", 
                     "url": "https://play.google.com/store/apps/details?id=com.immanitas.kicktheballfree"
                 }, 
                 "ios": {
@@ -6873,17 +7461,6 @@
             }, 
             "platforms": {
                 "android": {
-                    "androidVersion": "2.3.3 ou version ult\u00e9rieure", 
-                    "category": "LIFESTYLE", 
-                    "developer": "GOOT SAS", 
-                    "downloadCount": "Entre 100 et 500", 
-                    "fileSize": "6,9M", 
-                    "icon": "https://lh6.ggpht.com/pWWiGwMtoWJFI_-y2ACCrrqpx5m6dwxJa4g4U1rWBuw_pdcs5F4xo-C4wj_q9mxkLTc=w300", 
-                    "language": "fr", 
-                    "name": "GOOT (beta)", 
-                    "package": "com.goot.goot", 
-                    "publishDate": "18 avril 2014", 
-                    "rating": "75.71428775787354%", 
                     "url": "https://play.google.com/store/apps/details?id=com.goot.goot&hl=fr"
                 }, 
                 "ios": {
@@ -6922,6 +7499,21 @@
         }, 
         {
             "phonegap": {
+                "icon": "http://phonegap.com/uploads/app/2014-01/2014-01-07-goot-1.png", 
+                "name": "Goot", 
+                "url": "http://phonegap.com/app/goot"
+            }, 
+            "platforms": {
+                "android": {
+                    "url": "https://play.google.com/store/apps/details?id=com.goot.goot&hl=fr"
+                }, 
+                "ios": {
+                    "url": "https://itunes.apple.com/fr/app/goot/id739064900?mt=8"
+                }
+            }
+        }, 
+        {
+            "phonegap": {
                 "icon": "http://phonegap.com/uploads/app/2014-01/2014-01-07-intensive-spa.png", 
                 "name": "Intensive Spa", 
                 "url": "http://phonegap.com/app/intensive-spa"
@@ -6931,7 +7523,7 @@
                     "androidVersion": "2.1 \u4ee5\u4e0a", 
                     "category": "SHOPPING", 
                     "developer": "PowerTools", 
-                    "downloadCount": "50\uff5e100", 
+                    "downloadCount": "100\uff5e500", 
                     "fileSize": "473k", 
                     "icon": "https://lh4.ggpht.com/uCzLMdgw3ydPG_mMBxscV1-hTzpirIb1hYri9VTr_u1wB2v_1kfJdyHqs8m7EWh_rk8=w300", 
                     "language": "ja", 
@@ -6955,12 +7547,12 @@
                     "category": "BUSINESS", 
                     "developer": "Leviy B.V.", 
                     "downloadCount": "100\uff5e500", 
-                    "fileSize": "3.6M", 
+                    "fileSize": "3.3M", 
                     "icon": "https://lh3.ggpht.com/uvYHAOngCxw8-EnCkIqp4om22K8wv0lStDKlcSvzfVNCdgSlqQMWSaE_MQgLU3ApCw=w300", 
                     "language": "ja", 
                     "name": "Leviy", 
                     "package": "com.leviy.app", 
-                    "publishDate": "2014\u5e743\u670824\u65e5", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
                     "rating": "100%", 
                     "url": "https://play.google.com/store/apps/details?id=com.leviy.app"
                 }, 
@@ -7165,7 +7757,7 @@
                     "name": "Bites", 
                     "package": "bites.solutek.com.co", 
                     "publishDate": "1 de mayo de 2014", 
-                    "rating": "78.87850284576416%", 
+                    "rating": "79.2727279663086%", 
                     "url": "https://play.google.com/store/apps/details?id=bites.solutek.com.co&hl=es"
                 }, 
                 "ios": {
@@ -7264,7 +7856,7 @@
                     "name": "100 Prison Doors", 
                     "package": "treline.app.prisondoors", 
                     "publishDate": "October 26, 2013", 
-                    "rating": "60.86265563964844%", 
+                    "rating": "60.786519050598145%", 
                     "url": "https://play.google.com/store/apps/details?id=treline.app.prisondoors&hl=en"
                 }
             }
@@ -7464,7 +8056,7 @@
                     "name": "RPi Hardware Guide", 
                     "package": "org.cmdenterprises.rpihardwareguide", 
                     "publishDate": "2014\u5e744\u670817\u65e5", 
-                    "rating": "82.22222328186035%", 
+                    "rating": "83.99999618530273%", 
                     "url": "https://play.google.com/store/apps/details?id=org.cmdenterprises.rpihardwareguide"
                 }, 
                 "ios": {
@@ -7531,7 +8123,7 @@
                     "name": "Durood Shareef", 
                     "package": "com.hasshub.duroodosalam", 
                     "publishDate": "2014\u5e743\u670824\u65e5", 
-                    "rating": "89.52681541442871%", 
+                    "rating": "89.78723526000977%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hasshub.duroodosalam"
                 }
             }
@@ -7693,13 +8285,13 @@
                     "category": "TRANSPORTATION", 
                     "developer": "Lama Lama", 
                     "downloadCount": "1,000\uff5e5,000", 
-                    "fileSize": "438k", 
+                    "fileSize": "465k", 
                     "icon": "https://lh5.ggpht.com/wKHcXmLVi6RZ6lgjC88J8Jxiqa701Ivq8PgOwXiwJePAZrP56Af2g_z6abYdcw4daTU=w300", 
                     "language": "ja", 
                     "name": "Pontveer", 
                     "package": "com.LamaLama.Pontveer", 
-                    "publishDate": "2013\u5e748\u67086\u65e5", 
-                    "rating": "90%", 
+                    "publishDate": "2014\u5e746\u67084\u65e5", 
+                    "rating": "90.19607543945312%", 
                     "url": "https://play.google.com/store/apps/details?id=com.LamaLama.Pontveer"
                 }, 
                 "ios": {
@@ -7725,7 +8317,7 @@
                     "name": "Albert Camus", 
                     "package": "com.institutfrancais.ifcamus", 
                     "publishDate": "March 24, 2014", 
-                    "rating": "76.66666507720947%", 
+                    "rating": "78.46153736114502%", 
                     "url": "https://play.google.com/store/apps/details?id=com.institutfrancais.ifcamus&hl=en"
                 }, 
                 "ios": {
@@ -7774,7 +8366,7 @@
                     "name": "Bria Android - VoIP Softphone", 
                     "package": "com.bria.voip", 
                     "publishDate": "2014\u5e744\u67084\u65e5", 
-                    "rating": "72.2481632232666%", 
+                    "rating": "72.29747772216797%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bria.voip"
                 }
             }
@@ -7797,7 +8389,7 @@
                     "name": "Selfie Challenge", 
                     "package": "com.appspot.selfieChallenge", 
                     "publishDate": "2014\u5e744\u67085\u65e5", 
-                    "rating": "74.27509307861328%", 
+                    "rating": "74.31734085083008%", 
                     "url": "https://play.google.com/store/apps/details?id=com.appspot.selfieChallenge"
                 }
             }
@@ -7966,7 +8558,7 @@
                     "androidVersion": "3.0 \u4ee5\u4e0a", 
                     "category": "SOCIAL", 
                     "developer": "Lorenzo Sfarra", 
-                    "downloadCount": "500\uff5e1,000", 
+                    "downloadCount": "1,000\uff5e5,000", 
                     "fileSize": "3.1M", 
                     "icon": "https://lh6.ggpht.com/9nhEe04Tqq4gXXzBvbob2ChzKMQGlVU3dL-CpnxTo_KxXRk_7Qtg8zSezrG-g1tcTSI=w300", 
                     "language": "ja", 
@@ -8007,8 +8599,8 @@
                     "language": "ja", 
                     "name": "Kcals \u30ab\u30ed\u30ea\u30fc\u30ab\u30a6\u30f3\u30bf\u30fc", 
                     "package": "com.cancian.mylivediet", 
-                    "publishDate": "2014\u5e745\u670830\u65e5", 
-                    "rating": "68.78048896789551%", 
+                    "publishDate": "2014\u5e746\u67086\u65e5", 
+                    "rating": "69.16666507720947%", 
                     "url": "https://play.google.com/store/apps/details?id=com.cancian.mylivediet"
                 }, 
                 "ios": {
@@ -8075,13 +8667,13 @@
                     "category": "TOOLS", 
                     "developer": "Toolwiz", 
                     "downloadCount": "10,000\uff5e50,000", 
-                    "fileSize": "4.3M", 
+                    "fileSize": "\u7aef\u672b\u306b\u3088\u308a\u7570\u306a\u308a\u307e\u3059", 
                     "icon": "https://lh6.ggpht.com/Z3Nc4cgbi7WEac7uFJ5cQsmyHj--Tkz_Qxghw2-wO4JFDYRukfP9a1K42IOBR41AHA=w300", 
                     "language": "ja", 
                     "name": "Toolwiz \u30af\u30ea\u30fc\u30ca\u30fc", 
                     "package": "com.toolwiz.clean", 
-                    "publishDate": "2014\u5e745\u670822\u65e5", 
-                    "rating": "86.07394218444824%", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
+                    "rating": "85.66386222839355%", 
                     "url": "https://play.google.com/store/apps/details?id=com.toolwiz.clean"
                 }
             }
@@ -8205,7 +8797,7 @@
                     "name": "Mote.io - Website Remote", 
                     "package": "com.ianjennings.mote_io", 
                     "publishDate": "2013\u5e7412\u67084\u65e5", 
-                    "rating": "76.47058963775635%", 
+                    "rating": "75.4285717010498%", 
                     "url": "https://play.google.com/store/apps/details?id=com.ianjennings.mote_io"
                 }, 
                 "ios": {
@@ -8231,7 +8823,7 @@
                     "name": "stiam.ro - \u015etiri \u015fi at\u00e2t", 
                     "package": "ro.stiam.stiri", 
                     "publishDate": "2014\u5e743\u67083\u65e5", 
-                    "rating": "77.70491600036621%", 
+                    "rating": "78.41269969940186%", 
                     "url": "https://play.google.com/store/apps/details?id=ro.stiam.stiri"
                 }, 
                 "ios": {
@@ -8283,7 +8875,7 @@
                     "name": "Find The Movie", 
                     "package": "com.coinmad.findthemovie", 
                     "publishDate": "2014\u5e743\u670818\u65e5", 
-                    "rating": "71.95876121520996%", 
+                    "rating": "72.47524738311768%", 
                     "url": "https://play.google.com/store/apps/details?id=com.coinmad.findthemovie"
                 }, 
                 "ios": {
@@ -8350,7 +8942,7 @@
                     "name": "LOL Timer", 
                     "package": "net.noir04.loldtimers", 
                     "publishDate": "2014\u5e741\u67084\u65e5", 
-                    "rating": "83.90243530273438%", 
+                    "rating": "85%", 
                     "url": "https://play.google.com/store/apps/details?id=net.noir04.loldtimers"
                 }
             }
@@ -8385,7 +8977,7 @@
                     "name": "Nudge - Healthy Living Score", 
                     "package": "com.nudgeyourself.nudge", 
                     "publishDate": "2014\u5e745\u67085\u65e5", 
-                    "rating": "68.5393238067627%", 
+                    "rating": "68.35165023803711%", 
                     "url": "https://play.google.com/store/apps/details?id=com.nudgeyourself.nudge"
                 }, 
                 "ios": {
@@ -8515,7 +9107,7 @@
                     "name": "Animexx.de: Manga-Datenbank", 
                     "package": "de.animexx.manga_db", 
                     "publishDate": "2013\u5e7411\u670818\u65e5", 
-                    "rating": "93.50000381469727%", 
+                    "rating": "93.33333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=de.animexx.manga_db"
                 }, 
                 "ios": {
@@ -8675,7 +9267,7 @@
                     "name": "Literaki", 
                     "package": "com.ququplay.literaki", 
                     "publishDate": "2014\u5e744\u67081\u65e5", 
-                    "rating": "76.62100315093994%", 
+                    "rating": "76.50224208831787%", 
                     "url": "https://play.google.com/store/apps/details?id=com.ququplay.literaki"
                 }
             }
@@ -9083,7 +9675,7 @@
                     "name": "Mobogenie Market", 
                     "package": "com.mobogenie.markets", 
                     "publishDate": "2014\u5e745\u670822\u65e5", 
-                    "rating": "81.22961044311523%", 
+                    "rating": "81.34031295776367%", 
                     "url": "https://play.google.com/store/apps/details?id=com.mobogenie.markets"
                 }
             }
@@ -9253,8 +9845,8 @@
                     "language": "ja", 
                     "name": "RedSwank", 
                     "package": "com.redswank", 
-                    "publishDate": "2014\u5e745\u670827\u65e5", 
-                    "rating": "87.7419376373291%", 
+                    "publishDate": "2014\u5e746\u67082\u65e5", 
+                    "rating": "85.625%", 
                     "url": "https://play.google.com/store/apps/details?id=com.redswank"
                 }, 
                 "ios": {
@@ -9280,7 +9872,7 @@
                     "name": "Tangorin Japanese Dictionary", 
                     "package": "com.tangorin.app", 
                     "publishDate": "2013\u5e7412\u670831\u65e5", 
-                    "rating": "84.84848022460938%", 
+                    "rating": "84.70588684082031%", 
                     "url": "https://play.google.com/store/apps/details?id=com.tangorin.app"
                 }
             }
@@ -9431,7 +10023,7 @@
                     "name": "Oxford Dictionaries \u2013 Search", 
                     "package": "com.oup.gab.odquicksearch", 
                     "publishDate": "28 February 2014", 
-                    "rating": "79.41869735717773%", 
+                    "rating": "79.32642459869385%", 
                     "url": "https://play.google.com/store/apps/details?id=com.oup.gab.odquicksearch&hl=en_GB"
                 }, 
                 "ios": {
@@ -9639,7 +10231,7 @@
                     "name": "Advanced Rest Client - Android", 
                     "package": "com.snmba.restclient", 
                     "publishDate": "2013\u5e7411\u670817\u65e5", 
-                    "rating": "80%", 
+                    "rating": "75.38461685180664%", 
                     "url": "https://play.google.com/store/apps/details?id=com.snmba.restclient"
                 }
             }
@@ -9803,13 +10395,13 @@
                     "category": "TRAVEL_AND_LOCAL", 
                     "developer": "Bursa B\u00fcy\u00fck\u015fehir Belediyesi", 
                     "downloadCount": "10,000\uff5e50,000", 
-                    "fileSize": "2.0M", 
+                    "fileSize": "\u7aef\u672b\u306b\u3088\u308a\u7570\u306a\u308a\u307e\u3059", 
                     "icon": "https://lh3.ggpht.com/FV6WJb4DoWb-7gqawCSUUFJzGudFS-SQNHQuJG4hDHaNEhH_nq7MjWjBsBy-XtGyNQ=w300", 
                     "language": "ja", 
                     "name": "Bursa Cebinizde", 
                     "package": "com.bursacebinizde.mob", 
-                    "publishDate": "2013\u5e747\u670829\u65e5", 
-                    "rating": "77.9340648651123%", 
+                    "publishDate": "2014\u5e746\u67085\u65e5", 
+                    "rating": "77.75467872619629%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bursacebinizde.mob"
                 }, 
                 "ios": {
@@ -9835,7 +10427,7 @@
                     "name": "Gu\u00eda de Estudio", 
                     "package": "com.softwarevolution.guia", 
                     "publishDate": "29 de mayo de 2014", 
-                    "rating": "74.79532241821289%", 
+                    "rating": "74.64480876922607%", 
                     "url": "https://play.google.com/store/apps/details?id=com.softwarevolution.guia&hl=es"
                 }
             }
@@ -9975,14 +10567,14 @@
                     "androidVersion": "2.2 and up", 
                     "category": "TRAVEL_AND_LOCAL", 
                     "developer": "NYS Office of Information Technology Services", 
-                    "downloadCount": "100 - 500", 
+                    "downloadCount": "500 - 1,000", 
                     "fileSize": "4.8M", 
                     "icon": "https://lh3.ggpht.com/jJlx46GGALTW4myZ-qnwnGPb_uHeM7lh8028JxBCSszAb_1TLbiOJlmtTX_wSWSi0pg=w300", 
                     "language": "en", 
                     "name": "I Love NY", 
                     "package": "com.fg.iloveny", 
                     "publishDate": "May 7, 2014", 
-                    "rating": "90%", 
+                    "rating": "86.15385055541992%", 
                     "url": "https://play.google.com/store/apps/details?id=com.fg.iloveny&hl=en"
                 }, 
                 "ios": {
@@ -10020,7 +10612,7 @@
                     "name": "Drag the dots", 
                     "package": "com.andersfisher.phonegap", 
                     "publishDate": "2013\u5e7411\u670830\u65e5", 
-                    "rating": "73.46153736114502%", 
+                    "rating": "72.83019065856934%", 
                     "url": "https://play.google.com/store/apps/details?id=com.andersfisher.phonegap"
                 }, 
                 "ios": {
@@ -10070,7 +10662,7 @@
                     "name": "DanceSafe Mobile", 
                     "package": "com.dancesafe.mobile", 
                     "publishDate": "2014\u5e745\u670813\u65e5", 
-                    "rating": "93.99999618530273%", 
+                    "rating": "94.23076629638672%", 
                     "url": "https://play.google.com/store/apps/details?id=com.dancesafe.mobile"
                 }
             }
@@ -10116,7 +10708,7 @@
                     "name": "Footy Manager 13", 
                     "package": "com.rtw.aflmanager", 
                     "publishDate": "2013\u5e7411\u670816\u65e5", 
-                    "rating": "68.36363792419434%", 
+                    "rating": "68.77192974090576%", 
                     "url": "https://play.google.com/store/apps/details?id=com.rtw.aflmanager"
                 }, 
                 "ios": {
@@ -10154,7 +10746,7 @@
                     "name": "Skimmin", 
                     "package": "com.Skimmin.Skimmin", 
                     "publishDate": "2013\u5e749\u67086\u65e5", 
-                    "rating": "92.63157844543457%", 
+                    "rating": "92.43243217468262%", 
                     "url": "https://play.google.com/store/apps/details?id=com.Skimmin.Skimmin"
                 }, 
                 "ios": {
@@ -10230,7 +10822,7 @@
                     "name": "Backgrounds HD", 
                     "package": "com.cberce.Wallpapers", 
                     "publishDate": "2014\u5e745\u670831\u65e5", 
-                    "rating": "76.21489524841309%", 
+                    "rating": "76.32369995117188%", 
                     "url": "https://play.google.com/store/apps/details?id=com.cberce.Wallpapers"
                 }
             }
@@ -10291,7 +10883,7 @@
                     "name": "Literature Library", 
                     "package": "com.weyerhaeuser.wylibrary", 
                     "publishDate": "2013\u5e7411\u670818\u65e5", 
-                    "rating": "60%", 
+                    "rating": "66.66666507720947%", 
                     "url": "https://play.google.com/store/apps/details?id=com.weyerhaeuser.wylibrary"
                 }
             }
@@ -10314,7 +10906,7 @@
                     "name": "Kids Math Count Numbers Game", 
                     "package": "air.com.classteacher.main", 
                     "publishDate": "2014\u5e745\u670814\u65e5", 
-                    "rating": "76.09988212585449%", 
+                    "rating": "76.17926120758057%", 
                     "url": "https://play.google.com/store/apps/details?id=air.com.classteacher.main"
                 }
             }
@@ -10404,7 +10996,7 @@
                     "name": "\u30b1\u30fc\u30ad\u4f5c\u308a-\u6599\u7406\u30b2\u30fc\u30e0", 
                     "package": "com.wizardsgames.makeacake", 
                     "publishDate": "2014\u5e744\u670815\u65e5", 
-                    "rating": "75.99263191223145%", 
+                    "rating": "76.09822750091553%", 
                     "url": "https://play.google.com/store/apps/details?id=com.wizardsgames.makeacake"
                 }
             }
@@ -10575,7 +11167,7 @@
                     "name": "Sufrati Lite Restaurant Guide", 
                     "package": "com.LetsEat.SufratiLite", 
                     "publishDate": "2014\u5e744\u670813\u65e5", 
-                    "rating": "75.17241477966309%", 
+                    "rating": "75.47945022583008%", 
                     "url": "https://play.google.com/store/apps/details?id=com.LetsEat.SufratiLite"
                 }, 
                 "ios": {
@@ -10601,7 +11193,7 @@
                     "name": "MeDine", 
                     "package": "com.iglulabs.medine", 
                     "publishDate": "2014\u5e743\u670815\u65e5", 
-                    "rating": "85.71428298950195%", 
+                    "rating": "87.66355514526367%", 
                     "url": "https://play.google.com/store/apps/details?id=com.iglulabs.medine"
                 }
             }
@@ -10726,7 +11318,7 @@
                     "name": "Blink Chat for LinkedIn\u2122", 
                     "package": "com.devicebee.linkedinChat", 
                     "publishDate": "May 8, 2014", 
-                    "rating": "79.37131404876709%", 
+                    "rating": "79.36354637145996%", 
                     "url": "https://play.google.com/store/apps/details?id=com.devicebee.linkedinChat&hl=en"
                 }, 
                 "ios": {
@@ -10787,7 +11379,7 @@
                     "language": "ja", 
                     "name": "Veoci - The Virtual EOC", 
                     "package": "com.greywallsoftware.veoci", 
-                    "publishDate": "2014\u5e745\u670823\u65e5", 
+                    "publishDate": "2014\u5e746\u67086\u65e5", 
                     "rating": "100%", 
                     "url": "http://play.google.com/store/apps/details?id=com.greywallsoftware.veoci"
                 }, 
@@ -10899,7 +11491,7 @@
                     "name": "Lucky Play Casino & Sportsbook", 
                     "package": "com.rocketplay.luckyplay", 
                     "publishDate": "2013\u5e7412\u67082\u65e5", 
-                    "rating": "86.21261596679688%", 
+                    "rating": "86.13612174987793%", 
                     "url": "http://play.google.com/store/apps/details?id=com.rocketplay.luckyplay"
                 }, 
                 "ios": {
@@ -11031,7 +11623,7 @@
                     "androidVersion": "2.1 \u4ee5\u4e0a", 
                     "category": "PRODUCTIVITY", 
                     "developer": "Italo Ayres", 
-                    "downloadCount": "500\uff5e1,000", 
+                    "downloadCount": "1,000\uff5e5,000", 
                     "fileSize": "1.7M", 
                     "icon": "https://lh5.ggpht.com/tFDt6reegEEFW7ZpqC3ZEtVbbY46DdHVC_cK3DVkKIsJ79axh4-L4c3VsV21joUCLg=w300", 
                     "language": "ja", 
@@ -11061,7 +11653,7 @@
                     "name": "Hacker News (YC)", 
                     "package": "com.premii.hn", 
                     "publishDate": "2014\u5e745\u670821\u65e5", 
-                    "rating": "91.36288642883301%", 
+                    "rating": "91.5015983581543%", 
                     "url": "https://play.google.com/store/apps/details?id=com.premii.hn"
                 }, 
                 "ios": {
@@ -11110,7 +11702,7 @@
                     "name": "Cinemark Colombia", 
                     "package": "com.manimator.cinemark", 
                     "publishDate": "September 12, 2013", 
-                    "rating": "74.80341911315918%", 
+                    "rating": "75.03333568572998%", 
                     "url": "https://play.google.com/store/apps/details?id=com.manimator.cinemark&hl=en"
                 }
             }
@@ -11145,7 +11737,7 @@
                     "name": "Mi Tigo", 
                     "package": "com.tigo.tigoapp", 
                     "publishDate": "2014\u5e745\u67089\u65e5", 
-                    "rating": "74.81590747833252%", 
+                    "rating": "74.15313243865967%", 
                     "url": "https://play.google.com/store/apps/details?id=com.tigo.tigoapp"
                 }
             }
@@ -11220,7 +11812,7 @@
                     "name": "Rormix - Emerging Music Videos", 
                     "package": "com.rormix", 
                     "publishDate": "2014\u5e745\u670829\u65e5", 
-                    "rating": "79.82905864715576%", 
+                    "rating": "79.51807022094727%", 
                     "url": "https://play.google.com/store/apps/details?id=com.rormix"
                 }, 
                 "ios": {
@@ -11246,7 +11838,7 @@
                     "name": "Akaszt\u00f3fa - hangman magyarul", 
                     "package": "hu.alchimedia.HangmanMagyar", 
                     "publishDate": "2014\u5e743\u67087\u65e5", 
-                    "rating": "82.56431579589844%", 
+                    "rating": "82.47303009033203%", 
                     "url": "https://play.google.com/store/apps/details?id=hu.alchimedia.HangmanMagyar"
                 }
             }
@@ -11292,7 +11884,7 @@
                     "name": "Hangman HD Free Smart game", 
                     "package": "hu.alchimedia.Hangman", 
                     "publishDate": "2014\u5e743\u67086\u65e5", 
-                    "rating": "85.71428298950195%", 
+                    "rating": "83.99999618530273%", 
                     "url": "https://play.google.com/store/apps/details?id=hu.alchimedia.Hangman"
                 }
             }
@@ -11314,8 +11906,8 @@
                     "language": "ja", 
                     "name": "Offcourse Golf", 
                     "package": "com.bluepants.offcourse", 
-                    "publishDate": "2014\u5e745\u67088\u65e5", 
-                    "rating": "89.33333396911621%", 
+                    "publishDate": "2014\u5e746\u67082\u65e5", 
+                    "rating": "90%", 
                     "url": "https://play.google.com/store/apps/details?id=com.bluepants.offcourse"
                 }, 
                 "ios": {
@@ -11545,12 +12137,12 @@
                     "category": "NEWS_AND_MAGAZINES", 
                     "developer": "Faber04", 
                     "downloadCount": "10\uff5e50", 
-                    "fileSize": "2.2M", 
+                    "fileSize": "2.3M", 
                     "icon": "https://lh5.ggpht.com/W2ujsWon-1Rw6H4JP14j1KqX4o6zDaMh2QxGYOvI0FNyr7frITnTRSgMqYFiu9V1WhoE=w300", 
                     "language": "ja", 
                     "name": "Edge UserGroup Italia", 
                     "package": "com.faber04.edgemobile", 
-                    "publishDate": "2014\u5e743\u67087\u65e5", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
                     "rating": "0%", 
                     "url": "https://play.google.com/store/apps/details?id=com.faber04.edgemobile"
                 }, 
@@ -11589,7 +12181,7 @@
                     "name": "Love Cards", 
                     "package": "com.lovingwhisper.lovecards", 
                     "publishDate": "2013\u5e749\u670822\u65e5", 
-                    "rating": "83.40425491333008%", 
+                    "rating": "83.0927848815918%", 
                     "url": "https://play.google.com/store/apps/details?id=com.lovingwhisper.lovecards"
                 }, 
                 "ios": {
@@ -11771,7 +12363,7 @@
                     "name": "Bubble Maniac", 
                     "package": "theappsters.bubblemaniac", 
                     "publishDate": "2013\u5e748\u670830\u65e5", 
-                    "rating": "81.5625%", 
+                    "rating": "81.69230461120605%", 
                     "url": "https://play.google.com/store/apps/details?id=theappsters.bubblemaniac"
                 }
             }
@@ -11828,14 +12420,14 @@
                     "androidVersion": "2.1 \u4ee5\u4e0a", 
                     "category": "SPORTS", 
                     "developer": "Velocor", 
-                    "downloadCount": "1,000\uff5e5,000", 
-                    "fileSize": "2.2M", 
+                    "downloadCount": "5,000\uff5e10,000", 
+                    "fileSize": "2.3M", 
                     "icon": "https://lh5.ggpht.com/f2p33Z7mOdft0Jb0GOS9cBPffK-N694XbHx6J-aJHD4S66bcXbPSBa21a2gl_dvnGw=w300", 
                     "language": "ja", 
                     "name": "mScorecard 8", 
                     "package": "com.velocor.mScorecard", 
-                    "publishDate": "2014\u5e745\u670829\u65e5", 
-                    "rating": "79.1304349899292%", 
+                    "publishDate": "2014\u5e745\u670831\u65e5", 
+                    "rating": "80.39999961853027%", 
                     "url": "http://play.google.com/store/apps/details?id=com.velocor.mScorecard"
                 }, 
                 "blackberry": {
@@ -11867,7 +12459,7 @@
                     "name": "Yoga Poses by YogaTrail", 
                     "package": "de.buzzwoo.yoga", 
                     "publishDate": "2014\u5e741\u67086\u65e5", 
-                    "rating": "80%", 
+                    "rating": "78.00000190734863%", 
                     "url": "https://play.google.com/store/apps/details?id=de.buzzwoo.yoga"
                 }
             }
@@ -11925,7 +12517,7 @@
                     "name": "Spoofy (spoof friends via SMS)", 
                     "package": "com.beardapps.spoofy", 
                     "publishDate": "2014\u5e744\u67081\u65e5", 
-                    "rating": "63.65079402923584%", 
+                    "rating": "62.11381912231445%", 
                     "url": "https://play.google.com/store/apps/details?id=com.beardapps.spoofy"
                 }, 
                 "ios": {
@@ -12099,7 +12691,7 @@
                     "name": "Bollywood News Pics Box Office", 
                     "package": "com.koimoi.android", 
                     "publishDate": "December 30, 2013", 
-                    "rating": "85.89473724365234%", 
+                    "rating": "85.8272647857666%", 
                     "url": "https://play.google.com/store/apps/details?id=com.koimoi.android&hl=en"
                 }
             }
@@ -12134,7 +12726,7 @@
                     "name": "Air Control Lite", 
                     "package": "dk.logisoft.aircontrol", 
                     "publishDate": "24 \u043d\u043e\u044f\u0431\u0440\u044f 2013 \u0433.", 
-                    "rating": "89.34106826782227%", 
+                    "rating": "89.3106460571289%", 
                     "url": "https://play.google.com/store/apps/details?id=dk.logisoft.aircontrol&hl=ru"
                 }
             }
@@ -12206,7 +12798,7 @@
                     "name": "Seasonal Colors Free", 
                     "package": "com.o3r3.colorswatch.free", 
                     "publishDate": "2013\u5e748\u670828\u65e5", 
-                    "rating": "70%", 
+                    "rating": "68.48484992980957%", 
                     "url": "https://play.google.com/store/apps/details?id=com.o3r3.colorswatch.free"
                 }
             }
@@ -12257,8 +12849,8 @@
                     "language": "ja", 
                     "name": "\u30bf\u30cb\u30bf\u306e\u7121\u6599\u5065\u5eb7\u7ba1\u7406\u30a2\u30d7\u30ea\u3000\u30d8\u30eb\u30b9\u30d7\u30e9\u30cd\u30c3\u30c8", 
                     "package": "jp.healthplanet.healthplanetapp", 
-                    "publishDate": "2014\u5e745\u670826\u65e5", 
-                    "rating": "71.72973155975342%", 
+                    "publishDate": "2014\u5e746\u67084\u65e5", 
+                    "rating": "72.18509197235107%", 
                     "url": "https://play.google.com/store/apps/details?id=jp.healthplanet.healthplanetapp"
                 }, 
                 "ios": {
@@ -12319,13 +12911,13 @@
                     "category": "MUSIC_AND_AUDIO", 
                     "developer": "Beno\u00eet Raux", 
                     "downloadCount": "Entre 50 et 100", 
-                    "fileSize": "426k", 
+                    "fileSize": "265k", 
                     "icon": "https://lh5.ggpht.com/_95xB-pfLM7HjQUZbLUt-PzoEpjHxmXZnsEpy5qnddik6MfqQyTOjVX28VINNVaYU5Q=w300", 
                     "language": "fr", 
                     "name": "Local Concert", 
                     "package": "com.rauxbenoit.localconcert", 
-                    "publishDate": "5 septembre 2013", 
-                    "rating": "92.5%", 
+                    "publishDate": "3 juin 2014", 
+                    "rating": "93.33333015441895%", 
                     "url": "https://play.google.com/store/apps/details?id=com.rauxbenoit.localconcert&hl=fr"
                 }
             }
@@ -12412,7 +13004,7 @@
                     "name": "Wake up World", 
                     "package": "com.gdcast.wakeUpWorld", 
                     "publishDate": "2013\u5e748\u670829\u65e5", 
-                    "rating": "78.46153736114502%", 
+                    "rating": "79.0243911743164%", 
                     "url": "https://play.google.com/store/apps/details?id=com.gdcast.wakeUpWorld"
                 }, 
                 "ios": {
@@ -12561,7 +13153,7 @@
                     "name": "TaxiYa - taxi ya", 
                     "package": "com.colombiapps.taxiya", 
                     "publishDate": "2014\u5e745\u670828\u65e5", 
-                    "rating": "87.24035263061523%", 
+                    "rating": "87.25664138793945%", 
                     "url": "https://play.google.com/store/apps/details?id=com.colombiapps.taxiya"
                 }, 
                 "blackberry": {
@@ -12654,7 +13246,7 @@
                     "name": "Screen Burn Repair", 
                     "package": "com.feetstech.screenburn", 
                     "publishDate": "2013\u5e7410\u670829\u65e5", 
-                    "rating": "62.85714149475098%", 
+                    "rating": "63.46153736114502%", 
                     "url": "https://play.google.com/store/apps/details?id=com.feetstech.screenburn"
                 }
             }
@@ -12692,7 +13284,7 @@
                     "name": "OneContact", 
                     "package": "com.hedaglobal.DCM", 
                     "publishDate": "25 September 2013", 
-                    "rating": "74.24657344818115%", 
+                    "rating": "73.86666774749756%", 
                     "url": "https://play.google.com/store/apps/details?id=com.hedaglobal.DCM&hl=en_GB"
                 }
             }
@@ -12715,7 +13307,7 @@
                     "name": "Galactic Insects", 
                     "package": "com.revigames.galacticinsects", 
                     "publishDate": "2014\u5e741\u670815\u65e5", 
-                    "rating": "76.98113441467285%", 
+                    "rating": "75.92592716217041%", 
                     "url": "https://play.google.com/store/apps/details?id=com.revigames.galacticinsects"
                 }, 
                 "windows_phone": {
@@ -12793,7 +13385,7 @@
                     "name": "Pitch!", 
                     "package": "de.scymedia.pitch", 
                     "publishDate": "August 17, 2013", 
-                    "rating": "85.71428298950195%", 
+                    "rating": "87.5%", 
                     "url": "https://play.google.com/store/apps/details?id=de.scymedia.pitch&hl=en"
                 }, 
                 "ios": {
@@ -12883,7 +13475,7 @@
                     "name": "World Weather Forecast Pro", 
                     "package": "com.viteb.WeatherForecastPro", 
                     "publishDate": "2012\u5e744\u670823\u65e5", 
-                    "rating": "76.75824165344238%", 
+                    "rating": "76.67574882507324%", 
                     "url": "https://play.google.com/store/apps/details?id=com.viteb.WeatherForecastPro"
                 }
             }
@@ -13048,7 +13640,7 @@
                     "name": "Trim & Tone-The Ringtone Maker", 
                     "package": "com.contussupport.trimandtone", 
                     "publishDate": "2014\u5e745\u670822\u65e5", 
-                    "rating": "77.64431476593018%", 
+                    "rating": "77.7007532119751%", 
                     "url": "https://play.google.com/store/apps/details?id=com.contussupport.trimandtone"
                 }
             }
@@ -13138,7 +13730,7 @@
                     "name": "Lukkin", 
                     "package": "app.lukkin.com", 
                     "publishDate": "21 de febrero de 2014", 
-                    "rating": "86.15385055541992%", 
+                    "rating": "87.14285850524902%", 
                     "url": "https://play.google.com/store/apps/details?id=app.lukkin.com&hl=es_419"
                 }, 
                 "ios": {
@@ -13191,7 +13783,7 @@
                     "name": "Frio Cero", 
                     "package": "com.keepers.friocerofinal", 
                     "publishDate": "2014\u5e745\u67089\u65e5", 
-                    "rating": "97.77777671813965%", 
+                    "rating": "97.83783912658691%", 
                     "url": "http://play.google.com/store/apps/details?id=com.keepers.friocerofinal"
                 }
             }
@@ -13219,7 +13811,7 @@
                     "androidVersion": "2.2 \u4ee5\u4e0a", 
                     "category": "TOOLS", 
                     "developer": "MyGreat Apps", 
-                    "downloadCount": "10\uff5e50", 
+                    "downloadCount": "50\uff5e100", 
                     "fileSize": "635k", 
                     "icon": "https://lh6.ggpht.com/ku_ZhcppOY5KtDXT6U4ktDPa3ZiXasCQwnOTeGABtbepjPnlpFaH5oakdxy76T6BfCA3=w300", 
                     "language": "ja", 
@@ -13272,7 +13864,7 @@
                     "name": "OneClick Diary", 
                     "package": "com.barnabaslegeny.OneClickDiary", 
                     "publishDate": "2013\u5e748\u670818\u65e5", 
-                    "rating": "91.33333206176758%", 
+                    "rating": "90.32258033752441%", 
                     "url": "https://play.google.com/store/apps/details?id=com.barnabaslegeny.OneClickDiary"
                 }
             }
@@ -13376,7 +13968,7 @@
                     "name": "PixWithMe", 
                     "package": "com.uforlife.pixwithme", 
                     "publishDate": "2013\u5e748\u67089\u65e5", 
-                    "rating": "77.14285850524902%", 
+                    "rating": "80%", 
                     "url": "https://play.google.com/store/apps/details?id=com.uforlife.pixwithme"
                 }, 
                 "ios": {
@@ -13392,17 +13984,17 @@
             }, 
             "platforms": {
                 "android": {
-                    "androidVersion": "2.1 \u4ee5\u4e0a", 
+                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
                     "category": "WEATHER", 
                     "developer": "Petr Pato\u010dka", 
                     "downloadCount": "10,000\uff5e50,000", 
-                    "fileSize": "543k", 
+                    "fileSize": "405k", 
                     "icon": "https://lh6.ggpht.com/wyMI2HQpt0kNNy-1VDY_Cds0RnLqdNWdohcD20xAqG2MA9kcnYvmcPj3u-Lpt0vFcPS2=w300", 
                     "language": "ja", 
                     "name": "Webcams.cz - Webkamery v \u010cR", 
                     "package": "com.webcamscz.map", 
-                    "publishDate": "2014\u5e742\u67087\u65e5", 
-                    "rating": "63.53741645812988%", 
+                    "publishDate": "2014\u5e746\u67083\u65e5", 
+                    "rating": "63.78378391265869%", 
                     "url": "https://play.google.com/store/apps/details?id=com.webcamscz.map"
                 }
             }
@@ -13614,7 +14206,7 @@
                     "name": "\u771f\u5b9f\u304b\u6311\u6226\u304b", 
                     "package": "com.fsch.truthordare", 
                     "publishDate": "2013\u5e749\u67083\u65e5", 
-                    "rating": "67.70642280578613%", 
+                    "rating": "68.83333206176758%", 
                     "url": "https://play.google.com/store/apps/details?id=com.fsch.truthordare"
                 }
             }
@@ -13694,511 +14286,7 @@
                     "url": "https://itunes.apple.com/br/app/owl/id675759452?l=en&mt=8"
                 }
             }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-08/2013-08-01-rhcx.png", 
-                "name": "RHCx", 
-                "url": "http://phonegap.com/app/rhcx"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.1 \u4ee5\u4e0a", 
-                    "category": "PRODUCTIVITY", 
-                    "developer": "Benoit Ricaud", 
-                    "downloadCount": "50\uff5e100", 
-                    "fileSize": "612k", 
-                    "icon": "https://lh3.ggpht.com/T27OskM9kEUlZn_Utt-9cL4zPjSHE0qLBiMsLrpCVpNsRzIQLmCPVfhFpPPAPSSOqt63=w300", 
-                    "language": "ja", 
-                    "name": "RHCx", 
-                    "package": "com.ricaudbenoit.RHCx", 
-                    "publishDate": "2014\u5e741\u67084\u65e5", 
-                    "rating": "100%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.ricaudbenoit.RHCx"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/rhcx/id679604079?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-08/2013-08-01-filmsquiz.png", 
-                "name": "FilmsQuiz", 
-                "url": "http://phonegap.com/app/filmsquiz"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/filmsquiz/id575840845?mt=8%26ign-mpt=uo%3D4"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-31-salman-shahrukh-patch-up-hug.png", 
-                "name": "Salman Shahrukh Patch up Hug", 
-                "url": "http://phonegap.com/app/salman-shahrukh-patch-up-hug"
-            }, 
-            "platforms": {
-                "android": {
-                    "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.shahrukh.khan.salman.khan"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-31-fingerprint-scanning-whatsapp-lock.png", 
-                "name": "Fingerprint Scanning WhatsApp Lock", 
-                "url": "http://phonegap.com/app/fingerprint-scanning-whatsapp-lock"
-            }, 
-            "platforms": {
-                "android": {
-                    "url": "https://play.google.com/store/apps/details?id=com.sweetsugar.fingerscanningwhatsapplock"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-30-ikal.png", 
-                "name": "iKal", 
-                "url": "http://phonegap.com/app/ikal"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "1.6 \u4ee5\u4e0a", 
-                    "category": "PRODUCTIVITY", 
-                    "developer": "VITEB", 
-                    "downloadCount": "100\uff5e500", 
-                    "fileSize": "1.2M", 
-                    "icon": "https://lh3.ggpht.com/g7HL4bBndtOvaw6ifpXAoH41OejVqOb8aNOELvRWKNc3KOscjf1sD27ZucyHWaIJ2Bc=w300", 
-                    "language": "ja", 
-                    "name": "iKal", 
-                    "package": "com.mfma.iKal", 
-                    "publishDate": "2013\u5e7412\u670827\u65e5", 
-                    "rating": "71.99999809265137%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.mfma.iKal"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-30-hidden-object-mystic-warriors.png", 
-                "name": "Hidden Object: Mystic Warriors", 
-                "url": "http://phonegap.com/app/hidden-object-mystic-warriors"
-            }, 
-            "platforms": {
-                "android": {
-                    "url": "https://play.google.com/store/apps/details?id=com.mysticwarriors"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/mystic-warriors-hidden-object/id650679663?ls=1%26mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-29-unii-mag.png", 
-                "name": "Unii Mag", 
-                "url": "http://phonegap.com/app/unii-mag"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/unii-mag/id673956621?ls=1%26mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-29-eazywallet.png", 
-                "name": "eazyWallet", 
-                "url": "http://phonegap.com/app/eazywallet"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.2 \u4ee5\u4e0a", 
-                    "category": "TOOLS", 
-                    "developer": "Critalsoft", 
-                    "downloadCount": "500\uff5e1,000", 
-                    "fileSize": "824k", 
-                    "icon": "https://lh6.ggpht.com/5ps1TrHSWQPQ1vgLr8xITDgwtMrqDtRGncoz3P6-29Q_Hzc7BFXOcqxlcwbJRGRWSc2s=w300", 
-                    "language": "ja", 
-                    "name": "Eazywallet", 
-                    "package": "com.critalsoft.eazywallet", 
-                    "publishDate": "2013\u5e748\u67084\u65e5", 
-                    "rating": "86.66666984558105%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.critalsoft.eazywallet"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-29-andygreen.png", 
-                "name": "AndyGreen", 
-                "url": "http://phonegap.com/app/andygreen"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
-                    "category": "BOOKS_AND_REFERENCE", 
-                    "developer": "andygreen", 
-                    "downloadCount": "5,000\uff5e10,000", 
-                    "fileSize": "3.8M", 
-                    "icon": "https://lh4.ggpht.com/f297V1M6Rnfc64M3JcsItgmG5JUMBh4Ou3U80yJmcXsalgwriDdIaP8G_1Km94yfGw=w300", 
-                    "language": "ja", 
-                    "name": "AndyGreen", 
-                    "package": "com.andygreen.AndyGreen", 
-                    "publishDate": "2014\u5e743\u670830\u65e5", 
-                    "rating": "80.41666984558105%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.andygreen.AndyGreen"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/ch/app/andygreen/id592373358"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-28-connect-the-dots.png", 
-                "name": "Connect the Dots", 
-                "url": "http://phonegap.com/app/connect-the-dots"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "http://itunes.apple.com/us/app/connect-the-dots-drawing/id659962404"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-28-placeunit.jpg", 
-                "name": "PlaceUnit", 
-                "url": "http://phonegap.com/app/placeunit"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/placeunit/id667605568?mt=8&uo=4"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-27-auer-of-power-soundboard.png", 
-                "name": "Auer of Power Soundboard", 
-                "url": "http://phonegap.com/app/auer-of-power-soundboard"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/app/auer-of-power-soundboard/id572835381"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-27-cooper-bussmann-fault-current-calculator.png", 
-                "name": "Cooper Bussmann Fault Current Calculator", 
-                "url": "http://phonegap.com/app/cooper-bussmann-fault-current-calculator"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.2 \u4ee5\u4e0a", 
-                    "category": "TOOLS", 
-                    "developer": "Cooper Bussmann Inc", 
-                    "downloadCount": "5,000\uff5e10,000", 
-                    "fileSize": "2.3M", 
-                    "icon": "https://lh6.ggpht.com/H6mCdWlt56aPBLKWjSjFS2fCO2ZTjJED-JVF7UnQBayBzBxPjYD0hPldBrwHQK1oeaim=w300", 
-                    "language": "ja", 
-                    "name": "Fault Current Calculator", 
-                    "package": "com.cooperbussmann.faultcurrentcalculator", 
-                    "publishDate": "2013\u5e749\u67085\u65e5", 
-                    "rating": "88.4615421295166%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.cooperbussmann.faultcurrentcalculator"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/cooper-bussmann-fault-current/id647477910?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-27-guess-a-tone.png", 
-                "name": "Guess A Tone", 
-                "url": "http://phonegap.com/app/guess-a-tone"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/guess-a-tone/id659957712?mt=8&uo=4"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-26-fastdeals.png", 
-                "name": "FastDeals", 
-                "url": "http://phonegap.com/app/fastdeals"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.3.3 \u4ee5\u4e0a", 
-                    "category": "SHOPPING", 
-                    "developer": "RAITCO LTD", 
-                    "downloadCount": "100\uff5e500", 
-                    "fileSize": "4.8M", 
-                    "icon": "https://lh6.ggpht.com/F5sdLwRWBwJg6bHtAueZCB_oWwQwkIjJZaYBg1vqI_KZP9vvoIcyN4fbSnjfK9MYzi0=w300", 
-                    "language": "ja", 
-                    "name": "FastDeals", 
-                    "package": "biz.raitco.fastdeals", 
-                    "publishDate": "2014\u5e742\u670815\u65e5", 
-                    "rating": "100%", 
-                    "url": "https://play.google.com/store/apps/details?id=biz.raitco.fastdeals"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/fastdeals/id634562232?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-26-jll-investor.png", 
-                "name": "JLL Investor", 
-                "url": "http://phonegap.com/app/jll-investor"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/app/id511285794"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-25-connex.png", 
-                "name": "Connex", 
-                "url": "http://phonegap.com/app/connex"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "4.0 and up", 
-                    "category": "COMMUNICATION", 
-                    "developer": "Connex LLC", 
-                    "downloadCount": "100 - 500", 
-                    "fileSize": "1.9M", 
-                    "icon": "https://lh4.ggpht.com/dRoQ0GtE68b3M0DKDw4ezrToRtE9TU3b14U7wvJ86_EDxK2WqZ1xbX_Vm5Ci1lPC3FiB=w300", 
-                    "language": "en", 
-                    "name": "Connex App", 
-                    "package": "com.root.Connex", 
-                    "publishDate": "April 15, 2013", 
-                    "rating": "100%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.root.Connex&hl=en"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/connexapp/id590435127?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-25-newspeye.png", 
-                "name": "Newspeye", 
-                "url": "http://phonegap.com/app/newspeye"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.1 \u4ee5\u4e0a", 
-                    "category": "NEWS_AND_MAGAZINES", 
-                    "developer": "Sire Assemblies", 
-                    "downloadCount": "100\uff5e500", 
-                    "fileSize": "2.8M", 
-                    "icon": "https://lh6.ggpht.com/ifFTmN7jtjBVTjw53-W9I6llRb4uhERUGoXKjf4U20KQyPUhyQFfoA7JtWD41mnqbGgP=w300", 
-                    "language": "ja", 
-                    "name": "Newspeye News Scanner", 
-                    "package": "uk.co.sireassemblies.newspeyefree", 
-                    "publishDate": "2013\u5e749\u670816\u65e5", 
-                    "rating": "73.33333492279053%", 
-                    "url": "https://play.google.com/store/apps/details?id=uk.co.sireassemblies.newspeyefree"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-25-wizard-tykes-kids-educational-games.png", 
-                "name": "Wizard Tykes - Kids Educational Games", 
-                "url": "http://phonegap.com/app/wizard-tykes-kids-educational-games"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.3.3 and up", 
-                    "category": "EDUCATION", 
-                    "developer": "Tecordeon Inc", 
-                    "downloadCount": "1,000 - 5,000", 
-                    "fileSize": "5.5M", 
-                    "icon": "https://lh6.ggpht.com/9xtv5LjeoDppXfuFoVrNOCIg2xa1misWw0ULAAXRud0aRE-ePXmmsibG9bld_-5qHTrF=w300", 
-                    "language": "en", 
-                    "name": "Kids Educational Games", 
-                    "package": "com.wizardtykes.phonegap", 
-                    "publishDate": "October 19, 2013", 
-                    "rating": "83.52941513061523%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.wizardtykes.phonegap&hl=en"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-25-mobizebra.png", 
-                "name": "MobiZebra", 
-                "url": "http://phonegap.com/app/mobizebra"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.3 \u4ee5\u4e0a", 
-                    "category": "SHOPPING", 
-                    "developer": "Dopredu", 
-                    "downloadCount": "50\uff5e100", 
-                    "fileSize": "2.8M", 
-                    "icon": "https://lh4.ggpht.com/zKZwKwwq18ZrttADeAwaRElkPE_6ZAnDfmm4NoauZh_4i83ihId_U1korrDImZ93ag=w300", 
-                    "language": "ja", 
-                    "name": "MobiZebra", 
-                    "package": "com.dopredu.mobizebra", 
-                    "publishDate": "2013\u5e7411\u670810\u65e5", 
-                    "rating": "100%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.dopredu.mobizebra"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/mobizebra/id668059480?ls=1%26mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-mydroid-system-info.png", 
-                "name": "MyDroid System Info", 
-                "url": "http://phonegap.com/app/mydroid-system-info"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "3.0 \u4ee5\u4e0a", 
-                    "category": "TOOLS", 
-                    "developer": "Chillax Labs", 
-                    "downloadCount": "10,000\uff5e50,000", 
-                    "fileSize": "560k", 
-                    "icon": "https://lh4.ggpht.com/CpRWoa53VyhqF4xiaNRzWbwqQIhdq047GhB0p68671RI7dOGY6ixKhq0EhJS6M3CbvJo=w300", 
-                    "language": "ja", 
-                    "name": "MyDroid \u30b7\u30b9\u30c6\u30e0\u60c5\u5831", 
-                    "package": "com.chillax.mydroid", 
-                    "publishDate": "2013\u5e7410\u670817\u65e5", 
-                    "rating": "89.07251358032227%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.chillax.mydroid"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-smart-microscope.png", 
-                "name": "Smart Microscope", 
-                "url": "http://phonegap.com/app/smart-microscope"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "3.0 \u4ee5\u4e0a", 
-                    "category": "EDUCATION", 
-                    "developer": "Smart In Media GmbH & Co. KG", 
-                    "downloadCount": "100\uff5e500", 
-                    "fileSize": "3.9M", 
-                    "icon": "https://lh4.ggpht.com/lh8VB2AMBVmGw5UkeEUv4k6cEFSUBDl4_sL74_B8okfhI9dIzLUq_dBX128X1FacjrM=w300", 
-                    "language": "ja", 
-                    "name": "smart Microscope", 
-                    "package": "com.smartinmedia.smartMicroscope", 
-                    "publishDate": "2013\u5e748\u670815\u65e5", 
-                    "rating": "90%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.smartinmedia.smartMicroscope"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/smart-microscope/id660637550?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-air-hockey-champ.png", 
-                "name": "Air Hockey Champ", 
-                "url": "http://phonegap.com/app/air-hockey-champ"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/in/app/air-hockey-champ/id522056295"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-baby-goo-puzzle.jpg", 
-                "name": "Baby Goo Puzzle", 
-                "url": "http://phonegap.com/app/baby-goo-puzzle"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/app/baby-goo-puzzle/id645816988?mt=8"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-bread-sweets-talse-the-strange-customers.png", 
-                "name": "Bread Sweets & Talse ~The Strange Customers~", 
-                "url": "http://phonegap.com/app/bread-sweets-talse-the-strange-customers"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "2.1 \u4ee5\u4e0a", 
-                    "category": "GAME_CASUAL", 
-                    "developer": "SoftRole", 
-                    "downloadCount": "100\uff5e500", 
-                    "fileSize": "32M", 
-                    "icon": "https://lh5.ggpht.com/lznFiJQLsYnDjMNScgO7Ac5725ECQPdhaFy6wlKmd2VdTLr5FUDWH0JGe2-LB6IGlhOR=w300", 
-                    "language": "ja", 
-                    "name": "Bread Sweets & Tales", 
-                    "package": "com.softrole.bstales", 
-                    "publishDate": "2013\u5e747\u670823\u65e5", 
-                    "rating": "80%", 
-                    "url": "https://play.google.com/store/apps/details?id=com.softrole.bstales"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-24-zingcheckout.png", 
-                "name": "ZingCheckout", 
-                "url": "http://phonegap.com/app/zingcheckout"
-            }, 
-            "platforms": {
-                "android": {
-                    "androidVersion": "4.0 \u4ee5\u4e0a", 
-                    "category": "BUSINESS", 
-                    "developer": "Zing Checkout, Inc.", 
-                    "downloadCount": "500\uff5e1,000", 
-                    "fileSize": "1.7M", 
-                    "icon": "https://lh6.ggpht.com/dmtu6yHXjmgZ8W7i_LvKHRBYWWvdjDwX2BQS3Y3DoVAR0w_u83bz-0sp7ELzN9YvQNxu=w300", 
-                    "language": "ja", 
-                    "name": "ZingCheckout POS:Point of Sale", 
-                    "package": "co.zing.checkout.android", 
-                    "publishDate": "2014\u5e741\u670830\u65e5", 
-                    "rating": "94.28571701049805%", 
-                    "url": "https://play.google.com/store/apps/details?id=co.zing.checkout.android"
-                }, 
-                "ios": {
-                    "url": "https://itunes.apple.com/us/app/zingcheckout/id582149530"
-                }
-            }
-        }, 
-        {
-            "phonegap": {
-                "icon": "http://phonegap.com/uploads/app/2013-07/2013-07-23-arcade-volleyball.png", 
-                "name": "Arcade Volleyball", 
-                "url": "http://phonegap.com/app/arcade-volleyball"
-            }, 
-            "platforms": {
-                "ios": {
-                    "url": "https://itunes.apple.com/sk/app/arcade-volleyball/id667843029?mt=8"
-                }
-            }
         }
-    ]
+    ], 
+    "timestamp": 1402224388
 }
