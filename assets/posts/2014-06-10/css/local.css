@@ -10,6 +10,10 @@
 	list-style-type: none;
 }
 
+.unit-article .pg-apps li {
+	list-style-type: none;
+}
+
 .unit-article .pg-apps .apps li {
 	float: left;
 	width: 120px;
@@ -50,6 +54,13 @@
 	margin: 5px 0 5px 0;
 }
 
+.chart-title {
+	font-size: 1.3em;
+	line-height: 1.8em;
+	font-weight: bolder;
+	text-align: center;
+}
+
 .clearfix {
      zoom: 1;
 }
@@ -63,5 +74,16 @@
 
 .clearfix:after {
      clear: both;
+}
 
+.chart {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	margin: 0 10px 30px 10px; 
+}
+
+.list {
+	max-height: 300px;
+	overflow: scroll;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	margin: 0 10px 30px 10px; 
 }
