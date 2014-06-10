@@ -216,7 +216,9 @@ PhoneGap 公式サイトのアプリページ
 ### おまけ
 #### よく使われている Cordova Plugin を調べてみた
 
-#### 時間がなくなりそうなので、続きは Web で。<!-- .element: class="fragment" -->
+---
+#### 時間がなくなりそうなので、続きは Web で。
+#### <http://flatbird.github.io/2014/06/10/cordova/>
 
 ---
 ### ご清聴ありがとうございました
