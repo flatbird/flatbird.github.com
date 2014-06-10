@@ -36,11 +36,11 @@
 		];
 		pluginRank.show('plugins', {
 			'core-plugins': function(plugin) {
-					return (plugin.apks.length >= 4 &&
+					return (plugin.apks.length >= 1 &&
 						corePlugins.indexOf(plugin.name) >= 0);
 			},
 			'non-core-plugins': function(plugin) {
-					return (plugin.apks.length >= 4 &&
+					return (plugin.apks.length >= 2 &&
 						corePlugins.indexOf(plugin.name) < 0);
 			},
 		});

@@ -19,10 +19,10 @@
 		showChart: function _pluginsShow(obj, id, filter) {
 			var apks = obj.pluginRank.apks;
 			var plugins = obj.pluginRank.plugins;
-
 			if (filter) {
 				plugins = plugins.filter(filter);
 			}
+			var	height = 30 * plugins.length;
 			var names  = plugins.map(function (p) { return p.name; });
 			var counts = plugins.map(function (p) { return p.apks.length; });
 
@@ -30,7 +30,7 @@
 				title: 'Popular Plugins',
 				chart: {
 					renderTo: id,
-					height: 500
+					height: height
 				},
 				// colors: colors,
 				xAxis: { categories: names },
