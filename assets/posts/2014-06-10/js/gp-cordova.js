@@ -39,6 +39,7 @@
 			apps = apps.sort(compApps);
 			apps.forEach(function (app) {
 				app.href = 'https://play.google.com/store/apps/details?id=' + app.package;
+				app.categoryName = categoryName[app.category];
 				self.viewModel.targetApps.push(app);
 			});
 			function compApps(a1, a2) {

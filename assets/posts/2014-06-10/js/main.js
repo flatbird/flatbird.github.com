@@ -4,6 +4,7 @@
 	document.addEventListener('DOMContentLoaded', function() {
 		pgPlatforms.show('pg-platforms', 'pg-platforms-chart', 2);
 		pgCategories.show('pg-category-apps', 'pg-categories');
+		// pgCategories.show('pg-category-apps', 'pg-categories', [0,undefined]);
 
 		new GpCordova('gp-apps', 'cordovaApps');
 		new GpCordova('gp-monaca', 'cordovaApps', function(app) {

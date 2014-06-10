@@ -9,7 +9,8 @@
 		categoryCount: undefined,
 		exportCategoryCount: 10,
 		exportAppCount: 5,
-		show: function _spShow(viewId, chartId) {
+		// range is an array to specify slice(start, end) of categories
+		show: function _spShow(viewId, chartId, range) {
 			var self = this;
 			self.chartId = chartId;
 			self.viewModel = new ViewModel();
@@ -17,7 +18,7 @@
 			PhoneGapApps.getData(function(obj) {
 				self.countCategories(obj.pgApps);
 				self.prepareExportApps();
-				self.showChart();
+				self.showChart(range);
 			});
 		},
 		prepareExportApps: function () {
@@ -47,25 +48,35 @@
 				app.href = 'https://play.google.com/store/apps/details?id=' + app.package;
 			}
 		},
-		showChart: function _pgShowChart() {
+		showChart: function _pgShowChart(range) {
 			var cat = this.categoryCount;
+			var height = 600;
+			if (range) {
+				cat = cat.slice(range[0], range[1]);
+				height = 40 * cat.length;
+			}
 			var names  = cat.map(function (c) { return categoryName[c.name]; });
 			var counts = cat.map(function (c) { return c.count; });
+			var labelStyle = {};
+			// labelStyle.fontSize = '18px';
 
 			var params = {
 				title: 'Categories',
 				chart: {
 					renderTo: this.chartId,
-					height: 600
+					height: height
 				},
 				// colors: colors,
 				xAxis: {
-					categories: names
+					categories: names,
+					labels: { style: labelStyle }
 				},
 				yAxis: {
 					title: { text: null }
 				},
-				plotOptions: { bar: { dataLabels: { enabled: true } } },
+				plotOptions: {
+					bar: { dataLabels: { enabled: true, style: labelStyle } }
+				},
 				legend: { enabled: false },
 				series: [{
 					type: 'bar',
