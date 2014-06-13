@@ -1,7 +1,7 @@
 (function() {
 
 function Model() {
-	this.base = $('base').attr('href').split('/').slice(0, -1).join('/');
+	this.base = $('meta[name="x-assets-base"]').attr('content').split('/').slice(0, -1).join('/');
 	this.data = null;
 	this.callbacks = [];
 }
