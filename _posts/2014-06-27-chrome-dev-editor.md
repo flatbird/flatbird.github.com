@@ -3,7 +3,7 @@ layout: post
 title: "ワクワクする Chrome Dev Editor - 話題の Material Design も！"
 description: ""
 category: 
-tags: []
+tags: [Chrome]
 ---
 {% include JB/setup %}
 
