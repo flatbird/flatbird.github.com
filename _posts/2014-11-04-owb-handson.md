@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open Web Board/Gluin のハンズオンに行きました"
+title: "Open Web Board/Gluin のハンズオンに行ってきました"
 description: ""
 category: 
 tags: [Firefox OS]
