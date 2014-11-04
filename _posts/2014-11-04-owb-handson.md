@@ -3,11 +3,11 @@ layout: post
 title: "Open Web Board/Gluin のハンズオンに行きました"
 description: ""
 category: 
-tags: []
+tags: [Firefox OS]
 ---
 {% include JB/setup %}
 
-KDDI さん主催の[『Open Web Board』『Gluin』ハンズオン＆ラピッドプロトタイピング](https://atnd.org/events/58127)に行ってきました
+KDDI さん主催の[『Open Web Board』『Gluin』ハンズオン＆ラピッドプロトタイピング](https://atnd.org/events/58127)に行ってきました。Firefox OS 搭載の Open Web Board がもらえるイベントです。
 
 ![](/assets/posts/2014-11-04/sensors.jpg)
 
