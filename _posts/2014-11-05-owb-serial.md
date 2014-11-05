@@ -7,7 +7,7 @@ tags: [Firefox OS, TWE-Lite]
 ---
 {% include JB/setup %}
 
-先日の[ハンズオン](https://atnd.org/events/58127)の際に、Open Web Board で ToCoStick を使う方法を教えてもらったので試してみました（ちなみに PC で ToCoStick とシリアル通信する記事は[こちら](/2014/10/31/fxos-owb-twe-lite/#toc_7)）。
+先日の[ハンズオン](https://atnd.org/events/58127)の際に、Open Web Board で ToCoStick を使う方法を教えてもらったので試してみました（ちなみに PC で ToCoStick とシリアル通信する記事は[こちら](/2014/10/31/fxos-owb-twe-lite/)）。
 
 Open Web Board の USB ポートに ToCoStick を挿すと `/dev/ttyUSB0` として認識されます。
 
@@ -35,7 +35,7 @@ Proto Recv-Q Send-Q Local Address          Foreign Address        State
  tcp       0      0 0.0.0.0:666            0.0.0.0:*              LISTEN
 ```
 
-とりあえず telnet で簡単に試してみます。接続したら TTY 名とボー・レートを指定します。次の例では ToCoStick が受信した子機からのコマンドが出力されています（[参考記事](/2014/10/31/fxos-owb-twe-lite/#toc_9)）。
+とりあえず telnet で簡単に試してみます。接続したら TTY 名とボー・レートを指定します。次の例では ToCoStick が受信した子機からのコマンドが出力されています（[参考](http://tocos-wireless.com/jp/products/TWE-Lite-DIP/TWE-Lite-DIP-step3-81.html)）。
 
 ```
 $ adb shell
