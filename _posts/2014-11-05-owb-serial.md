@@ -60,7 +60,7 @@ Open Web Board にインストールした Firefox OS アプリから、ソケ�
 
 ![](/assets/posts/2014-11-05/owb-led.jpg)
 
-今回のアプリの JavaScript コードの抜粋です。ここでは省略している isTurnedON() という関数で UI に表示されたスイッチの ON/OFF 状態を取得し、送信するコマンドを切り替えます。
+アプリの JavaScript コードの抜粋です。ここでは省略している isTurnedON() という関数で UI 上のスイッチの ON/OFF 状態を取得し、ToCoStick に送信するコマンドを切り替えます。
 
 ``` javascript
   var socket = navigator.mozTCPSocket.open('127.0.0.1', 9943);
