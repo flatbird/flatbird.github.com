@@ -48,7 +48,7 @@ root@rk3066:/ # busybox telnet 127.0.0.1 9943
 
 ## Open Web Board で L チカ
 
-TCP なので [TCP Socket API](https://developer.mozilla.org/en-US/docs/Web/API/TCP_Socket_API) で Firefox OS アプリからもアクセスできます。
+`9943/tcp` には [TCP Socket API](https://developer.mozilla.org/en-US/docs/Web/API/TCP_Socket_API) で Firefox OS アプリからもアクセスできます。
 
 Open Web Board にインストールした Firefox OS アプリから、ソケット経由で ToCoStick にコマンドを送り、TWE-Lite 子機の LED を L チカしてみます。
 
