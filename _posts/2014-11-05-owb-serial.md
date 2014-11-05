@@ -83,7 +83,7 @@ Open Web Board にインストールした Firefox OS アプリから、ソケ�
     }, 1000);
   }
   socket.onerror = function (evt) {
-    console.log('Error:' + evt.type + ': ' + data.toString());
+    console.log('Error:' + evt.type);
   }
 ```
 
