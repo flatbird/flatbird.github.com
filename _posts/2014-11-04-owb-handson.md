@@ -3,7 +3,7 @@ layout: post
 title: "Open Web Board/Gluin のハンズオンに行ってきました"
 description: ""
 category: 
-tags: [Firefox OS]
+tags: [Firefox OS, Open Web Board]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "Open Web Board とか TWE-Lite とか"
 description: ""
 category: 
-tags: [Firefox OS, TWE-Lite]
+tags: [Firefox OS, Open Web Board, TWE-Lite]
 ---
 {% include JB/setup %}
 
