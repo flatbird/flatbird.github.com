@@ -78,7 +78,7 @@ browser API の利用には特権 (privileged) アプリで "browser" のパー�
 
 browser iframe では標準の iframe に加えてブラウザの実装に必要な色々なメソッドやイベントが追加されています。詳しくは以前の記事や MDN をご覧下さい。
 
-- [browser API [Firefox OS]](/2014/01/22/fxos-browser-api)
+- (過去記事) [browser API [Firefox OS]](/2014/01/22/fxos-browser-api)
 
 
 ## 黒曜石のキーイベントを拾ってプレゼン操作 (Browser API でマウスイベントを投げる)
@@ -94,22 +94,21 @@ browser iframe では標準の iframe に加えてブラウザの実装に必要
 
 - [KOKUYOの黒曜石のキーバインドを解析して各種プレゼンツールで利用する - Qiita](http://qiita.com/sawanoboly/items/6aebf81092ebd8772170)
 
-### NEXT/BACK 操作のサポート
+###「進む・戻る」操作のサポート
 
-とりあえず、プレゼンに必須の NEXT/BACK の操作をサポートします。
+とりあえず、プレゼンに必須となるスライドの「進む・戻る」の操作をサポートします。
 
-これは Google Docs のプレゼンモードが PageDown/PageUp で  NEXT/BACK に対応してるので、簡単そうに思えたのですが、ここに罠がありました。Open Web Board では PageDown/PageUp で keyCode が取得できず 0 が返されます。そのため、Google Docs も反応しません。
+Google Docs のプレゼンモードが PageDown/PageUp で「進む・戻る」に対応してるので、簡単そうに思えたのですが、罠がありました。Open Web Board では PageDown/PageUp で keyCode が取得できず 0 が返されます。そのため、Google Docs も反応しません。
 
 ```
 keydown {target: <body>, key: "PageUp", charCode: 0, keyCode: 0}
 ```
 
-幸い、key プロパティでキー種別の文字列 ("PageDown"/"PageUp") は取れているため、自前で onkeydown で処理できます。
+幸い、キーイベントの "key" プロパティでキー種別の文字列 ("PageDown"/"PageUp") は取れているため、自前で "onkeydown" で処理できます。
 
-PageDown では browser API の sendMouseEvent() で iframe 内に擬似的にクリックを発生させます。Google Docs のプレゼンモードではスライドの任意の場所のクリックで NEXT のアクションになるようです。
+PageDown では browser API の [sendMouseEvent()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement.sendMouseEvent) で iframe に擬似的にクリックを発生させます。Google Docs のプレゼンモードではスライドの任意の場所のクリックで「進む」のアクションになるようです。
 
-PageUp では browser API の goBack() で戻ることで BACK のアクションに換えます。
-
+PageUp では browser API の [goBack()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement.goBack) で戻ることで「戻る」のアクションの代わりとします。
 
 ``` javascript
 function sendClick() {
@@ -130,13 +129,13 @@ window.onkeydown = function(evt) {
 }
 ```
 
-ちなみに、sendTouchEvent() や sendMouseEvent() で横スワイプのジェスチャをシミュレートして NEXT/BACK のアクションを発生させようとしたのですが、なかなか上手くいかずあきらめました。原因は分かりません。
+ちなみに、sendTouchEvent() や sendMouseEvent() で横スワイプのジェスチャをシミュレートして「進む・戻る」のアクションを発生させようとしたのですが、なかなか上手くいかずあきらめました。
 
 ### フォーカスの取得
 
-browser iframe でページを開いたりマウスイベントを送るとフォーカスが取られてキーイベント等が親ウィンドウに飛んでこなくなります。iframe の中にイベントリスナーを仕掛けるのもオリジンが違うと無理です。
+browser iframe でページを開いたりマウスイベントを送ると、iframe 側にフォーカスが取られてキーイベント等が親ウィンドウに飛んでこなくなり、PageUp/PageDown が取れなくなります。オリジンが異なるので iframe 内にイベントリスナーを仕掛けることもできません。
 
-これについては browser API の `mozbrowserlocationchange` イベントを監視して、その都度 blur() で iframe からフォーカスを外すことで対処できました。
+この問題については browser API の "mozbrowserlocationchange" イベントを監視して、その都度 blur() で iframe からフォーカスを外すことで対処できました。
 
 ```
 iframe.addEventListener('mozbrowserlocationchange', function(evt) {
@@ -144,27 +143,29 @@ iframe.addEventListener('mozbrowserlocationchange', function(evt) {
 });
 ```
 
-これでスライドを進める/戻すという最低限の動作がとりあえず出来るようになりました。
+これでスライドを「進める・戻す」という最低限の動作がとりあえず出来るようになりました。
 
 
-## Google Docs のプレゼン一覧から選択できるようにする (Google Drive API & OAuth)
+## Google Docs から開くプレゼンを選択できるようにする (Google Drive API & OAuth)
 
-ここまでは特定のスライドの URL を埋め込んで開発してきましたが、スライドを選べなければ使いものになりません。そこで、Google Drive API でログインした自分のアカウントの Google Drive からスライドの一覧を取ってきて、そこから選べるようにします。
+ここまでは特定のスライドの URL をアプリに埋め込んで開発してきましたが、プレゼンしたいスライドを選べなければ使いものになりません。そこで、Google Drive API で自分のアカウントの Google Drive からプレゼンテーション一覧を取ってきて、そこから選べるようにします。
 
-- [Google Drive Web APIs](https://developers.google.com/drive/web/)
+- [『Google Drive Web APIs — Google Developers』](https://developers.google.com/drive/web/)
 
 ### OAuth の認証情報や API キーの取得 
 
 Drive API を使うには、まず、Google Developers Console で OAuth の認証情報や API キーを取得する必要があります。
 
-- [Google Developers Console](https://console.developers.google.com/)
+- [『Google Developers Console』](https://console.developers.google.com/)
 
-1. Google Developers Console に行きます (ログインしてなければログイン)。
-2. プロジェクトを新たに作るか既存プロジェクトを選択します。
+1. [Google Developers Console](https://console.developers.google.com/) を開きます。ログインしてなければログインします。
+2. プロジェクトを新たに作るか、既存プロジェクトを選択します。
 3. サイドバーの 「API と認証」の「API」メニューを開き、「Drive API」を探して有効にします。
 4. サイドバーの 「API と認証」の「認証情報」メニューを開き、OAuth のクライアント ID と API キーを作ります。
-	- OAuth の「新しいクライアント ID を作成」ボダンで OAuth のクライアント ID を作ります。アプリケーションの種類を聞かれるので「インストールされているアプリケーション」を選択。
-	- 公開 API へのアクセスの「新しいキーを作成」で API キーを作ります。
+	- **OAuth:** 「OAuth」の「新しいクライアント ID を作成」ボダンで OAuth のクライアント ID を作ります。
+    - アプリケーションの種類を聞かれるので「インストールされているアプリケーション」を選択します。
+    - 「リダイレクト URI」は "http://localhost" を使います。
+	- **API キー:**「公開 API へのアクセス」の「新しいキーを作成」で API キーを作ります。
 
 ![](/assets/posts/2014-12-08/credentials.png)
 
@@ -172,56 +173,56 @@ Drive API を使うには、まず、Google Developers Console で OAuth の認�
 
 このあたりを参考に作りました。
 
-- [Using OAuth 2.0 for Installed Applications - Google Accounts Authentication and Authorization — Google Developers](https://developers.google.com/accounts/docs/OAuth2InstalledApp)
-- [OAuth 2.0 認証の実装 - YouTube — Google Developers (日本語)](https://developers.google.com/youtube/v3/guides/authentication?hl=ja)
+- [『Using OAuth 2.0 for Installed Applications - Google Accounts Authentication and Authorization — Google Developers』](https://developers.google.com/accounts/docs/OAuth2InstalledApp)
+- [『OAuth 2.0 認証の実装 - YouTube — Google Developers (日本語)』](https://developers.google.com/youtube/v3/guides/authentication?hl=ja)
 
 （加筆予定）
 
-#### □ ログインページを開く
+#### □ 承認ページ（ログインページ）を開く
 
-ユーザに Google アカウントでログインしてもらうため、次のような URL を作成してブラウザで開きます。
+ユーザに Drive API の使用を承認してもらうため、次のような URL を作成してブラウザで承認ページを開きます。ユーザがログインしていなければ、最初に Google アカウントのログインページが表示され、ログイン後に承認ページが開かれます。
 
 ```
 https://accounts.google.com/o/oauth2/auth?
   scope=https://www.googleapis.com/auth/drive&
   redirect_uri=http://localhost&
   response_type=code&
-  client_id=<client_id>
+  client_id=<クライアントID>
 ```
 
-ここは [Web Activities](https://developer.mozilla.org/en-US/docs/Web/API/Web_Activities) でブラウザアプリを開いてもよいのですが、今回のアプリでは browser API の iframe で開きます。
+この URL を browser API の iframe で開きます。
 
-```
+承認が成功すると、"redirect_uri" に指定した URL にリダイレクトされます。
+
+Firefox OS のパッケージ型アプリでは、manifest.webapp に "redirects" を指定することでアプリ内にリダイレクトすることができます。
+
+``` javascript
 "redirects": [
   {
     "from": "http://localhost",
-    "to": "/index.html"
+    "to": "/redirect.html"
   }
 ],
 ```
 
+リダイレクトされた URL には次のように OAuth の承認コードが指定されてきます。
+
 ```
-http://localhost/oauth2callback?code=4/ux5gNj-_mIu4DOD_gNZdjX9EtOFf
+http://localhost/?code=<承認コード>
 ```
 
-（加筆予定）
+アプリ側では次のように承認コードを取得します。
+
+```
+var params = new URL(document.location).searchParams;
+var authCode = params.get('code');
+```
 
 #### □ アクセストークンの取得
 
-承認コードと交換します。XHR でリクエストを投げます。
+ここでは取得した承認コードをアクセストークンと交換します。
 
-
-```
-POST /o/oauth2/token HTTP/1.1
-Host: accounts.google.com
-Content-Type: application/x-www-form-urlencoded
-
-code=<承認コード>&
-client_id=<client_id>&
-client_secret=<client_secret>&
-redirect_uri=http://localhost&
-grant_type=authorization_code
-```
+クロスオリジン通信が可能な System XHR を使いますので、manifest.webapp に特権パーミッションの "systemXHR" を追加します。
 
 ```
 "type": "privileged",
@@ -230,7 +231,29 @@ grant_type=authorization_code
 },
 ```
 
+ソースコードでは、mozSystem を指定して XHR を取得します。
+
 ```
+var xhr = new XMLHttpRequest({mozSystem: true});
+```
+
+次のような POST リクエストを作って "https://accounts.google.com/o/oauth2/token" に投げます。
+
+``` http
+POST /o/oauth2/token HTTP/1.1
+Host: accounts.google.com
+Content-Type: application/x-www-form-urlencoded
+
+code=<承認コード>&
+client_id=<クライアントID>&
+client_secret=<クライアントシークレット>&
+redirect_uri=http://localhost&
+grant_type=authorization_code
+```
+
+成功すると JSON で次のようなレスポンスが返ります。見たまんま "access_token" がアクセストークンです。
+
+``` javascript
 {
   "access_token" : "ya29.AHES6ZTtm7SuokEB-RGtbBty9IIlNiP9-eNMMQKtXdMP3sfjL1Fc",
   "token_type" : "Bearer",
@@ -239,44 +262,58 @@ grant_type=authorization_code
 }
 ```
 
-（加筆予定）
 
 ### Drive API でファイルリストを取得
 
-- [Files: list - Google Drive Web APIs — Google Developers](https://developers.google.com/drive/v2/reference/files/list)
+Drive API でファイルリストを取得します。
+
+- (参考)[『Files: list - Google Drive Web APIs — Google Developers』](https://developers.google.com/drive/v2/reference/files/list)
+
+次のようなコードでリクエストを投げます。
 
 ``` javascript
-    var url = 'https://content.googleapis.com/drive/v2/files?';
-    url += 'key=' + secret.api_key;
-    if (nextPageToken) {
-      url += '&' + makeQuery('pageToken', nextPageToken);
-    }
-    console.log('getList ' + url);
-    var xhr = new XMLHttpRequest({mozSystem: true});
-    xhr.open('GET', url, true);
-    xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-    xhr.setRequestHeader('Referer', redirectURI);
+var url = 'https://content.googleapis.com/drive/v2/files?';
+url += 'key=' + secret.api_key;
+if (nextPageToken) {
+  url += '&' + makeQuery('pageToken', nextPageToken);
+}
+var xhr = new XMLHttpRequest({mozSystem: true});
+xhr.open('GET', url, true);
+xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+xhr.setRequestHeader('Referer', redirectURI);
 ```
+
+取得したプレゼンリストを画面に表示した所です。なぜがサムネイル URL が Not Found になってしまうのですが、時間切れで調査できず。
 
 ![](/assets/posts/2014-12-08/slide-list.png)
 
 （加筆予定）
 
+
 ## アプリをホーム画面アプリにする 
 
-デバイス起動からプレゼン開始まで黒曜石だけで操作できるようにするため。
+デバイス起動からプレゼン開始までを黒曜石のキーだけで操作できるようにするため、このアプリをホーム画面にします。
 
-manifest.webapp で `"role": "homescreen"` を追加します。
+manifest.webapp で `"role": "homescreen"` を追加すると、設定画面の「ホーム画面」メニューでこのアプリをホーム画面に切り替えられるようになります。
 
 ```
   "role": "homescreen",
 ```
 
-ホーム画面アプリにバグがあると操作不能になるので割と怖い。起動直後に毎回エラーになるようなバグがあると何もできなかったり。
+詳しくは過去記事をご参照ください。
 
-ホーム画面はブート後すぐに起動されますが、そのタイミングでは WiFi 接続が完了しておらず Google Drive へのアクセスがエラーになります。WiFi Information API で接続状況を確認する必要があります。
+- (過去記事) [browser API [Firefox OS]](/2014/01/22/fxos-browser-api)
 
-- [WiFi Information API](https://developer.mozilla.org/en-US/docs/Web/API/WiFi_Information_API) を使う。
+### WiFi 接続状態の確認
+
+ホーム画面アプリはバグがあると操作不能になるので割と怖いです。起動直後にエラーになるようなバグがあると何もできなくなります。実際、それに遭遇しました。
+
+ホーム画面はブート後すぐに起動されますが、そのタイミングでは WiFi 接続が完了しておらず Google Drive へのアクセスがエラーになってしまいます。なんとか設定画面を開けたので事なきを得ましたが。。。
+
+
+WiFi Information API で接続状態を確認する必要があります。WiFi Information API を使います。
+
+- [WiFi Information API](https://developer.mozilla.org/en-US/docs/Web/API/WiFi_Information_API)
 
 認定 (certified) API で、"wifi-manage" というパーミッションが必要です。
 
