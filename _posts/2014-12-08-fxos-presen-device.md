@@ -15,15 +15,19 @@ tags: [Firefox OS, Open Web Board]
 
 Open Web Board を使ってプレゼン専用デバイスを作ります。画面の出力は Open Web Board をテレビやプロジェクターに HDMI で接続して行います。入力にはパワポ操作用のコクヨの「[黒曜石](http://www.kokuyo-st.co.jp/stationery/fp/)」というデバイスを使います。黒曜石は Open Web Board の USB ポートにつなぎます。
 
+こんな感じになります。
+
 ![](/assets/posts/2014-12-08/owb-kokuyo.jpg)
 
 プレゼンのスライドは Google Docs に置かれたプレゼンテーションを表示します。そのため Open Web Board はネットワークに接続している必要があります。Open Web Board の WiFi 設定にはテレビやマウスを接続する必要があり、割と面倒なので、いつも携帯しているスマホのテザリングを利用するようあらかじめ設定しておきます。
 
 これが実現できれば、小さな Open Web Board と黒曜石そしてスマホがあれば、テレビのある所ならどこでもプレゼンすることができます。(電源の問題は後述します)
 
+
 ## 動機
 
-（執筆中）
+せっかく Firefox OS が載っていて、HDMI ポートに挿すだけで Web アプリの UI 画面を表示できるデバイスなので、それを生かしたものが作りたいなと。。。
+
 
 ## 実現のために必要なこと
 
@@ -166,10 +170,14 @@ Drive API を使うには、まず、Google Developers Console で OAuth の認�
 
 ### OAuth 2.0 の実装
 
-- https://developers.google.com/accounts/docs/OAuth2InstalledApp
-- Youtube 日本語 https://developers.google.com/youtube/v3/guides/authentication?hl=ja
+このあたりを参考に作りました。
 
-#### ログインページを開く
+- [Using OAuth 2.0 for Installed Applications - Google Accounts Authentication and Authorization — Google Developers](https://developers.google.com/accounts/docs/OAuth2InstalledApp)
+- [OAuth 2.0 認証の実装 - YouTube — Google Developers (日本語)](https://developers.google.com/youtube/v3/guides/authentication?hl=ja)
+
+（加筆予定）
+
+#### □ ログインページを開く
 
 ```
 https://accounts.google.com/o/oauth2/auth?
@@ -197,19 +205,21 @@ https://accounts.google.com/o/oauth2/auth?
 http://localhost/oauth2callback?code=4/ux5gNj-_mIu4DOD_gNZdjX9EtOFf
 ```
 
-#### アクセストークンの取得
+（加筆予定）
 
-承認コードと交換。
+#### □ アクセストークンの取得
+
+承認コードと交換します。XHR でリクエストを投げます。
 
 ```
 POST /o/oauth2/token HTTP/1.1
 Host: accounts.google.com
 Content-Type: application/x-www-form-urlencoded
 
-code=4/ux5gNj-_mIu4DOD_gNZdjX9EtOFf&
-client_id=1084945748469-eg34imk572gdhu83gj5p0an9fut6urp5.apps.googleusercontent.com&
-client_secret=hDBmMRhz7eJRsM9Z2q1oFBSe&
-redirect_uri=http://localhost/oauth2callback&
+code=<承認コード>&
+client_id=<client_id>&
+client_secret=<client_secret>&
+redirect_uri=http://localhost&
 grant_type=authorization_code
 ```
 
@@ -222,7 +232,7 @@ grant_type=authorization_code
 }
 ```
 
-（執筆中）
+（加筆予定）
 
 ### Drive API でファイルリストを取得
 
@@ -243,25 +253,35 @@ grant_type=authorization_code
 
 ![](/assets/posts/2014-12-08/slide-list.png)
 
-（執筆中）
+（加筆予定）
 
 ## アプリをホーム画面アプリにする 
 
 デバイス起動からプレゼン開始まで黒曜石だけで操作できるようにするため。
 ホーム画面アプリにバグがあると操作不能になるので割と怖い。起動直後に毎回エラーになるようなバグがあると何もできなかったり。
 
-（執筆中）
+[WiFi Information API](https://developer.mozilla.org/en-US/docs/Web/API/WiFi_Information_API) を使う。認定 (certified) API です。
 
+（加筆予定）
 
 ## 実際にテレビで試してみた
 
-### 給電について
-OWB のカバーが邪魔でテレビの USB ポートが使えず。。。
-テレビの USB ポートではちゃんと給電できないみたい。
+![](/assets/posts/2014-12-08/tv-fox.jpg)
+![](/assets/posts/2014-12-08/tv-list.jpg)
+![](/assets/posts/2014-12-08/tv-slide.jpg)
 
-（執筆中）
+### 給電について
+
+OWB のケースが邪魔でテレビの USB ポートが使えず。。。
+
+![](/assets/posts/2014-12-08/insert.jpg)
+
+ケースを外して USB ケーブルを接続してみましたが、テレビの USB ポートでは給電に問題があるみたいで、起動時の The Fox の画面で中断・起動の繰り返しになってしまいます。残念。
+
+（加筆予定）
 
 ## 今後の展望
 
-（執筆中）
+必要な個々の機能のフィジビリティは確認できましたが、まだアプリとしては出来あがっていないので完成させたいです。
+（加筆予定）
 
