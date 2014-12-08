@@ -26,7 +26,7 @@ Open Web Board を使ってプレゼン専用デバイスを作ります。画�
 
 ## 動機
 
-Open Web Board は Firefox OS が載っていて、HDMI ポートに挿すだけで Web アプリの UI 画面を表示できるデバイスなので、せっかくなのでそれを生かしたものが作りたいなと。。。
+Open Web Board は Firefox OS が載っていて、HDMI ポートに挿すだけで Web アプリの UI 画面を表示できるデバイスなので、せっかくなのでそれを生かしたものが作りたいなと。そうでないと WoT 的なものを作るにしても Edison で node.js でもいいじゃんと思ってしまうので。。。
 
 
 ## 実現のために必要なこと
@@ -137,7 +137,7 @@ browser iframe でページを開いたりマウスイベントを送ると、if
 
 この問題は Browser API の "mozbrowserlocationchange" イベントを監視して、その都度 blur() で iframe からフォーカスを外すことで解決できました。
 
-```
+``` javascript
 iframe.addEventListener('mozbrowserlocationchange', function(evt) {
   iframe.blur();
 });
@@ -161,7 +161,7 @@ Drive API を使うには、まず、『[Google Developers Console](https://cons
 3. サイドバーの 「API と認証」の「API」メニューを開き、「Drive API」を探して有効にします。
 4. サイドバーの 「API と認証」の「認証情報」メニューを開き、OAuth のクライアント ID と API キーを作ります。
 	- [OAuth]「OAuth」の「新しいクライアント ID を作成」ボダンで OAuth のクライアント ID を作ります。アプリケーションの種類を聞かれるので「インストールされているアプリケーション」を選択します。「リダイレクト URI」は "http://localhost" を使います。
-	- [API キー]「公開 API へのアクセス」の「新しいキーを作成」で API キーを作ります。
+	- [API キー]「公開 API へのアクセス」の「新しいキーを作成」で API キーを作ります。「リファラー」に "http://localhost" を指定しています。
 
 ![](/assets/posts/2014-12-08/credentials.png)
 
@@ -263,7 +263,7 @@ grant_type=authorization_code
 
 - (参考)[『Files: list - Google Drive Web APIs — Google Developers』](https://developers.google.com/drive/v2/reference/files/list)
 
-これも System XHR で、https://www.googleapis.com/drive/v2/files に GET リクエストを投げます。クエリ文字列に API キーを指定し、Authorization ヘッダにアクセストークンを指定します。
+これも System XHR で、https://www.googleapis.com/drive/v2/files に GET リクエストを投げます。
 
 ``` http
 GET /drive/v2/files?key=<APIキー> HTTP/1.1
@@ -272,6 +272,12 @@ Authorization: Bearer <アクセストークン>
 Referer: http://localhost
 
 ```
+
+[ポイント]
+
+- クエリ文字列に API キーを指定します。
+- Authorization ヘッダにアクセストークンを指定します。
+- Referer に "http://localhost" を指定します。 ここは API キー取得時の「リファラー」に指定したものと対応していると思われます。
 
 レスポンスは次のような JSON データが返ります。
 
