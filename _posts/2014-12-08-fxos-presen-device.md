@@ -13,37 +13,35 @@ tags: [Firefox OS, Open Web Board]
 
 ## やりたいこと
 
-Open Web Board を使ってプレゼン専用デバイスを作ります。画面の出力は Open Web Board をテレビやプロジェクターに HDMI で接続して行います。入力にはパワポ操作用のコクヨの「[黒曜石](http://www.kokuyo-st.co.jp/stationery/fp/)」というデバイスを使います。黒曜石は Open Web Board の USB ポートにつなぎます。
-
-こんな感じになります。
+Open Web Board を使ってプレゼン専用デバイスを作ります。画面の出力は Open Web Board をテレビやプロジェクターに HDMI で接続して行います。入力にはパワポ操作用のコクヨの「[黒曜石](http://www.kokuyo-st.co.jp/stationery/fp/)」というデバイスを使います。黒曜石は Open Web Board の USB ポートにつなぎます。こんな感じになります。
 
 ![](/assets/posts/2014-12-08/owb-kokuyo.jpg)
 
-プレゼンのスライドは Google Docs に置かれたプレゼンテーションを表示します。そのため Open Web Board はネットワークに接続している必要があります。Open Web Board の WiFi 設定にはテレビやマウスを接続する必要があり、割と面倒なので、いつも携帯しているスマホのテザリングを利用するようあらかじめ設定しておきます。
+プレゼンは Google Docs に置かれたスライドを表示します。そのため Open Web Board はネットワークに接続している必要があります。Open Web Board の WiFi 設定にはテレビやマウスを接続する必要があり割と面倒なので、携帯しているスマホのテザリングを利用するようあらかじめ設定しておくこととします。
 
-これが実現できれば、小さな Open Web Board と黒曜石そしてスマホがあれば、テレビのある所ならどこでもプレゼンすることができます。(電源の問題は後述します)
+これが実現できれば、Open Web Board、給電用の USB ケーブル、黒曜石、そしていつも携帯しているスマホだけで、テレビのある所ならどこでもプレゼンすることができます。(給電の問題は後述します)
 
 
 ## 動機
 
-Open Web Board は Firefox OS が載っていて、HDMI ポートに挿すだけで Web アプリの UI 画面を表示できるデバイスなので、せっかくなのでそれを生かしたものが作りたいなと。そうでないと WoT 的なものを作るにしても Edison で node.js でもいいじゃんと思ってしまうので。。。
+Firefox OS 搭載の Open Web Board は HDMI ポートに挿すだけで Web アプリをテレビに表示できるデバイスなので、せっかくなのでその特徴を生かしたものが作りたいなと。そうでないと WoT 的なものを作るにしても Edison で node.js でもいいじゃんと思ってしまうので。。。
 
 
 ## 実現のために必要なこと
 
-この Firefox OS のプレゼン専用デバイスを実現するために、以下のようなことが必要です。
+この Firefox OS 搭載プレゼン専用デバイスを実現するために、以下のようなことが必要となります。
 
-- Google Docs のプレゼンを Firefox OS アプリで開く (Browser API)。
-- 黒曜石のキーイベントを拾ってプレゼンを操作する (Browser API)。
-- Google Docs のプレゼン一覧から選択できるようにする (Google Drive API & OAuth)。
-- プレゼンアプリをホーム画面アプリにする (デバイス起動からプレゼン開始まで黒曜石だけで操作できるようにするため)。
+- Google Docs のプレゼンを Firefox OS アプリで開く。(Browser API)
+- 黒曜石のキーイベントを拾ってプレゼンを操作する。(Browser API)
+- Google Docs のプレゼン一覧から選択できるようにする。(Google Drive API & OAuth)
+- プレゼンアプリをホーム画面アプリにする。(デバイス起動からプレゼン開始まで黒曜石だけで操作できるようにするため)
 
-他にも付随していくつかやることがあり、Firefox OS の Web API を色々使ったりして勉強になりました。
+他にもいくつかやることがあり、Firefox OS の Web API を色々使ったりして勉強になりました。
 
 
 ## Google Docs のプレゼンを Firefox OS アプリで開く (Browser API)
 
-Google Docs のプレゼンを Firefox OS アプリで開きます。Firefox OS アプリは Web アプリなので、単にブラウザで開くのと根本的には変わらないのですが、後で行う黒曜石のキーイベント関連の処理やホーム画面アプリ化のために、単独アプリとして開発することにします。
+Google Docs のプレゼンを Firefox OS アプリで開きます。Firefox OS アプリは Web アプリなので単にブラウザで開くのと根本的には変わらないのですが、後で行う黒曜石のキーイベント関連の処理やホーム画面アプリ化のために、単独のパッケージ型アプリとして開発します。
 
 アプリ内で Google Docs を開くには iframe で表示するのですが、それだけでは残念ながらエラーになってしまいます。
 
@@ -54,20 +52,20 @@ frame.height = window.innerHeight;
 frame.src = url; // これだけでは駄目
 ```
 
-Google Docs のレスポンスヘッダーには `X-Frame-Options:"SAMEORIGIN"` が指定されているので、オリジンの異なる iframe では開けません。Firefox OS のパッケージ型アプリの URL は "app://"" URI スキームで、当然、オリジンは異なります。次のようなエラーになります。
+Google Docs のレスポンスヘッダーには `X-Frame-Options:"SAMEORIGIN"` が指定されているので、オリジンの異なる iframe では開けません。Firefox OS のパッケージ型アプリの URL は「app://」URI スキームで、当然、異なるオリジンとなります。次のようなエラーになります。
 
 ```
-Load denied by X-Frame-Options: https://docs.google.com/presentation/d/1a6Fu(…省略…)Dg11k/present?slide=id.p does not permit cross-origin framing.
+Load denied by X-Frame-Options: https://docs.google.com/(…省略…)/present?slide=id.p does not permit cross-origin framing.
 ```
 
-ここで役に立つのが Firefox OS の Browser API です。iframe に "mozBrowser" という属性を付けるだけで browser ifame という特殊な iframe となり、その iframe で開かれているコンテンツはトップレベルのウィンドウで開いているような扱いになります。これで `X-Frame-Options:"SAMEORIGIN"` の制約も解決されます。
+ここで必要になるのが Firefox OS の Browser API です。iframe に "mozBrowser" という属性を付けるだけで browser ifame という特殊な iframe となり、そこで開かれているコンテンツはトップレベルのウィンドウで開いているような扱いになります。これで `X-Frame-Options:"SAMEORIGIN"` の制約も解決されます。
 
 ``` html
 <!-- たったこれだけ -->
 <iframe mozbrowser>
 ```
 
-Browser API の利用には特権 (privileged) アプリで "browser" のパーミッションが必要です。manifest.webapp で以下のように記述します。
+Browser API は特権 (privileged) APIで "browser" のパーミッションが必要です。manifest.webapp で以下のように記述します。
 
 ``` javascript
   "type": "privileged",
@@ -98,15 +96,15 @@ browser iframe では標準の iframe に加えてブラウザの実装に必要
 
 とりあえず、プレゼンに必須となるスライドの「進む・戻る」の操作をサポートします。
 
-Google Docs のプレゼンモードが PageDown/PageUp で「進む・戻る」に対応してるので、簡単そうに見えたのですが、罠がありました。Open Web Board では PageDown/PageUp で keyCode が取得できず 0 が返されます。そのため、Google Docs も反応しません。
+Google Docs のプレゼンモードが PageDown/PageUp で「進む・戻る」に対応してるので簡単そうに見えたのですが、罠がありました。Open Web Board では PageDown/PageUp で keyCode が取得できず 0 が返されます。そのため、Google Docs も反応しません。
 
 ```
 keydown {target: <body>, key: "PageUp", charCode: 0, keyCode: 0}
 ```
 
-幸い、キーイベントの "key" プロパティでキー種別の文字列 ("PageDown"/"PageUp") は取れているため、自前で "onkeydown" で処理できます。
+幸い、キーイベントの "key" プロパティでキー種別の文字列 ("PageDown"/"PageUp") が取れているため、自前で "onkeydown" で処理します。
 
-PageDown では Browser API の [sendMouseEvent()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement.sendMouseEvent) で iframe に擬似的にクリックを発生させます。Google Docs のプレゼンモードではスライドの任意の場所のクリックで「進む」のアクションになるようです。
+PageDown では Browser API の [sendMouseEvent()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement.sendMouseEvent) で iframe に擬似的にクリックを発生させます。Google Docs のプレゼンモードではスライドの任意の場所をクリックすると「進む」のアクションになります。
 
 PageUp では Browser API の [goBack()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement.goBack) で戻ることで「戻る」のアクションの代わりとします。
 
@@ -133,7 +131,7 @@ window.onkeydown = function(evt) {
 
 ### フォーカスの取得
 
-browser iframe でページを開いたりマウスイベントを送ると、iframe 側にフォーカスが取られてキーイベント等が親ウィンドウに飛んでこなくなり、PageUp/PageDown が取れなくなります。オリジンが異なるので iframe 内にイベントリスナーを仕掛けることもできません。
+browser iframe でページを開いたりマウスイベントを送ると、iframe 側にフォーカスが取られてキーイベントが親ウィンドウに飛ばなくなり、PageUp/PageDown が取れなくなります。オリジンが異なるので iframe 内にイベントリスナーを仕掛けることもできません。
 
 この問題は Browser API の "mozbrowserlocationchange" イベントを監視して、その都度 blur() で iframe からフォーカスを外すことで解決できました。
 
@@ -154,7 +152,9 @@ iframe.addEventListener('mozbrowserlocationchange', function(evt) {
 
 ### OAuth の認証情報や API キーの取得 
 
-Drive API を使うには、まず、『[Google Developers Console](https://console.developers.google.com/)』で OAuth の認証情報や API キーを取得する必要があります。
+Drive API を使うには、OAuth による認証が必要です。
+
+まず、『[Google Developers Console](https://console.developers.google.com/)』で OAuth の認証情報や API キーを取得する必要があります。
 
 1. [Google Developers Console](https://console.developers.google.com/) を開きます。ログインしていなければログインします。
 2. プロジェクトを新たに作るか、既存プロジェクトを選択します。
@@ -174,7 +174,7 @@ Drive API には SDK が提供されていて、それで OAuth の処理もや�
 
 後者は YouTube Data API のドキュメントですが、OAuth 2.0 については同じなので、日本語ドキュメントとして役立ちます。
 
-#### □ 承認ページ（ログインページ）を開く
+#### 承認ページ（ログインページ）を開く
 
 ユーザに Drive API の使用を承認してもらうため、次のような URL を作成してブラウザで承認ページを開きます。ユーザがログインしていなければ、最初に Google アカウントのログインページが表示され、ログイン後に承認ページが開かれます。
 
@@ -212,7 +212,7 @@ var params = new URL(document.location).searchParams;
 var authCode = params.get('code');
 ```
 
-#### □ アクセストークンの取得
+#### アクセストークンの取得
 
 取得した承認コードをアクセストークンと交換します。
 
@@ -381,10 +381,10 @@ https://www.googleapis.com/drive/v2/files?key=<APIキー>&pageToken=<nextPageTok
 
 今回は自分が所有者のプレゼンファイルのみを表示します。以下の条件を満たすファイルのみを対象にします。
 
-- "mimeType" === "application/vnd.google-apps.presentation"
-- "userPermission.role" === "owner"
+- "mimeType" が "application/vnd.google-apps.presentation"
+- "userPermission.role" が "owner"
 
-取得したプレゼンの一覧を画面に表示した所です。なぜが "thumbnailLink" が Not Found でリンク切れ画像になってしまうのですが、時間切れで調査できず。。。
+取得したプレゼンの一覧を画面に表示した所です。なぜが "thumbnailLink" が Not Found でリンク切れになってしまうのですが、時間切れで調査できず。。。
 
 <p><img src="/assets/posts/2014-12-08/slide-list.png" style="box-shadow: 3px 3px 6px #bbb"></p>
 
@@ -393,7 +393,7 @@ https://www.googleapis.com/drive/v2/files?key=<APIキー>&pageToken=<nextPageTok
 
 ## アプリをホーム画面アプリにする 
 
-Open Web Board をテレビに挿して起動しても、通常のホーム画面では黒曜石で操作できないため、プレゼンが開始できません。そこで、デバイス起動からプレゼン開始までを黒曜石だけで操作できるようにするため、このアプリをホーム画面にします。
+Open Web Board をテレビに挿して起動しても、通常のホーム画面では黒曜石で操作できないため、プレゼンが開始できません。そこで、デバイス起動からプレゼン開始までを黒曜石だけで操作できるようにするため、アプリをホーム画面に設定します。
 
 アプリをホーム画面に設定できるようにするには manifest.webapp で次のように "role" を追加します。
 
@@ -466,18 +466,19 @@ if (wifiMgr.connection.status === 'connected') {
 
 ### 給電について
 
-テレビの USB ポートから Open Web Board の給電を試みました、、、が、Open Web Board のケースが邪魔でテレビの USB ポートが使えず。。。
+テレビの USB ポートから Open Web Board の給電を試みました・・・が、Open Web Board のケースが邪魔でテレビの USB ポートが使えず。。。
 
 ![](/assets/posts/2014-12-08/insert.jpg)
 
-ケースを外して USB ケーブルを接続して試してみましたが、テレビの USB ポートからの給電では問題があるみたいで、起動中の The Fox の画面で中断・起動の繰り返しになってしまいます。残念。これができれば、少ない持ち物で本当にプレゼンが可能だったのですが。。。
+ケースを外して USB ケーブルを接続して試してみましたが、テレビの USB ポートからの給電に問題があるのか、起動中の The Fox の画面で中断・起動の繰り返しになってしまいます。Chromecast はテレビの USB ポートからの給電で動くらしいので、テレビだから駄目ということではないと思いますが。。。残念。
+
+こういう場合はモバイルバッテリーを Open Web Board にくくり付けるなり、長い USB ケーブルで誰かの PC から給電してもらうなりすれば良いでしょう。
 
 
 ## 今後の展望
 
-プレゼン専用アプリに必要な機能のフィジビリティは確認できましたが、残念ながらまだアプリとしてはできあがっていません。
-おいおい完成させたいです。
+プレゼン専用アプリに必要な機能のフィジビリティは確認できましたが、残念ながらまだアプリとしてはできあがっていません。おいおい完成させたいです。
 
-みなさん同様、ほとんどいつも PC を持ち歩いているので、こういうデバイスが必要かというとぶっちゃけ不要なのですが、Firefox OS 搭載でテレビにつながるデバイスの可能性を求めて、こういったものを作っていくのは面白いと思います。
+とはいえ、みなさん同様ほとんどいつも PC を持ち歩いているので、こういうデバイスが必要かというとぶっちゃけ不要です。でも、Firefox OS 搭載デバイスの可能性を探るために、こういったものを色々と作っていくのは面白そうです。
 
 
