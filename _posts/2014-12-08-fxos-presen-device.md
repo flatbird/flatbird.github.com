@@ -67,12 +67,12 @@ Load denied by X-Frame-Options: https://docs.google.com/presentation/d/1a6Fu(…
 <iframe mozbrowser>
 ```
 
-browser API の利用には特権 (privileged) アプリで "browser" のパーミッションが必要です。
+browser API の利用には特権 (privileged) アプリで "browser" のパーミッションが必要です。manifest.webapp で以下のように記述します。
 
 ```
   "type": "privileged",
   "permissions": {
-    "browser": { "description": "OAuth" }
+    "browser": {}
   }
 ```
 
@@ -112,22 +112,22 @@ PageUp では browser API の goBack() で戻ることで BACK のアクショ�
 
 
 ``` javascript
-  function sendClick() {
-    var x = frame.width / 2;
-    var y = frame.height / 2;
-    frame.sendMouseEvent('mousedown', x, y, 0, 1, 0);
-    setTimeout(function () {
-	    frame.sendMouseEvent('mouseup', x, y, 0, 1, 0);
-    }, 10);
-  }
+function sendClick() {
+  var x = frame.width / 2;
+  var y = frame.height / 2;
+  frame.sendMouseEvent('mousedown', x, y, 0, 1, 0);
+  setTimeout(function () {
+    frame.sendMouseEvent('mouseup', x, y, 0, 1, 0);
+  }, 10);
+}
 
-  window.onkeydown = function(evt) {
-    if (evt.key === 'PageDown') {
-      sendClick();
-    } else if (evt.key === 'PageUp') {
-      frame.goBack();
-    }
+window.onkeydown = function(evt) {
+  if (evt.key === 'PageDown') {
+    sendClick();
+  } else if (evt.key === 'PageUp') {
+    frame.goBack();
   }
+}
 ```
 
 ちなみに、sendTouchEvent() や sendMouseEvent() で横スワイプのジェスチャをシミュレートして NEXT/BACK のアクションを発生させようとしたのですが、なかなか上手くいかずあきらめました。原因は分かりません。
@@ -139,9 +139,9 @@ browser iframe でページを開いたりマウスイベントを送るとフ�
 これについては browser API の `mozbrowserlocationchange` イベントを監視して、その都度 blur() で iframe からフォーカスを外すことで対処できました。
 
 ```
-  iframe.addEventListener('mozbrowserlocationchange', function(evt) {
-    iframe.blur();
-  });
+iframe.addEventListener('mozbrowserlocationchange', function(evt) {
+  iframe.blur();
+});
 ```
 
 これでスライドを進める/戻すという最低限の動作がとりあえず出来るようになりました。
@@ -179,6 +179,8 @@ Drive API を使うには、まず、Google Developers Console で OAuth の認�
 
 #### □ ログインページを開く
 
+ユーザに Google アカウントでログインしてもらうため、次のような URL を作成してブラウザで開きます。
+
 ```
 https://accounts.google.com/o/oauth2/auth?
   scope=https://www.googleapis.com/auth/drive&
@@ -187,18 +189,15 @@ https://accounts.google.com/o/oauth2/auth?
   client_id=<client_id>
 ```
 
+ここは [Web Activities](https://developer.mozilla.org/en-US/docs/Web/API/Web_Activities) でブラウザアプリを開いてもよいのですが、今回のアプリでは browser API の iframe で開きます。
+
 ```
-  "type": "privileged",
-  "permissions": {
-    "browser": {},
-    "systemXHR": {}
-  },
-  "redirects": [
-    {
-      "from": "http://localhost",
-      "to": "/index.html"
-    }
-  ],
+"redirects": [
+  {
+    "from": "http://localhost",
+    "to": "/index.html"
+  }
+],
 ```
 
 ```
@@ -211,6 +210,7 @@ http://localhost/oauth2callback?code=4/ux5gNj-_mIu4DOD_gNZdjX9EtOFf
 
 承認コードと交換します。XHR でリクエストを投げます。
 
+
 ```
 POST /o/oauth2/token HTTP/1.1
 Host: accounts.google.com
@@ -221,6 +221,13 @@ client_id=<client_id>&
 client_secret=<client_secret>&
 redirect_uri=http://localhost&
 grant_type=authorization_code
+```
+
+```
+"type": "privileged",
+"permissions": {
+  "systemXHR": {}
+},
 ```
 
 ```
@@ -258,9 +265,27 @@ grant_type=authorization_code
 ## アプリをホーム画面アプリにする 
 
 デバイス起動からプレゼン開始まで黒曜石だけで操作できるようにするため。
+
+manifest.webapp で `"role": "homescreen"` を追加します。
+
+```
+  "role": "homescreen",
+```
+
 ホーム画面アプリにバグがあると操作不能になるので割と怖い。起動直後に毎回エラーになるようなバグがあると何もできなかったり。
 
-[WiFi Information API](https://developer.mozilla.org/en-US/docs/Web/API/WiFi_Information_API) を使う。認定 (certified) API です。
+ホーム画面はブート後すぐに起動されますが、そのタイミングでは WiFi 接続が完了しておらず Google Drive へのアクセスがエラーになります。WiFi Information API で接続状況を確認する必要があります。
+
+- [WiFi Information API](https://developer.mozilla.org/en-US/docs/Web/API/WiFi_Information_API) を使う。
+
+認定 (certified) API で、"wifi-manage" というパーミッションが必要です。
+
+```
+  "type": "certified",
+  "permissions": {
+    "wifi-manage": { "description": "Check WiFi status" }
+  },
+```
 
 （加筆予定）
 
