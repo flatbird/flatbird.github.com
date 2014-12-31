@@ -28,7 +28,10 @@ tags: [Firefox OS]
     { code: "gr", name: "Greece", date: "2013/11/14", carrier: "Deutsche Telekom (COSMOTE)" }, 
     { code: "it", name: "Italy", date: "2013/12/06", carrier: "Telecom Italia" }, 
     { code: "cl", name: "Chile", date: "2014/02/20", carrier: "Telefónica (Movistar)" }, 
-    { code: "mx", name: "Mexico", date: "2014/05/13", carrier: "América Móvil" },
+    // don't add the same country twice
+    // { code: "mx", name: "Mexico", date: "2014/05/13", carrier: "América Móvil" },
+    // from where-is-firefox-os - late July, https://blog.mozilla.org/press-fr/2014/07/17/firefox-os-debarque-en-france-et-continue-son-expansion-sur-dautres-appareils-et-marches/
+    { code: "fr", name: "France", date: "2014/07/31", carrier: "E.Leclerc" }, 
     // from where-is-firefox-os - between 7/17 and 9/16, ALCATEL ONETOUCH Fire C, http://blog.mozilla.org/press-uk/2014/10/09/firefox-os-shows-continued-global-growth/
     { code: "mk", name: "Macedonia", date: "2014/08/14", carrier: "Deutsche Telekom" },
     { code: "sv", name: "El Salvador", date: "2014/08/15", carrier: "Telefónica (Movistar)" },
@@ -52,6 +55,7 @@ tags: [Firefox OS]
     { code: "ph", name: "Philippines", date: "2014/11/15", carrier: "Cherry Mobile" },
     // https://blog.mozilla.org/press-latam/2014/12/05/con-el-lanzamiento-en-costa-rica-firefox-os-ya-esta-disponible-en-todo-centroamerica/
     { code: "cr", name: "Costa Rica", date: "2014/12/15", carrier: "Telefónica (Movistar)" },
+    // http://blog.mozilla.org/press/2014/12/mozilla-and-kddi-launch-first-firefox-os-smartphone-in-japan-4/
     { code: "jp", name: "Japan", date: "2014/12/25", carrier: "KDDI (au)" },
   ];
   var app = angular.module('countryApp', []);
