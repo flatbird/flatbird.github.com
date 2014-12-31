@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日本は Firefox OS 端末が展開される 29 番目の国になりました"
+title: "日本は Firefox OS がローンチされた 29 番目の国になりました"
 description: ""
 category: 
 tags: [Firefox OS]
