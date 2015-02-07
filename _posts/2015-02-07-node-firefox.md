@@ -7,7 +7,7 @@ tags: [Firefox OS]
 ---
 {% include JB/setup %}
 
-Mozilla Hacks で「[node-firefox](https://github.com/mozilla/node-firefox)」というのが紹介されていたので試してみた。ちなみに「[node-webkit](/2014/02/15/node-webkit/) 」とは全く別用途。
+Mozilla Hacks で「[node-firefox](https://github.com/mozilla/node-firefox)」というのが紹介されていたので試してみた。ちなみに「[node-webkit](/2014/02/15/node-webkit/)」とは全く別用途。
 
 『[Introducing node-firefox ✩ Mozilla Hacks – the Web developer blog](https://hacks.mozilla.org/2015/02/introducing-node-firefox/)』
 
