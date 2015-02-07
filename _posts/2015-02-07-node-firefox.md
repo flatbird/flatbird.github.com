@@ -30,7 +30,7 @@ Mozilla Hacks で「[node-firefox](https://github.com/mozilla/node-firefox)」�
 
 ### 試してみた
 
-#### 一連のモジュールをインストール。
+一連のモジュールをインストール。
 
 ``` bash 
 $ npm install node-firefox-find-simulators
@@ -39,7 +39,7 @@ $ npm install node-firefox-connect
 $ npm install node-firefox-install-app
 ```
 
-#### シミュレータを探して現在のフォルダからアプリをインストールする。
+シミュレータを探して現在のフォルダからアプリをインストールする。
 
 ``` javascript
 var startSimulator = require('node-firefox-start-simulator');
