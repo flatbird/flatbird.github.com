@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firefox OS アプリ開発環境作りに「node-firefox」"
+title: "Firefox OS アプリの開発環境作りに「node-firefox」"
 description: ""
 category: 
 tags: [Firefox OS]
