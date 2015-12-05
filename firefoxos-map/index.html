@@ -4,60 +4,15 @@ title: "Firefox OS World Map"
 description: ""
 tags: [Firefox OS]
 ---
-<link rel="stylesheet" href="/assets/lib/jvectormap/jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="/assets/lib/jvectormap/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
 <link rel='stylesheet' href='/assets/pages/firefoxos-map/map.css' />
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
 <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="/assets/lib/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="/assets/lib/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="/assets/lib/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="/assets/lib/jvectormap/jquery-jvectormap-world-mill.js"></script>
 <script src="/assets/pages/firefoxos-map/map.js"></script>
+<script src="/assets/pages/firefoxos-map/countries.js"></script>
 <script>
-  var COUNTRIES = [
-    { code: "es", name: "Spain", date: "2013/07/02", carrier: "Telefónica" },
-    { code: "pl", name: "Poland", date: "2013/07/11", carrier: "Deutsche Telekom" },
-    { code: "co", name: "Colombia", date: "2013/08/01", carrier: "Telefónica (Movistar)" },
-    { code: "ve", name: "Venezuela", date: "2013/08/01", carrier: "Telefónica (Movistar)" },
-    { code: "de", name: "Germany", date: "2013/10/15", carrier: "Deutsche Telekom (Congstar)" },
-    { code: "br", name: "Brazil", date: "2013/10/22", carrier: "Telefónica (Vivo)" },
-    { code: "mx", name: "Mexico", date: "2013/10/31", carrier: "Telefónica" },
-    { code: "pe", name: "Peru", date: "2013/10/31", carrier: "Telefónica" },
-    { code: "uy", name: "Uruguay", date: "2013/10/31", carrier: "Telefónica" },
-    { code: "hu", name: "Hungary", date: "2013/11/13", carrier: "Telenor" },
-    { code: "rs", name: "Serbia", date: "2013/11/13", carrier: "Telenor" },
-    { code: "me", name: "Montenegro", date: "2013/11/13", carrier: "Telenor" },
-    { code: "gr", name: "Greece", date: "2013/11/14", carrier: "Deutsche Telekom (COSMOTE)" }, 
-    { code: "it", name: "Italy", date: "2013/12/06", carrier: "Telecom Italia" }, 
-    { code: "cl", name: "Chile", date: "2014/02/20", carrier: "Telefónica (Movistar)" }, 
-    // don't add the same country twice
-    // { code: "mx", name: "Mexico", date: "2014/05/13", carrier: "América Móvil" },
-    // from where-is-firefox-os - late July, https://blog.mozilla.org/press-fr/2014/07/17/firefox-os-debarque-en-france-et-continue-son-expansion-sur-dautres-appareils-et-marches/
-    { code: "fr", name: "France", date: "2014/07/31", carrier: "E.Leclerc" }, 
-    // from where-is-firefox-os - between 7/17 and 9/16, ALCATEL ONETOUCH Fire C, http://blog.mozilla.org/press-uk/2014/10/09/firefox-os-shows-continued-global-growth/
-    { code: "mk", name: "Macedonia", date: "2014/08/14", carrier: "Deutsche Telekom" },
-    { code: "sv", name: "El Salvador", date: "2014/08/15", carrier: "Telefónica (Movistar)" },
-    // from where-is-firefox-os - between 7/17 and 9/16, ALCATEL ONETOUCH Fire E, http://blog.mozilla.org/press-uk/2014/10/09/firefox-os-shows-continued-global-growth/
-    { code: "cz", name: "Czech Republic", date: "2014/08/21", carrier: "Deutsche Telekom" },
-    // http://blog.mozilla.org/press/2014/08/firefox-os-arrives-in-panama/
-    { code: "pa", name: "Panama", date: "2014/08/28", carrier: "Telefónica (Movistar)" },
-    // https://blog.mozilla.org/press/2014/08/firefox-os-smartphones-change-the-mobile-landscape-across-india/
-    { code: "in", name: "India", date: "2014/08/29", carrier: "Intex Technologies" },
-    // http://blog.mozilla.org/press/2014/09/firefox-os-expands-throughout-central-america/
-    { code: "ni", name: "Nicaragua", date: "2014/09/10", carrier: "Telefónica (Movistar)" },
-    // Bangladesh, GoFox 15, 23 markets, as of  today http://blog.mozilla.org/press/2014/09/expanding-reach-in-asia-telenor-group-brings-firefox-os-smartphones-to-bangladesh/
-    { code: "bd", name: "Bangladesh", date: "2014/09/16", carrier: "Telenor (Grameenphone)" },
-    // https://blog.mozilla.org/press/2014/09/firefox-os-now-available-in-guatemala/
-    { code: "gt", name: "Guatemala", date: "2014/09/18", carrier: "Telefónica (Movistar)" },
-    // from where-is-firefox-os - http://ausdroid.net/2014/10/04/firefoxos-toting-zte-open-c-arrives-australia/, http://www.gizmodo.com.au/2014/10/jb-hi-fi-is-now-selling-australias-first-firefox-os-phone/
-    { code: "au", name: "Australia", date: "2014/10/01", carrier: "JB Hi-Fi" },
-    // http://omgdgt.com/2014/11/megafon-has-launched-russias-first-smartphone-based-on-firefox-os/
-    { code: "ru", name: "Russia", date: "2014/11/13", carrier: "Megafon" },
-    // from where-is-firefox-os - https://blog.mozilla.org/blog/2014/11/13/first-firefox-os-smartphones-available-in-the-philippines/
-    { code: "ph", name: "Philippines", date: "2014/11/15", carrier: "Cherry Mobile" },
-    // https://blog.mozilla.org/press-latam/2014/12/05/con-el-lanzamiento-en-costa-rica-firefox-os-ya-esta-disponible-en-todo-centroamerica/
-    { code: "cr", name: "Costa Rica", date: "2014/12/15", carrier: "Telefónica (Movistar)" },
-    // http://blog.mozilla.org/press/2014/12/mozilla-and-kddi-launch-first-firefox-os-smartphone-in-japan-4/
-    { code: "jp", name: "Japan", date: "2014/12/25", carrier: "KDDI (au)" },
-  ];
   var app = angular.module('countryApp', []);
   app.controller('ListCtrl', function($scope) {
     $scope.countries = COUNTRIES;
@@ -71,7 +26,7 @@ tags: [Firefox OS]
   });
 </script>
 
-Firefox OS がローンチされている国々です。
+Firefox OS 端末が展開された国々です。
 <div id="world-map" class="world-map"></div>
 <div id="preloadimages"></div>
 <div class="disp-area" style="height:80px">
@@ -81,7 +36,7 @@ Firefox OS がローンチされている国々です。
 
 <table ng-app="countryApp">
 {% raw %}
-<thead><tr><td>Country</td><td>Launch Date</td><td>Carrier</td></tr></thead>
+<thead><tr><td>Country</td><td>Launch Date</td><td>Carrier/Manufacturer</td></tr></thead>
 <tbody ng-controller="ListCtrl">
 <tr ng-repeat="item in countries track by $index">
   <td>{{item.name}}</td>

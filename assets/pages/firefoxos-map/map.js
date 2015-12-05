@@ -13,7 +13,7 @@ var FireMap = {
 		self = this;
 		this.COUNTRIES = countries;
 		this.map = $(map).vectorMap({
-	    map: 'world_mill_en',
+	    map: 'world_mill',
 	    // focusOn: { scale: 1.4 },
 	    regionStyle: { selected: { fill: 'orange' } },
 	    onRegionLabelShow: function(event, label, code) {
@@ -47,7 +47,7 @@ var FireMap = {
 	  this.COUNTRIES.forEach(function(country) {
 	  	this.countries.push(country);
 	  }, this);
-	  var delay = 1000;
+	  var delay = 200;
 		this.fadeTimeout(this.disp, delay, function () {
 	  	self.handle();
 	  });
