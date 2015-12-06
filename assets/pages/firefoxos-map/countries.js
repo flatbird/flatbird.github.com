@@ -45,7 +45,7 @@ var COUNTRIES = [
     { code: "cr", name: "Costa Rica", date: "2014/12/15", carrier: "Telefónica (Movistar)" },
     // http://blog.mozilla.org/press/2014/12/mozilla-and-kddi-launch-first-firefox-os-smartphone-in-japan-4/
     { code: "jp", name: "Japan", date: "2014/12/25", carrier: "KDDI (au)" },
-    { code: 'ar', name: 'Argentina', date: '2015/03/16', carrier: 'Movistar' },
+    { code: 'ar', name: 'Argentina', date: '2015/03/16', carrier: 'Telefónica (Movistar)' },
     // https://blog.mozilla.org/blog/2015/04/02/firefox-os-arrives-in-south-africa/
     // http://www.techweez.com/2015/04/08/mtn-beats-orange-to-market-with-first-firefox-os-smartphone-in-africa/
     { code: 'za', name: 'South Africa', date: '2015/04/02', carrier: 'MTN' },
